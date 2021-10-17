@@ -1,0 +1,234 @@
+INFO :: 2021-10-17 20:06:49,364 :: app.main:88 :: The process of transferring the planets has begun
+INFO :: 2021-10-17 20:06:49,364 :: app.main:89 :: Getting planets and planet's data
+INFO :: 2021-10-17 20:06:56,821 :: app.main:91 :: 60 planets received
+INFO :: 2021-10-17 20:06:56,821 :: app.main:92 :: Started adding planets to Odoo
+INFO :: 2021-10-17 20:06:56,852 :: app.main:117 :: Successfully added: Planet Tatooine, remote system ID=[1], Odoo ID=[4404]
+INFO :: 2021-10-17 20:06:56,869 :: app.main:117 :: Successfully added: Planet Alderaan, remote system ID=[2], Odoo ID=[4405]
+INFO :: 2021-10-17 20:06:56,885 :: app.main:117 :: Successfully added: Planet Yavin IV, remote system ID=[3], Odoo ID=[4406]
+INFO :: 2021-10-17 20:06:56,901 :: app.main:117 :: Successfully added: Planet Hoth, remote system ID=[4], Odoo ID=[4407]
+INFO :: 2021-10-17 20:06:56,916 :: app.main:117 :: Successfully added: Planet Dagobah, remote system ID=[5], Odoo ID=[4408]
+INFO :: 2021-10-17 20:06:56,932 :: app.main:117 :: Successfully added: Planet Bespin, remote system ID=[6], Odoo ID=[4409]
+INFO :: 2021-10-17 20:06:56,948 :: app.main:117 :: Successfully added: Planet Endor, remote system ID=[7], Odoo ID=[4410]
+INFO :: 2021-10-17 20:06:56,963 :: app.main:117 :: Successfully added: Planet Naboo, remote system ID=[8], Odoo ID=[4411]
+INFO :: 2021-10-17 20:06:56,979 :: app.main:117 :: Successfully added: Planet Coruscant, remote system ID=[9], Odoo ID=[4412]
+INFO :: 2021-10-17 20:06:56,995 :: app.main:117 :: Successfully added: Planet Kamino, remote system ID=[10], Odoo ID=[4413]
+INFO :: 2021-10-17 20:06:57,011 :: app.main:117 :: Successfully added: Planet Geonosis, remote system ID=[11], Odoo ID=[4414]
+INFO :: 2021-10-17 20:06:57,027 :: app.main:117 :: Successfully added: Planet Utapau, remote system ID=[12], Odoo ID=[4415]
+INFO :: 2021-10-17 20:06:57,042 :: app.main:117 :: Successfully added: Planet Mustafar, remote system ID=[13], Odoo ID=[4416]
+INFO :: 2021-10-17 20:06:57,057 :: app.main:117 :: Successfully added: Planet Kashyyyk, remote system ID=[14], Odoo ID=[4417]
+INFO :: 2021-10-17 20:06:57,072 :: app.main:117 :: Successfully added: Planet Polis Massa, remote system ID=[15], Odoo ID=[4418]
+INFO :: 2021-10-17 20:06:57,087 :: app.main:117 :: Successfully added: Planet Mygeeto, remote system ID=[16], Odoo ID=[4419]
+INFO :: 2021-10-17 20:06:57,103 :: app.main:117 :: Successfully added: Planet Felucia, remote system ID=[17], Odoo ID=[4420]
+INFO :: 2021-10-17 20:06:57,118 :: app.main:117 :: Successfully added: Planet Cato Neimoidia, remote system ID=[18], Odoo ID=[4421]
+INFO :: 2021-10-17 20:06:57,134 :: app.main:117 :: Successfully added: Planet Saleucami, remote system ID=[19], Odoo ID=[4422]
+INFO :: 2021-10-17 20:06:57,149 :: app.main:117 :: Successfully added: Planet Stewjon, remote system ID=[20], Odoo ID=[4423]
+INFO :: 2021-10-17 20:06:57,164 :: app.main:117 :: Successfully added: Planet Eriadu, remote system ID=[21], Odoo ID=[4424]
+INFO :: 2021-10-17 20:06:57,180 :: app.main:117 :: Successfully added: Planet Corellia, remote system ID=[22], Odoo ID=[4425]
+INFO :: 2021-10-17 20:06:57,196 :: app.main:117 :: Successfully added: Planet Rodia, remote system ID=[23], Odoo ID=[4426]
+INFO :: 2021-10-17 20:06:57,211 :: app.main:117 :: Successfully added: Planet Nal Hutta, remote system ID=[24], Odoo ID=[4427]
+INFO :: 2021-10-17 20:06:57,225 :: app.main:117 :: Successfully added: Planet Dantooine, remote system ID=[25], Odoo ID=[4428]
+INFO :: 2021-10-17 20:06:57,240 :: app.main:117 :: Successfully added: Planet Bestine IV, remote system ID=[26], Odoo ID=[4429]
+INFO :: 2021-10-17 20:06:57,256 :: app.main:117 :: Successfully added: Planet Ord Mantell, remote system ID=[27], Odoo ID=[4430]
+INFO :: 2021-10-17 20:06:57,272 :: app.main:117 :: Successfully added: Planet unknown, remote system ID=[28], Odoo ID=[4431]
+INFO :: 2021-10-17 20:06:57,288 :: app.main:117 :: Successfully added: Planet Trandosha, remote system ID=[29], Odoo ID=[4432]
+INFO :: 2021-10-17 20:06:57,305 :: app.main:117 :: Successfully added: Planet Socorro, remote system ID=[30], Odoo ID=[4433]
+INFO :: 2021-10-17 20:06:57,321 :: app.main:117 :: Successfully added: Planet Mon Cala, remote system ID=[31], Odoo ID=[4434]
+INFO :: 2021-10-17 20:06:57,337 :: app.main:117 :: Successfully added: Planet Chandrila, remote system ID=[32], Odoo ID=[4435]
+INFO :: 2021-10-17 20:06:57,353 :: app.main:117 :: Successfully added: Planet Sullust, remote system ID=[33], Odoo ID=[4436]
+INFO :: 2021-10-17 20:06:57,369 :: app.main:117 :: Successfully added: Planet Toydaria, remote system ID=[34], Odoo ID=[4437]
+INFO :: 2021-10-17 20:06:57,385 :: app.main:117 :: Successfully added: Planet Malastare, remote system ID=[35], Odoo ID=[4438]
+INFO :: 2021-10-17 20:06:57,401 :: app.main:117 :: Successfully added: Planet Dathomir, remote system ID=[36], Odoo ID=[4439]
+INFO :: 2021-10-17 20:06:57,417 :: app.main:117 :: Successfully added: Planet Ryloth, remote system ID=[37], Odoo ID=[4440]
+INFO :: 2021-10-17 20:06:57,432 :: app.main:117 :: Successfully added: Planet Aleen Minor, remote system ID=[38], Odoo ID=[4441]
+INFO :: 2021-10-17 20:06:57,448 :: app.main:117 :: Successfully added: Planet Vulpter, remote system ID=[39], Odoo ID=[4442]
+INFO :: 2021-10-17 20:06:57,463 :: app.main:117 :: Successfully added: Planet Troiken, remote system ID=[40], Odoo ID=[4443]
+INFO :: 2021-10-17 20:06:57,479 :: app.main:117 :: Successfully added: Planet Tund, remote system ID=[41], Odoo ID=[4444]
+INFO :: 2021-10-17 20:06:57,495 :: app.main:117 :: Successfully added: Planet Haruun Kal, remote system ID=[42], Odoo ID=[4445]
+INFO :: 2021-10-17 20:06:57,510 :: app.main:117 :: Successfully added: Planet Cerea, remote system ID=[43], Odoo ID=[4446]
+INFO :: 2021-10-17 20:06:57,526 :: app.main:117 :: Successfully added: Planet Glee Anselm, remote system ID=[44], Odoo ID=[4447]
+INFO :: 2021-10-17 20:06:57,541 :: app.main:117 :: Successfully added: Planet Iridonia, remote system ID=[45], Odoo ID=[4448]
+INFO :: 2021-10-17 20:06:57,557 :: app.main:117 :: Successfully added: Planet Tholoth, remote system ID=[46], Odoo ID=[4449]
+INFO :: 2021-10-17 20:06:57,572 :: app.main:117 :: Successfully added: Planet Iktotch, remote system ID=[47], Odoo ID=[4450]
+INFO :: 2021-10-17 20:06:57,586 :: app.main:117 :: Successfully added: Planet Quermia, remote system ID=[48], Odoo ID=[4451]
+INFO :: 2021-10-17 20:06:57,601 :: app.main:117 :: Successfully added: Planet Dorin, remote system ID=[49], Odoo ID=[4452]
+INFO :: 2021-10-17 20:06:57,616 :: app.main:117 :: Successfully added: Planet Champala, remote system ID=[50], Odoo ID=[4453]
+INFO :: 2021-10-17 20:06:57,630 :: app.main:117 :: Successfully added: Planet Mirial, remote system ID=[51], Odoo ID=[4454]
+INFO :: 2021-10-17 20:06:57,645 :: app.main:117 :: Successfully added: Planet Serenno, remote system ID=[52], Odoo ID=[4455]
+INFO :: 2021-10-17 20:06:57,660 :: app.main:117 :: Successfully added: Planet Concord Dawn, remote system ID=[53], Odoo ID=[4456]
+INFO :: 2021-10-17 20:06:57,676 :: app.main:117 :: Successfully added: Planet Zolan, remote system ID=[54], Odoo ID=[4457]
+INFO :: 2021-10-17 20:06:57,691 :: app.main:117 :: Successfully added: Planet Ojom, remote system ID=[55], Odoo ID=[4458]
+INFO :: 2021-10-17 20:06:57,706 :: app.main:117 :: Successfully added: Planet Skako, remote system ID=[56], Odoo ID=[4459]
+INFO :: 2021-10-17 20:06:57,720 :: app.main:117 :: Successfully added: Planet Muunilinst, remote system ID=[57], Odoo ID=[4460]
+INFO :: 2021-10-17 20:06:57,735 :: app.main:117 :: Successfully added: Planet Shili, remote system ID=[58], Odoo ID=[4461]
+INFO :: 2021-10-17 20:06:57,751 :: app.main:117 :: Successfully added: Planet Kalee, remote system ID=[59], Odoo ID=[4462]
+INFO :: 2021-10-17 20:06:57,766 :: app.main:117 :: Successfully added: Planet Umbara, remote system ID=[60], Odoo ID=[4463]
+INFO :: 2021-10-17 20:06:57,766 :: app.main:123 :: Adding planets completed
+INFO :: 2021-10-17 20:06:57,766 :: app.main:138 :: The process of transferring the peoples has begun
+INFO :: 2021-10-17 20:06:57,766 :: app.main:139 :: Getting contacts and contact's data
+INFO :: 2021-10-17 20:07:02,016 :: app.main:141 :: 82 contacts received
+INFO :: 2021-10-17 20:07:02,016 :: app.main:142 :: Started adding contacts to Odoo
+INFO :: 2021-10-17 20:07:02,471 :: app.main:160 :: Successfully added: Contact Luke Skywalker, remote system ID=[1], Odoo ID=[2820]
+INFO :: 2021-10-17 20:07:03,213 :: app.main:174 :: Successfully added: Contact Luke Skywalker photo added
+INFO :: 2021-10-17 20:07:03,649 :: app.main:160 :: Successfully added: Contact C-3PO, remote system ID=[2], Odoo ID=[2821]
+INFO :: 2021-10-17 20:07:04,129 :: app.main:174 :: Successfully added: Contact C-3PO photo added
+INFO :: 2021-10-17 20:07:04,654 :: app.main:160 :: Successfully added: Contact R2-D2, remote system ID=[3], Odoo ID=[2822]
+INFO :: 2021-10-17 20:07:05,320 :: app.main:174 :: Successfully added: Contact R2-D2 photo added
+INFO :: 2021-10-17 20:07:05,727 :: app.main:160 :: Successfully added: Contact Darth Vader, remote system ID=[4], Odoo ID=[2823]
+INFO :: 2021-10-17 20:07:06,225 :: app.main:174 :: Successfully added: Contact Darth Vader photo added
+INFO :: 2021-10-17 20:07:06,668 :: app.main:160 :: Successfully added: Contact Leia Organa, remote system ID=[5], Odoo ID=[2824]
+INFO :: 2021-10-17 20:07:07,251 :: app.main:174 :: Successfully added: Contact Leia Organa photo added
+INFO :: 2021-10-17 20:07:07,682 :: app.main:160 :: Successfully added: Contact Owen Lars, remote system ID=[6], Odoo ID=[2825]
+INFO :: 2021-10-17 20:07:08,129 :: app.main:174 :: Successfully added: Contact Owen Lars photo added
+INFO :: 2021-10-17 20:07:08,576 :: app.main:160 :: Successfully added: Contact Beru Whitesun lars, remote system ID=[7], Odoo ID=[2826]
+INFO :: 2021-10-17 20:07:08,923 :: app.main:174 :: Successfully added: Contact Beru Whitesun lars photo added
+INFO :: 2021-10-17 20:07:09,332 :: app.main:160 :: Successfully added: Contact R5-D4, remote system ID=[8], Odoo ID=[2827]
+INFO :: 2021-10-17 20:07:10,632 :: app.main:174 :: Successfully added: Contact R5-D4 photo added
+INFO :: 2021-10-17 20:07:11,058 :: app.main:160 :: Successfully added: Contact Biggs Darklighter, remote system ID=[9], Odoo ID=[2828]
+INFO :: 2021-10-17 20:07:11,540 :: app.main:174 :: Successfully added: Contact Biggs Darklighter photo added
+INFO :: 2021-10-17 20:07:11,972 :: app.main:160 :: Successfully added: Contact Obi-Wan Kenobi, remote system ID=[10], Odoo ID=[2829]
+INFO :: 2021-10-17 20:07:12,355 :: app.main:174 :: Successfully added: Contact Obi-Wan Kenobi photo added
+INFO :: 2021-10-17 20:07:12,802 :: app.main:160 :: Successfully added: Contact Anakin Skywalker, remote system ID=[11], Odoo ID=[2830]
+INFO :: 2021-10-17 20:07:13,462 :: app.main:174 :: Successfully added: Contact Anakin Skywalker photo added
+INFO :: 2021-10-17 20:07:13,821 :: app.main:160 :: Successfully added: Contact Wilhuff Tarkin, remote system ID=[12], Odoo ID=[2831]
+INFO :: 2021-10-17 20:07:14,286 :: app.main:174 :: Successfully added: Contact Wilhuff Tarkin photo added
+INFO :: 2021-10-17 20:07:14,718 :: app.main:160 :: Successfully added: Contact Chewbacca, remote system ID=[13], Odoo ID=[2832]
+INFO :: 2021-10-17 20:07:15,293 :: app.main:174 :: Successfully added: Contact Chewbacca photo added
+INFO :: 2021-10-17 20:07:15,750 :: app.main:160 :: Successfully added: Contact Han Solo, remote system ID=[14], Odoo ID=[2833]
+INFO :: 2021-10-17 20:07:16,519 :: app.main:174 :: Successfully added: Contact Han Solo photo added
+INFO :: 2021-10-17 20:07:16,951 :: app.main:160 :: Successfully added: Contact Greedo, remote system ID=[15], Odoo ID=[2834]
+INFO :: 2021-10-17 20:07:17,546 :: app.main:174 :: Successfully added: Contact Greedo photo added
+INFO :: 2021-10-17 20:07:17,977 :: app.main:160 :: Successfully added: Contact Jabba Desilijic Tiure, remote system ID=[16], Odoo ID=[2835]
+INFO :: 2021-10-17 20:07:18,293 :: app.main:174 :: Successfully added: Contact Jabba Desilijic Tiure photo added
+INFO :: 2021-10-17 20:07:18,732 :: app.main:160 :: Successfully added: Contact Wedge Antilles, remote system ID=[18], Odoo ID=[2836]
+INFO :: 2021-10-17 20:07:19,222 :: app.main:174 :: Successfully added: Contact Wedge Antilles photo added
+INFO :: 2021-10-17 20:07:19,591 :: app.main:160 :: Successfully added: Contact Jek Tono Porkins, remote system ID=[19], Odoo ID=[2837]
+INFO :: 2021-10-17 20:07:20,244 :: app.main:174 :: Successfully added: Contact Jek Tono Porkins photo added
+INFO :: 2021-10-17 20:07:20,652 :: app.main:160 :: Successfully added: Contact Yoda, remote system ID=[20], Odoo ID=[2838]
+INFO :: 2021-10-17 20:07:20,972 :: app.main:174 :: Successfully added: Contact Yoda photo added
+INFO :: 2021-10-17 20:07:21,367 :: app.main:160 :: Successfully added: Contact Palpatine, remote system ID=[21], Odoo ID=[2839]
+INFO :: 2021-10-17 20:07:21,989 :: app.main:174 :: Successfully added: Contact Palpatine photo added
+INFO :: 2021-10-17 20:07:22,421 :: app.main:160 :: Successfully added: Contact Boba Fett, remote system ID=[22], Odoo ID=[2840]
+INFO :: 2021-10-17 20:07:22,747 :: app.main:174 :: Successfully added: Contact Boba Fett photo added
+INFO :: 2021-10-17 20:07:23,151 :: app.main:160 :: Successfully added: Contact IG-88, remote system ID=[23], Odoo ID=[2841]
+INFO :: 2021-10-17 20:07:24,032 :: app.main:174 :: Successfully added: Contact IG-88 photo added
+INFO :: 2021-10-17 20:07:24,487 :: app.main:160 :: Successfully added: Contact Bossk, remote system ID=[24], Odoo ID=[2842]
+INFO :: 2021-10-17 20:07:25,134 :: app.main:174 :: Successfully added: Contact Bossk photo added
+INFO :: 2021-10-17 20:07:30,565 :: app.main:160 :: Successfully added: Contact Lando Calrissian, remote system ID=[25], Odoo ID=[2843]
+INFO :: 2021-10-17 20:07:31,303 :: app.main:174 :: Successfully added: Contact Lando Calrissian photo added
+INFO :: 2021-10-17 20:07:31,706 :: app.main:160 :: Successfully added: Contact Lobot, remote system ID=[26], Odoo ID=[2844]
+INFO :: 2021-10-17 20:07:32,541 :: app.main:174 :: Successfully added: Contact Lobot photo added
+INFO :: 2021-10-17 20:07:32,910 :: app.main:160 :: Successfully added: Contact Ackbar, remote system ID=[27], Odoo ID=[2845]
+INFO :: 2021-10-17 20:07:33,589 :: app.main:174 :: Successfully added: Contact Ackbar photo added
+INFO :: 2021-10-17 20:07:34,043 :: app.main:160 :: Successfully added: Contact Mon Mothma, remote system ID=[28], Odoo ID=[2846]
+INFO :: 2021-10-17 20:07:34,370 :: app.main:174 :: Successfully added: Contact Mon Mothma photo added
+INFO :: 2021-10-17 20:07:34,792 :: app.main:160 :: Successfully added: Contact Arvel Crynyd, remote system ID=[29], Odoo ID=[2847]
+INFO :: 2021-10-17 20:07:35,441 :: app.main:174 :: Successfully added: Contact Arvel Crynyd photo added
+INFO :: 2021-10-17 20:07:35,904 :: app.main:160 :: Successfully added: Contact Wicket Systri Warrick, remote system ID=[30], Odoo ID=[2848]
+INFO :: 2021-10-17 20:07:37,352 :: app.main:174 :: Successfully added: Contact Wicket Systri Warrick photo added
+INFO :: 2021-10-17 20:07:37,806 :: app.main:160 :: Successfully added: Contact Nien Nunb, remote system ID=[31], Odoo ID=[2849]
+INFO :: 2021-10-17 20:07:38,213 :: app.main:174 :: Successfully added: Contact Nien Nunb photo added
+INFO :: 2021-10-17 20:07:38,671 :: app.main:160 :: Successfully added: Contact Qui-Gon Jinn, remote system ID=[32], Odoo ID=[2850]
+INFO :: 2021-10-17 20:07:39,560 :: app.main:174 :: Successfully added: Contact Qui-Gon Jinn photo added
+INFO :: 2021-10-17 20:07:40,061 :: app.main:160 :: Successfully added: Contact Nute Gunray, remote system ID=[33], Odoo ID=[2851]
+INFO :: 2021-10-17 20:07:41,113 :: app.main:174 :: Successfully added: Contact Nute Gunray photo added
+INFO :: 2021-10-17 20:07:41,551 :: app.main:160 :: Successfully added: Contact Finis Valorum, remote system ID=[34], Odoo ID=[2852]
+INFO :: 2021-10-17 20:07:42,423 :: app.main:174 :: Successfully added: Contact Finis Valorum photo added
+INFO :: 2021-10-17 20:07:42,812 :: app.main:160 :: Successfully added: Contact Padmé Amidala, remote system ID=[35], Odoo ID=[2853]
+INFO :: 2021-10-17 20:07:43,546 :: app.main:174 :: Successfully added: Contact Padmé Amidala photo added
+INFO :: 2021-10-17 20:07:43,971 :: app.main:160 :: Successfully added: Contact Jar Jar Binks, remote system ID=[36], Odoo ID=[2854]
+INFO :: 2021-10-17 20:07:44,283 :: app.main:174 :: Successfully added: Contact Jar Jar Binks photo added
+INFO :: 2021-10-17 20:07:44,671 :: app.main:160 :: Successfully added: Contact Roos Tarpals, remote system ID=[37], Odoo ID=[2855]
+INFO :: 2021-10-17 20:07:45,537 :: app.main:174 :: Successfully added: Contact Roos Tarpals photo added
+INFO :: 2021-10-17 20:07:50,915 :: app.main:160 :: Successfully added: Contact Rugor Nass, remote system ID=[38], Odoo ID=[2856]
+INFO :: 2021-10-17 20:07:51,789 :: app.main:174 :: Successfully added: Contact Rugor Nass photo added
+INFO :: 2021-10-17 20:07:52,359 :: app.main:160 :: Successfully added: Contact Ric Olié, remote system ID=[39], Odoo ID=[2857]
+INFO :: 2021-10-17 20:07:52,838 :: app.main:174 :: Successfully added: Contact Ric Olié photo added
+INFO :: 2021-10-17 20:07:53,212 :: app.main:160 :: Successfully added: Contact Watto, remote system ID=[40], Odoo ID=[2858]
+INFO :: 2021-10-17 20:07:53,485 :: app.main:174 :: Successfully added: Contact Watto photo added
+INFO :: 2021-10-17 20:07:53,893 :: app.main:160 :: Successfully added: Contact Sebulba, remote system ID=[41], Odoo ID=[2859]
+INFO :: 2021-10-17 20:07:54,257 :: app.main:174 :: Successfully added: Contact Sebulba photo added
+INFO :: 2021-10-17 20:07:54,646 :: app.main:160 :: Successfully added: Contact Quarsh Panaka, remote system ID=[42], Odoo ID=[2860]
+INFO :: 2021-10-17 20:07:55,045 :: app.main:174 :: Successfully added: Contact Quarsh Panaka photo added
+INFO :: 2021-10-17 20:07:55,490 :: app.main:160 :: Successfully added: Contact Shmi Skywalker, remote system ID=[43], Odoo ID=[2861]
+INFO :: 2021-10-17 20:07:55,774 :: app.main:174 :: Successfully added: Contact Shmi Skywalker photo added
+INFO :: 2021-10-17 20:07:56,266 :: app.main:160 :: Successfully added: Contact Darth Maul, remote system ID=[44], Odoo ID=[2862]
+INFO :: 2021-10-17 20:07:56,915 :: app.main:174 :: Successfully added: Contact Darth Maul photo added
+INFO :: 2021-10-17 20:07:57,429 :: app.main:160 :: Successfully added: Contact Bib Fortuna, remote system ID=[45], Odoo ID=[2863]
+INFO :: 2021-10-17 20:07:58,209 :: app.main:174 :: Successfully added: Contact Bib Fortuna photo added
+INFO :: 2021-10-17 20:07:58,625 :: app.main:160 :: Successfully added: Contact Ayla Secura, remote system ID=[46], Odoo ID=[2864]
+INFO :: 2021-10-17 20:07:59,051 :: app.main:174 :: Successfully added: Contact Ayla Secura photo added
+INFO :: 2021-10-17 20:08:04,435 :: app.main:160 :: Successfully added: Contact Ratts Tyerel, remote system ID=[47], Odoo ID=[2865]
+INFO :: 2021-10-17 20:08:05,077 :: app.main:174 :: Successfully added: Contact Ratts Tyerel photo added
+INFO :: 2021-10-17 20:08:05,542 :: app.main:160 :: Successfully added: Contact Dud Bolt, remote system ID=[48], Odoo ID=[2866]
+INFO :: 2021-10-17 20:08:06,377 :: app.main:174 :: Successfully added: Contact Dud Bolt photo added
+INFO :: 2021-10-17 20:08:11,843 :: app.main:160 :: Successfully added: Contact Gasgano, remote system ID=[49], Odoo ID=[2867]
+INFO :: 2021-10-17 20:08:12,158 :: app.main:174 :: Successfully added: Contact Gasgano photo added
+INFO :: 2021-10-17 20:08:12,575 :: app.main:160 :: Successfully added: Contact Ben Quadinaros, remote system ID=[50], Odoo ID=[2868]
+INFO :: 2021-10-17 20:08:13,193 :: app.main:174 :: Successfully added: Contact Ben Quadinaros photo added
+INFO :: 2021-10-17 20:08:13,621 :: app.main:160 :: Successfully added: Contact Mace Windu, remote system ID=[51], Odoo ID=[2869]
+INFO :: 2021-10-17 20:08:14,028 :: app.main:174 :: Successfully added: Contact Mace Windu photo added
+INFO :: 2021-10-17 20:08:14,449 :: app.main:160 :: Successfully added: Contact Ki-Adi-Mundi, remote system ID=[52], Odoo ID=[2870]
+INFO :: 2021-10-17 20:08:14,758 :: app.main:174 :: Successfully added: Contact Ki-Adi-Mundi photo added
+INFO :: 2021-10-17 20:08:15,170 :: app.main:160 :: Successfully added: Contact Kit Fisto, remote system ID=[53], Odoo ID=[2871]
+INFO :: 2021-10-17 20:08:15,612 :: app.main:174 :: Successfully added: Contact Kit Fisto photo added
+INFO :: 2021-10-17 20:08:15,983 :: app.main:160 :: Successfully added: Contact Eeth Koth, remote system ID=[54], Odoo ID=[2872]
+INFO :: 2021-10-17 20:08:16,575 :: app.main:174 :: Successfully added: Contact Eeth Koth photo added
+INFO :: 2021-10-17 20:08:17,036 :: app.main:160 :: Successfully added: Contact Adi Gallia, remote system ID=[55], Odoo ID=[2873]
+INFO :: 2021-10-17 20:08:17,358 :: app.main:174 :: Successfully added: Contact Adi Gallia photo added
+INFO :: 2021-10-17 20:08:17,801 :: app.main:160 :: Successfully added: Contact Saesee Tiin, remote system ID=[56], Odoo ID=[2874]
+INFO :: 2021-10-17 20:08:18,236 :: app.main:174 :: Successfully added: Contact Saesee Tiin photo added
+INFO :: 2021-10-17 20:08:19,103 :: app.main:160 :: Successfully added: Contact Yarael Poof, remote system ID=[57], Odoo ID=[2875]
+INFO :: 2021-10-17 20:08:19,412 :: app.main:174 :: Successfully added: Contact Yarael Poof photo added
+INFO :: 2021-10-17 20:08:19,933 :: app.main:160 :: Successfully added: Contact Plo Koon, remote system ID=[58], Odoo ID=[2876]
+INFO :: 2021-10-17 20:08:20,466 :: app.main:174 :: Successfully added: Contact Plo Koon photo added
+INFO :: 2021-10-17 20:08:20,828 :: app.main:160 :: Successfully added: Contact Mas Amedda, remote system ID=[59], Odoo ID=[2877]
+INFO :: 2021-10-17 20:08:21,204 :: app.main:174 :: Successfully added: Contact Mas Amedda photo added
+INFO :: 2021-10-17 20:08:21,635 :: app.main:160 :: Successfully added: Contact Gregar Typho, remote system ID=[60], Odoo ID=[2878]
+INFO :: 2021-10-17 20:08:21,972 :: app.main:174 :: Successfully added: Contact Gregar Typho photo added
+INFO :: 2021-10-17 20:08:22,341 :: app.main:160 :: Successfully added: Contact Cordé, remote system ID=[61], Odoo ID=[2879]
+INFO :: 2021-10-17 20:08:22,789 :: app.main:174 :: Successfully added: Contact Cordé photo added
+INFO :: 2021-10-17 20:08:23,234 :: app.main:160 :: Successfully added: Contact Cliegg Lars, remote system ID=[62], Odoo ID=[2880]
+INFO :: 2021-10-17 20:08:23,590 :: app.main:174 :: Successfully added: Contact Cliegg Lars photo added
+INFO :: 2021-10-17 20:08:23,989 :: app.main:160 :: Successfully added: Contact Poggle the Lesser, remote system ID=[63], Odoo ID=[2881]
+INFO :: 2021-10-17 20:08:24,284 :: app.main:174 :: Successfully added: Contact Poggle the Lesser photo added
+INFO :: 2021-10-17 20:08:24,716 :: app.main:160 :: Successfully added: Contact Luminara Unduli, remote system ID=[64], Odoo ID=[2882]
+INFO :: 2021-10-17 20:08:25,181 :: app.main:174 :: Successfully added: Contact Luminara Unduli photo added
+INFO :: 2021-10-17 20:08:25,573 :: app.main:160 :: Successfully added: Contact Barriss Offee, remote system ID=[65], Odoo ID=[2883]
+INFO :: 2021-10-17 20:08:26,430 :: app.main:174 :: Successfully added: Contact Barriss Offee photo added
+INFO :: 2021-10-17 20:08:26,879 :: app.main:160 :: Successfully added: Contact Dormé, remote system ID=[66], Odoo ID=[2884]
+INFO :: 2021-10-17 20:08:27,614 :: app.main:174 :: Successfully added: Contact Dormé photo added
+INFO :: 2021-10-17 20:08:27,980 :: app.main:160 :: Successfully added: Contact Dooku, remote system ID=[67], Odoo ID=[2885]
+INFO :: 2021-10-17 20:08:28,445 :: app.main:174 :: Successfully added: Contact Dooku photo added
+INFO :: 2021-10-17 20:08:28,899 :: app.main:160 :: Successfully added: Contact Bail Prestor Organa, remote system ID=[68], Odoo ID=[2886]
+INFO :: 2021-10-17 20:08:29,600 :: app.main:174 :: Successfully added: Contact Bail Prestor Organa photo added
+INFO :: 2021-10-17 20:08:30,046 :: app.main:160 :: Successfully added: Contact Jango Fett, remote system ID=[69], Odoo ID=[2887]
+INFO :: 2021-10-17 20:08:30,463 :: app.main:174 :: Successfully added: Contact Jango Fett photo added
+INFO :: 2021-10-17 20:08:30,838 :: app.main:160 :: Successfully added: Contact Zam Wesell, remote system ID=[70], Odoo ID=[2888]
+INFO :: 2021-10-17 20:08:31,511 :: app.main:174 :: Successfully added: Contact Zam Wesell photo added
+INFO :: 2021-10-17 20:08:31,887 :: app.main:160 :: Successfully added: Contact Dexter Jettster, remote system ID=[71], Odoo ID=[2889]
+INFO :: 2021-10-17 20:08:32,171 :: app.main:174 :: Successfully added: Contact Dexter Jettster photo added
+INFO :: 2021-10-17 20:08:32,591 :: app.main:160 :: Successfully added: Contact Lama Su, remote system ID=[72], Odoo ID=[2890]
+INFO :: 2021-10-17 20:08:32,967 :: app.main:174 :: Successfully added: Contact Lama Su photo added
+INFO :: 2021-10-17 20:08:33,345 :: app.main:160 :: Successfully added: Contact Taun We, remote system ID=[73], Odoo ID=[2891]
+INFO :: 2021-10-17 20:08:33,631 :: app.main:174 :: Successfully added: Contact Taun We photo added
+INFO :: 2021-10-17 20:08:34,026 :: app.main:160 :: Successfully added: Contact Jocasta Nu, remote system ID=[74], Odoo ID=[2892]
+INFO :: 2021-10-17 20:08:34,764 :: app.main:174 :: Successfully added: Contact Jocasta Nu photo added
+INFO :: 2021-10-17 20:08:35,204 :: app.main:160 :: Successfully added: Contact R4-P17, remote system ID=[75], Odoo ID=[2893]
+INFO :: 2021-10-17 20:08:35,803 :: app.main:174 :: Successfully added: Contact R4-P17 photo added
+INFO :: 2021-10-17 20:08:36,222 :: app.main:160 :: Successfully added: Contact Wat Tambor, remote system ID=[76], Odoo ID=[2894]
+INFO :: 2021-10-17 20:08:36,570 :: app.main:174 :: Successfully added: Contact Wat Tambor photo added
+INFO :: 2021-10-17 20:08:36,986 :: app.main:160 :: Successfully added: Contact San Hill, remote system ID=[77], Odoo ID=[2895]
+INFO :: 2021-10-17 20:08:37,377 :: app.main:174 :: Successfully added: Contact San Hill photo added
+INFO :: 2021-10-17 20:08:37,820 :: app.main:160 :: Successfully added: Contact Shaak Ti, remote system ID=[78], Odoo ID=[2896]
+INFO :: 2021-10-17 20:08:39,491 :: app.main:174 :: Successfully added: Contact Shaak Ti photo added
+INFO :: 2021-10-17 20:08:39,859 :: app.main:160 :: Successfully added: Contact Grievous, remote system ID=[79], Odoo ID=[2897]
+INFO :: 2021-10-17 20:08:40,204 :: app.main:174 :: Successfully added: Contact Grievous photo added
+INFO :: 2021-10-17 20:08:40,601 :: app.main:160 :: Successfully added: Contact Tarfful, remote system ID=[80], Odoo ID=[2898]
+INFO :: 2021-10-17 20:08:41,082 :: app.main:174 :: Successfully added: Contact Tarfful photo added
+INFO :: 2021-10-17 20:08:41,521 :: app.main:160 :: Successfully added: Contact Raymus Antilles, remote system ID=[81], Odoo ID=[2899]
+INFO :: 2021-10-17 20:08:41,853 :: app.main:174 :: Successfully added: Contact Raymus Antilles photo added
+INFO :: 2021-10-17 20:08:42,280 :: app.main:160 :: Successfully added: Contact Sly Moore, remote system ID=[82], Odoo ID=[2900]
+INFO :: 2021-10-17 20:08:44,034 :: app.main:174 :: Successfully added: Contact Sly Moore photo added
+INFO :: 2021-10-17 20:08:44,476 :: app.main:160 :: Successfully added: Contact Tion Medon, remote system ID=[83], Odoo ID=[2901]
+INFO :: 2021-10-17 20:08:44,878 :: app.main:174 :: Successfully added: Contact Tion Medon photo added
+INFO :: 2021-10-17 20:08:44,878 :: app.main:179 :: Adding contacts completed
