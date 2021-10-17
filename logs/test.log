@@ -232,3 +232,156 @@ INFO :: 2021-10-17 20:08:44,034 :: app.main:174 :: Successfully added: Contact S
 INFO :: 2021-10-17 20:08:44,476 :: app.main:160 :: Successfully added: Contact Tion Medon, remote system ID=[83], Odoo ID=[2901]
 INFO :: 2021-10-17 20:08:44,878 :: app.main:174 :: Successfully added: Contact Tion Medon photo added
 INFO :: 2021-10-17 20:08:44,878 :: app.main:179 :: Adding contacts completed
+
+INFO :: 2021-10-17 20:24:21,345 :: app.main:88 :: The process of transferring the planets has begun
+INFO :: 2021-10-17 20:24:21,345 :: app.main:89 :: Getting planets and planet's data
+INFO :: 2021-10-17 20:24:23,792 :: app.main:91 :: 60 planets received
+INFO :: 2021-10-17 20:24:23,792 :: app.main:92 :: Started adding planets to Odoo
+ERROR :: 2021-10-17 20:24:23,815 :: app.main:122 :: Planet Tatooine already exists
+ERROR :: 2021-10-17 20:24:23,838 :: app.main:122 :: Planet Alderaan already exists
+ERROR :: 2021-10-17 20:24:23,860 :: app.main:122 :: Planet Yavin IV already exists
+ERROR :: 2021-10-17 20:24:23,882 :: app.main:122 :: Planet Hoth already exists
+ERROR :: 2021-10-17 20:24:23,905 :: app.main:122 :: Planet Dagobah already exists
+ERROR :: 2021-10-17 20:24:23,927 :: app.main:122 :: Planet Bespin already exists
+ERROR :: 2021-10-17 20:24:23,949 :: app.main:122 :: Planet Endor already exists
+ERROR :: 2021-10-17 20:24:23,972 :: app.main:122 :: Planet Naboo already exists
+ERROR :: 2021-10-17 20:24:23,994 :: app.main:122 :: Planet Coruscant already exists
+ERROR :: 2021-10-17 20:24:24,016 :: app.main:122 :: Planet Kamino already exists
+ERROR :: 2021-10-17 20:24:24,039 :: app.main:122 :: Planet Geonosis already exists
+ERROR :: 2021-10-17 20:24:24,061 :: app.main:122 :: Planet Utapau already exists
+ERROR :: 2021-10-17 20:24:24,084 :: app.main:122 :: Planet Mustafar already exists
+ERROR :: 2021-10-17 20:24:24,106 :: app.main:122 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-17 20:24:24,128 :: app.main:122 :: Planet Polis Massa already exists
+ERROR :: 2021-10-17 20:24:24,150 :: app.main:122 :: Planet Mygeeto already exists
+ERROR :: 2021-10-17 20:24:24,173 :: app.main:122 :: Planet Felucia already exists
+ERROR :: 2021-10-17 20:24:24,195 :: app.main:122 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-17 20:24:24,218 :: app.main:122 :: Planet Saleucami already exists
+ERROR :: 2021-10-17 20:24:24,240 :: app.main:122 :: Planet Stewjon already exists
+ERROR :: 2021-10-17 20:24:24,262 :: app.main:122 :: Planet Eriadu already exists
+ERROR :: 2021-10-17 20:24:24,284 :: app.main:122 :: Planet Corellia already exists
+ERROR :: 2021-10-17 20:24:24,307 :: app.main:122 :: Planet Rodia already exists
+ERROR :: 2021-10-17 20:24:24,330 :: app.main:122 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-17 20:24:24,352 :: app.main:122 :: Planet Dantooine already exists
+ERROR :: 2021-10-17 20:24:24,374 :: app.main:122 :: Planet Bestine IV already exists
+ERROR :: 2021-10-17 20:24:24,386 :: app.main:122 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-17 20:24:24,391 :: app.main:122 :: Planet unknown already exists
+ERROR :: 2021-10-17 20:24:24,395 :: app.main:122 :: Planet Trandosha already exists
+ERROR :: 2021-10-17 20:24:24,400 :: app.main:122 :: Planet Socorro already exists
+ERROR :: 2021-10-17 20:24:24,405 :: app.main:122 :: Planet Mon Cala already exists
+ERROR :: 2021-10-17 20:24:24,410 :: app.main:122 :: Planet Chandrila already exists
+ERROR :: 2021-10-17 20:24:24,415 :: app.main:122 :: Planet Sullust already exists
+ERROR :: 2021-10-17 20:24:24,419 :: app.main:122 :: Planet Toydaria already exists
+ERROR :: 2021-10-17 20:24:24,424 :: app.main:122 :: Planet Malastare already exists
+ERROR :: 2021-10-17 20:24:24,429 :: app.main:122 :: Planet Dathomir already exists
+ERROR :: 2021-10-17 20:24:24,434 :: app.main:122 :: Planet Ryloth already exists
+ERROR :: 2021-10-17 20:24:24,438 :: app.main:122 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-17 20:24:24,443 :: app.main:122 :: Planet Vulpter already exists
+ERROR :: 2021-10-17 20:24:24,448 :: app.main:122 :: Planet Troiken already exists
+ERROR :: 2021-10-17 20:24:24,453 :: app.main:122 :: Planet Tund already exists
+ERROR :: 2021-10-17 20:24:24,458 :: app.main:122 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-17 20:24:24,462 :: app.main:122 :: Planet Cerea already exists
+ERROR :: 2021-10-17 20:24:24,467 :: app.main:122 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-17 20:24:24,472 :: app.main:122 :: Planet Iridonia already exists
+ERROR :: 2021-10-17 20:24:24,476 :: app.main:122 :: Planet Tholoth already exists
+ERROR :: 2021-10-17 20:24:24,481 :: app.main:122 :: Planet Iktotch already exists
+ERROR :: 2021-10-17 20:24:24,485 :: app.main:122 :: Planet Quermia already exists
+ERROR :: 2021-10-17 20:24:24,490 :: app.main:122 :: Planet Dorin already exists
+ERROR :: 2021-10-17 20:24:24,494 :: app.main:122 :: Planet Champala already exists
+ERROR :: 2021-10-17 20:24:24,499 :: app.main:122 :: Planet Mirial already exists
+ERROR :: 2021-10-17 20:24:24,504 :: app.main:122 :: Planet Serenno already exists
+ERROR :: 2021-10-17 20:24:24,508 :: app.main:122 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-17 20:24:24,513 :: app.main:122 :: Planet Zolan already exists
+ERROR :: 2021-10-17 20:24:24,517 :: app.main:122 :: Planet Ojom already exists
+ERROR :: 2021-10-17 20:24:24,522 :: app.main:122 :: Planet Skako already exists
+ERROR :: 2021-10-17 20:24:24,527 :: app.main:122 :: Planet Muunilinst already exists
+ERROR :: 2021-10-17 20:24:24,532 :: app.main:122 :: Planet Shili already exists
+ERROR :: 2021-10-17 20:24:24,536 :: app.main:122 :: Planet Kalee already exists
+ERROR :: 2021-10-17 20:24:24,541 :: app.main:122 :: Planet Umbara already exists
+INFO :: 2021-10-17 20:24:24,541 :: app.main:123 :: Adding planets completed
+INFO :: 2021-10-17 20:24:24,541 :: app.main:138 :: The process of transferring the peoples has begun
+INFO :: 2021-10-17 20:24:24,541 :: app.main:139 :: Getting contacts and contact's data
+INFO :: 2021-10-17 20:24:27,890 :: app.main:141 :: 82 contacts received
+INFO :: 2021-10-17 20:24:27,890 :: app.main:142 :: Started adding contacts to Odoo
+ERROR :: 2021-10-17 20:24:27,915 :: app.main:178 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-17 20:24:27,938 :: app.main:178 :: Contact C-3PO already exists
+ERROR :: 2021-10-17 20:24:27,956 :: app.main:178 :: Contact R2-D2 already exists
+ERROR :: 2021-10-17 20:24:27,962 :: app.main:178 :: Contact Darth Vader already exists
+ERROR :: 2021-10-17 20:24:27,967 :: app.main:178 :: Contact Leia Organa already exists
+ERROR :: 2021-10-17 20:24:27,971 :: app.main:178 :: Contact Owen Lars already exists
+ERROR :: 2021-10-17 20:24:27,976 :: app.main:178 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-17 20:24:27,981 :: app.main:178 :: Contact R5-D4 already exists
+ERROR :: 2021-10-17 20:24:27,986 :: app.main:178 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-17 20:24:27,991 :: app.main:178 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-17 20:24:27,996 :: app.main:178 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-17 20:24:28,000 :: app.main:178 :: Contact Wilhuff Tarkin already exists
+ERROR :: 2021-10-17 20:24:28,005 :: app.main:178 :: Contact Chewbacca already exists
+ERROR :: 2021-10-17 20:24:28,010 :: app.main:178 :: Contact Han Solo already exists
+ERROR :: 2021-10-17 20:24:28,015 :: app.main:178 :: Contact Greedo already exists
+ERROR :: 2021-10-17 20:24:28,020 :: app.main:178 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-17 20:24:28,025 :: app.main:178 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-17 20:24:28,030 :: app.main:178 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-17 20:24:28,034 :: app.main:178 :: Contact Yoda already exists
+ERROR :: 2021-10-17 20:24:28,039 :: app.main:178 :: Contact Palpatine already exists
+ERROR :: 2021-10-17 20:24:28,044 :: app.main:178 :: Contact Boba Fett already exists
+ERROR :: 2021-10-17 20:24:28,049 :: app.main:178 :: Contact IG-88 already exists
+ERROR :: 2021-10-17 20:24:28,054 :: app.main:178 :: Contact Bossk already exists
+ERROR :: 2021-10-17 20:24:28,059 :: app.main:178 :: Contact Lando Calrissian already exists
+ERROR :: 2021-10-17 20:24:28,063 :: app.main:178 :: Contact Lobot already exists
+ERROR :: 2021-10-17 20:24:28,068 :: app.main:178 :: Contact Ackbar already exists
+ERROR :: 2021-10-17 20:24:28,073 :: app.main:178 :: Contact Mon Mothma already exists
+ERROR :: 2021-10-17 20:24:28,078 :: app.main:178 :: Contact Arvel Crynyd already exists
+ERROR :: 2021-10-17 20:24:28,084 :: app.main:178 :: Contact Wicket Systri Warrick already exists
+ERROR :: 2021-10-17 20:24:28,089 :: app.main:178 :: Contact Nien Nunb already exists
+ERROR :: 2021-10-17 20:24:28,093 :: app.main:178 :: Contact Qui-Gon Jinn already exists
+ERROR :: 2021-10-17 20:24:28,098 :: app.main:178 :: Contact Nute Gunray already exists
+ERROR :: 2021-10-17 20:24:28,103 :: app.main:178 :: Contact Finis Valorum already exists
+ERROR :: 2021-10-17 20:24:28,108 :: app.main:178 :: Contact Padmé Amidala already exists
+ERROR :: 2021-10-17 20:24:28,113 :: app.main:178 :: Contact Jar Jar Binks already exists
+ERROR :: 2021-10-17 20:24:28,118 :: app.main:178 :: Contact Roos Tarpals already exists
+ERROR :: 2021-10-17 20:24:28,123 :: app.main:178 :: Contact Rugor Nass already exists
+ERROR :: 2021-10-17 20:24:28,127 :: app.main:178 :: Contact Ric Olié already exists
+ERROR :: 2021-10-17 20:24:28,132 :: app.main:178 :: Contact Watto already exists
+ERROR :: 2021-10-17 20:24:28,137 :: app.main:178 :: Contact Sebulba already exists
+ERROR :: 2021-10-17 20:24:28,142 :: app.main:178 :: Contact Quarsh Panaka already exists
+ERROR :: 2021-10-17 20:24:28,147 :: app.main:178 :: Contact Shmi Skywalker already exists
+ERROR :: 2021-10-17 20:24:28,152 :: app.main:178 :: Contact Darth Maul already exists
+ERROR :: 2021-10-17 20:24:28,157 :: app.main:178 :: Contact Bib Fortuna already exists
+ERROR :: 2021-10-17 20:24:28,162 :: app.main:178 :: Contact Ayla Secura already exists
+ERROR :: 2021-10-17 20:24:28,166 :: app.main:178 :: Contact Ratts Tyerel already exists
+ERROR :: 2021-10-17 20:24:28,171 :: app.main:178 :: Contact Dud Bolt already exists
+ERROR :: 2021-10-17 20:24:28,177 :: app.main:178 :: Contact Gasgano already exists
+ERROR :: 2021-10-17 20:24:28,181 :: app.main:178 :: Contact Ben Quadinaros already exists
+ERROR :: 2021-10-17 20:24:28,186 :: app.main:178 :: Contact Mace Windu already exists
+ERROR :: 2021-10-17 20:24:28,191 :: app.main:178 :: Contact Ki-Adi-Mundi already exists
+ERROR :: 2021-10-17 20:24:28,196 :: app.main:178 :: Contact Kit Fisto already exists
+ERROR :: 2021-10-17 20:24:28,201 :: app.main:178 :: Contact Eeth Koth already exists
+ERROR :: 2021-10-17 20:24:28,207 :: app.main:178 :: Contact Adi Gallia already exists
+ERROR :: 2021-10-17 20:24:28,212 :: app.main:178 :: Contact Saesee Tiin already exists
+ERROR :: 2021-10-17 20:24:28,217 :: app.main:178 :: Contact Yarael Poof already exists
+ERROR :: 2021-10-17 20:24:28,223 :: app.main:178 :: Contact Plo Koon already exists
+ERROR :: 2021-10-17 20:24:28,228 :: app.main:178 :: Contact Mas Amedda already exists
+ERROR :: 2021-10-17 20:24:28,233 :: app.main:178 :: Contact Gregar Typho already exists
+ERROR :: 2021-10-17 20:24:28,238 :: app.main:178 :: Contact Cordé already exists
+ERROR :: 2021-10-17 20:24:28,243 :: app.main:178 :: Contact Cliegg Lars already exists
+ERROR :: 2021-10-17 20:24:28,248 :: app.main:178 :: Contact Poggle the Lesser already exists
+ERROR :: 2021-10-17 20:24:28,253 :: app.main:178 :: Contact Luminara Unduli already exists
+ERROR :: 2021-10-17 20:24:28,258 :: app.main:178 :: Contact Barriss Offee already exists
+ERROR :: 2021-10-17 20:24:28,263 :: app.main:178 :: Contact Dormé already exists
+ERROR :: 2021-10-17 20:24:28,268 :: app.main:178 :: Contact Dooku already exists
+ERROR :: 2021-10-17 20:24:28,273 :: app.main:178 :: Contact Bail Prestor Organa already exists
+ERROR :: 2021-10-17 20:24:28,278 :: app.main:178 :: Contact Jango Fett already exists
+ERROR :: 2021-10-17 20:24:28,283 :: app.main:178 :: Contact Zam Wesell already exists
+ERROR :: 2021-10-17 20:24:28,288 :: app.main:178 :: Contact Dexter Jettster already exists
+ERROR :: 2021-10-17 20:24:28,292 :: app.main:178 :: Contact Lama Su already exists
+ERROR :: 2021-10-17 20:24:28,298 :: app.main:178 :: Contact Taun We already exists
+ERROR :: 2021-10-17 20:24:28,303 :: app.main:178 :: Contact Jocasta Nu already exists
+ERROR :: 2021-10-17 20:24:28,308 :: app.main:178 :: Contact R4-P17 already exists
+ERROR :: 2021-10-17 20:24:28,313 :: app.main:178 :: Contact Wat Tambor already exists
+ERROR :: 2021-10-17 20:24:28,318 :: app.main:178 :: Contact San Hill already exists
+ERROR :: 2021-10-17 20:24:28,323 :: app.main:178 :: Contact Shaak Ti already exists
+ERROR :: 2021-10-17 20:24:28,328 :: app.main:178 :: Contact Grievous already exists
+ERROR :: 2021-10-17 20:24:28,333 :: app.main:178 :: Contact Tarfful already exists
+ERROR :: 2021-10-17 20:24:28,338 :: app.main:178 :: Contact Raymus Antilles already exists
+ERROR :: 2021-10-17 20:24:28,343 :: app.main:178 :: Contact Sly Moore already exists
+ERROR :: 2021-10-17 20:24:28,347 :: app.main:178 :: Contact Tion Medon already exists
+INFO :: 2021-10-17 20:24:28,348 :: app.main:179 :: Adding contacts completed
