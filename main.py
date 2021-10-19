@@ -15,15 +15,6 @@ db = config.get('odoo', 'db')
 username = config.get('odoo', 'username')
 password = config.get('odoo', 'password')
 
-partners_model = config.get('models', 'partners')
-planets_model = config.get('models', 'planets')
-
-# Odoo connection parameters
-common = xmlrpc.client.ServerProxy('{}/xmlrpc/2/common'.format(url))
-common.version()
-uid = common.authenticate(db, username, password, {})
-models = xmlrpc.client.ServerProxy('{}/xmlrpc/2/object'.format(url))
-
 
 # Function for create logger (console log and file log)
 def init_logger(name):
@@ -38,6 +29,10 @@ def init_logger(name):
     fh.setLevel(logging.INFO)
     logger.addHandler(sh)
     logger.addHandler(fh)
+
+
+init_logger('app')
+logger = logging.getLogger('app.main')
 
 
 # Function getting content from all pages on url
@@ -88,7 +83,7 @@ def adding_planets(config_section, config_property, model):
     logger.info('The process of transferring the planets has begun')
     logger.info("Getting planets and planet's data")
     planets = get_content(config.get(config_section, config_property))  # 1
-    logger.info(str(len(planets)) + ' planets received')
+    logger.info(f'{str(len(planets))} planets received')
     logger.info('Started adding planets to Odoo')
     for planet in planets:
         try:
@@ -114,12 +109,12 @@ def adding_planets(config_section, config_property, model):
                     'orbital_period': planet['orbital_period'],
                     'population': population}])
                 odoo_id = search_by_name(model, planet)
-                logger.info('Successfully added: Planet ' + planet['name']
-                            + ', remote system ID=[' + str(planet['id']) + '], Odoo ID=[' + str(odoo_id) + ']')
+                logger.info(f'Successfully added: Planet {planet["name"]},'
+                            f' remote system ID=[{planet["id"]}], Odoo ID=[{odoo_id}]')
             except Exception as e:
                 logger.error(e)
         else:                                                           # 4
-            logger.error('Planet '+planet['name']+' already exists')
+            logger.error(f'Planet {planet["name"]} already exists')
     logger.info('Adding planets completed')
 
 
@@ -138,7 +133,7 @@ def adding_partners(config_section, config_property_partners, config_property_ph
     logger.info('The process of transferring the peoples has begun')
     logger.info("Getting contacts and contact's data")
     peoples = get_content(config.get(config_section, config_property_partners))
-    logger.info(str(len(peoples)) + ' contacts received')
+    logger.info(f'{len(peoples)} contacts received')
     logger.info('Started adding contacts to Odoo')
     for people in peoples:
         try:
@@ -147,39 +142,46 @@ def adding_partners(config_section, config_property_partners, config_property_ph
             try:
                 people['id'] = get_swapi_id(people['url'])
                 planet_id = get_swapi_id(people['homeworld'])
-                res = requests.get(config.get('swapi', 'planetsUrl') + planet_id + '/')
+                res = requests.get(f'{config.get("swapi", "planetsUrl")}{planet_id}/')
                 planet = res.json()
 
-                planet_odoo_id = search_by_name(planets_model, planet)
+                planet_odoo_id = search_by_name('res.planet', planet)
 
                 models.execute_kw(db, uid, password, model, 'create', [{
                     'company_type': 'person',
                     'name': people['name'],
                     'planet': planet_odoo_id}])
                 odoo_id = search_by_name(model, people)
-                logger.info('Successfully added: Contact ' + people['name']
-                            + ', remote system ID=[' + str(people['id']) + '], Odoo ID=[' + str(odoo_id) + ']')
+                logger.info(f'Successfully added: Contact {people["name"]},'
+                            f' remote system ID=[{people["id"]}], Odoo ID=[{odoo_id}]')
             except Exception as e:
                 logger.error(e)
             else:
                 try:
-                    img = requests.get(config.get(config_section, config_property_photos) + people['id'] + '.jpg')
-                    img = str(base64.b64encode(img.content))[1:-1]
+                    img = requests.get(f'{config.get(config_section, config_property_photos)}{people["id"]}.jpg')
+                    img = base64.b64encode(img.content).decode('utf-8')
                     people_odoo_id = search_by_name(model, people)
 
                     models.execute_kw(
                         db, uid, password,
                         model, 'write',
                         [[people_odoo_id], {'image_1920': img}])
-                    logger.info('Successfully added: Contact ' + people['name'] + ' photo added')
+                    logger.info(f'Successfully added: Contact {people["name"]} photo added')
                 except:
-                    logger.warning('Error adding photo: people ' + people['name'])
+                    logger.warning(f'Error adding photo: people {people["name"]}')
         else:
-            logger.error('Contact ' + people['name'] + ' already exists')
+            logger.error(f'Contact {people["name"]} already exists')
     logger.info('Adding contacts completed')
 
-init_logger('app')
-logger = logging.getLogger('app.main')
 
-adding_planets('swapi', 'planetsUrl', planets_model)
-adding_partners('swapi', 'peoplesUrl', 'photosUrl', partners_model)
+# Odoo connection parameters
+try:
+    common = xmlrpc.client.ServerProxy('{}/xmlrpc/2/common'.format(url))
+    uid = common.authenticate(db, username, password, {})
+    models = xmlrpc.client.ServerProxy('{}/xmlrpc/2/object'.format(url))
+except:
+    logger.error('Failed to connect to db')
+else:
+    logger.info('Connection with Odoo established successfully')
+    adding_planets('swapi', 'planetsUrl', 'res.planet')
+    adding_partners('swapi', 'peoplesUrl', 'photosUrl', 'res.partner')

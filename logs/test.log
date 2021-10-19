@@ -385,3 +385,1447 @@ ERROR :: 2021-10-17 20:24:28,338 :: app.main:178 :: Contact Raymus Antilles alre
 ERROR :: 2021-10-17 20:24:28,343 :: app.main:178 :: Contact Sly Moore already exists
 ERROR :: 2021-10-17 20:24:28,347 :: app.main:178 :: Contact Tion Medon already exists
 INFO :: 2021-10-17 20:24:28,348 :: app.main:179 :: Adding contacts completed
+
+INFO :: 2021-10-19 15:32:49,868 :: app.main:88 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 15:32:49,868 :: app.main:89 :: Getting planets and planet's data
+INFO :: 2021-10-19 15:32:52,734 :: app.main:91 :: 60 planets received
+INFO :: 2021-10-19 15:32:52,734 :: app.main:92 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 15:32:52,812 :: app.main:122 :: Planet Tatooine already exists
+ERROR :: 2021-10-19 15:32:52,818 :: app.main:122 :: Planet Alderaan already exists
+ERROR :: 2021-10-19 15:32:52,823 :: app.main:122 :: Planet Yavin IV already exists
+ERROR :: 2021-10-19 15:32:52,828 :: app.main:122 :: Planet Hoth already exists
+ERROR :: 2021-10-19 15:32:52,833 :: app.main:122 :: Planet Dagobah already exists
+ERROR :: 2021-10-19 15:32:52,838 :: app.main:122 :: Planet Bespin already exists
+ERROR :: 2021-10-19 15:32:52,843 :: app.main:122 :: Planet Endor already exists
+ERROR :: 2021-10-19 15:32:52,848 :: app.main:122 :: Planet Naboo already exists
+ERROR :: 2021-10-19 15:32:52,852 :: app.main:122 :: Planet Coruscant already exists
+ERROR :: 2021-10-19 15:32:52,857 :: app.main:122 :: Planet Kamino already exists
+ERROR :: 2021-10-19 15:32:52,862 :: app.main:122 :: Planet Geonosis already exists
+ERROR :: 2021-10-19 15:32:52,867 :: app.main:122 :: Planet Utapau already exists
+ERROR :: 2021-10-19 15:32:52,872 :: app.main:122 :: Planet Mustafar already exists
+ERROR :: 2021-10-19 15:32:52,877 :: app.main:122 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-19 15:32:52,882 :: app.main:122 :: Planet Polis Massa already exists
+ERROR :: 2021-10-19 15:32:52,886 :: app.main:122 :: Planet Mygeeto already exists
+ERROR :: 2021-10-19 15:32:52,891 :: app.main:122 :: Planet Felucia already exists
+ERROR :: 2021-10-19 15:32:52,896 :: app.main:122 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-19 15:32:52,901 :: app.main:122 :: Planet Saleucami already exists
+ERROR :: 2021-10-19 15:32:52,905 :: app.main:122 :: Planet Stewjon already exists
+ERROR :: 2021-10-19 15:32:52,910 :: app.main:122 :: Planet Eriadu already exists
+ERROR :: 2021-10-19 15:32:52,915 :: app.main:122 :: Planet Corellia already exists
+ERROR :: 2021-10-19 15:32:52,919 :: app.main:122 :: Planet Rodia already exists
+ERROR :: 2021-10-19 15:32:52,924 :: app.main:122 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-19 15:32:52,929 :: app.main:122 :: Planet Dantooine already exists
+ERROR :: 2021-10-19 15:32:52,934 :: app.main:122 :: Planet Bestine IV already exists
+ERROR :: 2021-10-19 15:32:52,939 :: app.main:122 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-19 15:32:52,944 :: app.main:122 :: Planet unknown already exists
+ERROR :: 2021-10-19 15:32:52,949 :: app.main:122 :: Planet Trandosha already exists
+ERROR :: 2021-10-19 15:32:52,954 :: app.main:122 :: Planet Socorro already exists
+ERROR :: 2021-10-19 15:32:52,959 :: app.main:122 :: Planet Mon Cala already exists
+ERROR :: 2021-10-19 15:32:52,964 :: app.main:122 :: Planet Chandrila already exists
+ERROR :: 2021-10-19 15:32:52,969 :: app.main:122 :: Planet Sullust already exists
+ERROR :: 2021-10-19 15:32:52,974 :: app.main:122 :: Planet Toydaria already exists
+ERROR :: 2021-10-19 15:32:52,979 :: app.main:122 :: Planet Malastare already exists
+ERROR :: 2021-10-19 15:32:52,984 :: app.main:122 :: Planet Dathomir already exists
+ERROR :: 2021-10-19 15:32:52,988 :: app.main:122 :: Planet Ryloth already exists
+ERROR :: 2021-10-19 15:32:52,994 :: app.main:122 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-19 15:32:52,998 :: app.main:122 :: Planet Vulpter already exists
+ERROR :: 2021-10-19 15:32:53,003 :: app.main:122 :: Planet Troiken already exists
+ERROR :: 2021-10-19 15:32:53,008 :: app.main:122 :: Planet Tund already exists
+ERROR :: 2021-10-19 15:32:53,013 :: app.main:122 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-19 15:32:53,018 :: app.main:122 :: Planet Cerea already exists
+ERROR :: 2021-10-19 15:32:53,023 :: app.main:122 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-19 15:32:53,027 :: app.main:122 :: Planet Iridonia already exists
+ERROR :: 2021-10-19 15:32:53,032 :: app.main:122 :: Planet Tholoth already exists
+ERROR :: 2021-10-19 15:32:53,038 :: app.main:122 :: Planet Iktotch already exists
+ERROR :: 2021-10-19 15:32:53,043 :: app.main:122 :: Planet Quermia already exists
+ERROR :: 2021-10-19 15:32:53,048 :: app.main:122 :: Planet Dorin already exists
+ERROR :: 2021-10-19 15:32:53,052 :: app.main:122 :: Planet Champala already exists
+ERROR :: 2021-10-19 15:32:53,057 :: app.main:122 :: Planet Mirial already exists
+ERROR :: 2021-10-19 15:32:53,061 :: app.main:122 :: Planet Serenno already exists
+ERROR :: 2021-10-19 15:32:53,066 :: app.main:122 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-19 15:32:53,070 :: app.main:122 :: Planet Zolan already exists
+ERROR :: 2021-10-19 15:32:53,075 :: app.main:122 :: Planet Ojom already exists
+ERROR :: 2021-10-19 15:32:53,080 :: app.main:122 :: Planet Skako already exists
+ERROR :: 2021-10-19 15:32:53,085 :: app.main:122 :: Planet Muunilinst already exists
+ERROR :: 2021-10-19 15:32:53,089 :: app.main:122 :: Planet Shili already exists
+ERROR :: 2021-10-19 15:32:53,094 :: app.main:122 :: Planet Kalee already exists
+ERROR :: 2021-10-19 15:32:53,099 :: app.main:122 :: Planet Umbara already exists
+INFO :: 2021-10-19 15:32:53,099 :: app.main:123 :: Adding planets completed
+INFO :: 2021-10-19 15:32:53,099 :: app.main:138 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 15:32:53,099 :: app.main:139 :: Getting contacts and contact's data
+INFO :: 2021-10-19 15:33:06,685 :: app.main:141 :: 82 contacts received
+INFO :: 2021-10-19 15:33:06,686 :: app.main:142 :: Started adding contacts to Odoo
+ERROR :: 2021-10-19 15:33:06,709 :: app.main:178 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-19 15:33:06,715 :: app.main:178 :: Contact C-3PO already exists
+ERROR :: 2021-10-19 15:33:06,722 :: app.main:178 :: Contact R2-D2 already exists
+ERROR :: 2021-10-19 15:33:06,728 :: app.main:178 :: Contact Darth Vader already exists
+ERROR :: 2021-10-19 15:33:06,734 :: app.main:178 :: Contact Leia Organa already exists
+ERROR :: 2021-10-19 15:33:06,739 :: app.main:178 :: Contact Owen Lars already exists
+ERROR :: 2021-10-19 15:33:06,744 :: app.main:178 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-19 15:33:06,749 :: app.main:178 :: Contact R5-D4 already exists
+ERROR :: 2021-10-19 15:33:06,754 :: app.main:178 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-19 15:33:06,759 :: app.main:178 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-19 15:33:06,764 :: app.main:178 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-19 15:33:06,769 :: app.main:178 :: Contact Wilhuff Tarkin already exists
+ERROR :: 2021-10-19 15:33:06,774 :: app.main:178 :: Contact Chewbacca already exists
+ERROR :: 2021-10-19 15:33:06,779 :: app.main:178 :: Contact Han Solo already exists
+ERROR :: 2021-10-19 15:33:06,784 :: app.main:178 :: Contact Greedo already exists
+ERROR :: 2021-10-19 15:33:06,789 :: app.main:178 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-19 15:33:06,793 :: app.main:178 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-19 15:33:06,798 :: app.main:178 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-19 15:33:06,802 :: app.main:178 :: Contact Yoda already exists
+ERROR :: 2021-10-19 15:33:06,807 :: app.main:178 :: Contact Palpatine already exists
+ERROR :: 2021-10-19 15:33:06,812 :: app.main:178 :: Contact Boba Fett already exists
+ERROR :: 2021-10-19 15:33:06,817 :: app.main:178 :: Contact IG-88 already exists
+ERROR :: 2021-10-19 15:33:06,821 :: app.main:178 :: Contact Bossk already exists
+ERROR :: 2021-10-19 15:33:06,826 :: app.main:178 :: Contact Lando Calrissian already exists
+ERROR :: 2021-10-19 15:33:06,830 :: app.main:178 :: Contact Lobot already exists
+ERROR :: 2021-10-19 15:33:06,835 :: app.main:178 :: Contact Ackbar already exists
+ERROR :: 2021-10-19 15:33:06,840 :: app.main:178 :: Contact Mon Mothma already exists
+ERROR :: 2021-10-19 15:33:06,844 :: app.main:178 :: Contact Arvel Crynyd already exists
+ERROR :: 2021-10-19 15:33:06,849 :: app.main:178 :: Contact Wicket Systri Warrick already exists
+ERROR :: 2021-10-19 15:33:06,854 :: app.main:178 :: Contact Nien Nunb already exists
+ERROR :: 2021-10-19 15:33:06,859 :: app.main:178 :: Contact Qui-Gon Jinn already exists
+ERROR :: 2021-10-19 15:33:06,863 :: app.main:178 :: Contact Nute Gunray already exists
+ERROR :: 2021-10-19 15:33:06,869 :: app.main:178 :: Contact Finis Valorum already exists
+ERROR :: 2021-10-19 15:33:06,873 :: app.main:178 :: Contact Padmé Amidala already exists
+ERROR :: 2021-10-19 15:33:06,878 :: app.main:178 :: Contact Jar Jar Binks already exists
+ERROR :: 2021-10-19 15:33:06,883 :: app.main:178 :: Contact Roos Tarpals already exists
+ERROR :: 2021-10-19 15:33:06,888 :: app.main:178 :: Contact Rugor Nass already exists
+ERROR :: 2021-10-19 15:33:06,893 :: app.main:178 :: Contact Ric Olié already exists
+ERROR :: 2021-10-19 15:33:06,897 :: app.main:178 :: Contact Watto already exists
+ERROR :: 2021-10-19 15:33:06,902 :: app.main:178 :: Contact Sebulba already exists
+ERROR :: 2021-10-19 15:33:06,907 :: app.main:178 :: Contact Quarsh Panaka already exists
+ERROR :: 2021-10-19 15:33:06,912 :: app.main:178 :: Contact Shmi Skywalker already exists
+ERROR :: 2021-10-19 15:33:06,917 :: app.main:178 :: Contact Darth Maul already exists
+ERROR :: 2021-10-19 15:33:06,921 :: app.main:178 :: Contact Bib Fortuna already exists
+ERROR :: 2021-10-19 15:33:06,926 :: app.main:178 :: Contact Ayla Secura already exists
+ERROR :: 2021-10-19 15:33:06,930 :: app.main:178 :: Contact Ratts Tyerel already exists
+ERROR :: 2021-10-19 15:33:06,935 :: app.main:178 :: Contact Dud Bolt already exists
+ERROR :: 2021-10-19 15:33:06,940 :: app.main:178 :: Contact Gasgano already exists
+ERROR :: 2021-10-19 15:33:06,945 :: app.main:178 :: Contact Ben Quadinaros already exists
+ERROR :: 2021-10-19 15:33:06,949 :: app.main:178 :: Contact Mace Windu already exists
+ERROR :: 2021-10-19 15:33:06,954 :: app.main:178 :: Contact Ki-Adi-Mundi already exists
+ERROR :: 2021-10-19 15:33:06,958 :: app.main:178 :: Contact Kit Fisto already exists
+ERROR :: 2021-10-19 15:33:06,963 :: app.main:178 :: Contact Eeth Koth already exists
+ERROR :: 2021-10-19 15:33:06,969 :: app.main:178 :: Contact Adi Gallia already exists
+ERROR :: 2021-10-19 15:33:06,974 :: app.main:178 :: Contact Saesee Tiin already exists
+ERROR :: 2021-10-19 15:33:06,978 :: app.main:178 :: Contact Yarael Poof already exists
+ERROR :: 2021-10-19 15:33:06,983 :: app.main:178 :: Contact Plo Koon already exists
+ERROR :: 2021-10-19 15:33:06,988 :: app.main:178 :: Contact Mas Amedda already exists
+ERROR :: 2021-10-19 15:33:06,993 :: app.main:178 :: Contact Gregar Typho already exists
+ERROR :: 2021-10-19 15:33:06,998 :: app.main:178 :: Contact Cordé already exists
+ERROR :: 2021-10-19 15:33:07,003 :: app.main:178 :: Contact Cliegg Lars already exists
+ERROR :: 2021-10-19 15:33:07,008 :: app.main:178 :: Contact Poggle the Lesser already exists
+ERROR :: 2021-10-19 15:33:07,013 :: app.main:178 :: Contact Luminara Unduli already exists
+ERROR :: 2021-10-19 15:33:07,018 :: app.main:178 :: Contact Barriss Offee already exists
+ERROR :: 2021-10-19 15:33:07,023 :: app.main:178 :: Contact Dormé already exists
+ERROR :: 2021-10-19 15:33:07,028 :: app.main:178 :: Contact Dooku already exists
+ERROR :: 2021-10-19 15:33:07,033 :: app.main:178 :: Contact Bail Prestor Organa already exists
+ERROR :: 2021-10-19 15:33:07,038 :: app.main:178 :: Contact Jango Fett already exists
+ERROR :: 2021-10-19 15:33:07,043 :: app.main:178 :: Contact Zam Wesell already exists
+ERROR :: 2021-10-19 15:33:07,047 :: app.main:178 :: Contact Dexter Jettster already exists
+ERROR :: 2021-10-19 15:33:07,052 :: app.main:178 :: Contact Lama Su already exists
+ERROR :: 2021-10-19 15:33:07,057 :: app.main:178 :: Contact Taun We already exists
+ERROR :: 2021-10-19 15:33:07,062 :: app.main:178 :: Contact Jocasta Nu already exists
+ERROR :: 2021-10-19 15:33:07,067 :: app.main:178 :: Contact R4-P17 already exists
+ERROR :: 2021-10-19 15:33:07,072 :: app.main:178 :: Contact Wat Tambor already exists
+ERROR :: 2021-10-19 15:33:07,077 :: app.main:178 :: Contact San Hill already exists
+ERROR :: 2021-10-19 15:33:07,082 :: app.main:178 :: Contact Shaak Ti already exists
+ERROR :: 2021-10-19 15:33:07,087 :: app.main:178 :: Contact Grievous already exists
+ERROR :: 2021-10-19 15:33:07,092 :: app.main:178 :: Contact Tarfful already exists
+ERROR :: 2021-10-19 15:33:07,097 :: app.main:178 :: Contact Raymus Antilles already exists
+ERROR :: 2021-10-19 15:33:07,102 :: app.main:178 :: Contact Sly Moore already exists
+ERROR :: 2021-10-19 15:33:07,107 :: app.main:178 :: Contact Tion Medon already exists
+INFO :: 2021-10-19 15:33:07,107 :: app.main:179 :: Adding contacts completed
+INFO :: 2021-10-19 15:42:22,764 :: app.main:185 :: Connection with Odoo established successfully
+INFO :: 2021-10-19 15:42:22,764 :: app.main:83 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 15:42:22,764 :: app.main:84 :: Getting planets and planet's data
+INFO :: 2021-10-19 15:42:24,964 :: app.main:86 :: 60 planets received
+INFO :: 2021-10-19 15:42:24,964 :: app.main:87 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 15:42:24,988 :: app.main:117 :: Planet Tatooine already exists
+ERROR :: 2021-10-19 15:42:25,010 :: app.main:117 :: Planet Alderaan already exists
+ERROR :: 2021-10-19 15:42:25,029 :: app.main:117 :: Planet Yavin IV already exists
+ERROR :: 2021-10-19 15:42:25,034 :: app.main:117 :: Planet Hoth already exists
+ERROR :: 2021-10-19 15:42:25,039 :: app.main:117 :: Planet Dagobah already exists
+ERROR :: 2021-10-19 15:42:25,044 :: app.main:117 :: Planet Bespin already exists
+ERROR :: 2021-10-19 15:42:25,049 :: app.main:117 :: Planet Endor already exists
+ERROR :: 2021-10-19 15:42:25,053 :: app.main:117 :: Planet Naboo already exists
+ERROR :: 2021-10-19 15:42:25,059 :: app.main:117 :: Planet Coruscant already exists
+ERROR :: 2021-10-19 15:42:25,063 :: app.main:117 :: Planet Kamino already exists
+ERROR :: 2021-10-19 15:42:25,068 :: app.main:117 :: Planet Geonosis already exists
+ERROR :: 2021-10-19 15:42:25,073 :: app.main:117 :: Planet Utapau already exists
+ERROR :: 2021-10-19 15:42:25,077 :: app.main:117 :: Planet Mustafar already exists
+ERROR :: 2021-10-19 15:42:25,082 :: app.main:117 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-19 15:42:25,087 :: app.main:117 :: Planet Polis Massa already exists
+ERROR :: 2021-10-19 15:42:25,092 :: app.main:117 :: Planet Mygeeto already exists
+ERROR :: 2021-10-19 15:42:25,096 :: app.main:117 :: Planet Felucia already exists
+ERROR :: 2021-10-19 15:42:25,101 :: app.main:117 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-19 15:42:25,106 :: app.main:117 :: Planet Saleucami already exists
+ERROR :: 2021-10-19 15:42:25,110 :: app.main:117 :: Planet Stewjon already exists
+ERROR :: 2021-10-19 15:42:25,115 :: app.main:117 :: Planet Eriadu already exists
+ERROR :: 2021-10-19 15:42:25,120 :: app.main:117 :: Planet Corellia already exists
+ERROR :: 2021-10-19 15:42:25,125 :: app.main:117 :: Planet Rodia already exists
+ERROR :: 2021-10-19 15:42:25,130 :: app.main:117 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-19 15:42:25,135 :: app.main:117 :: Planet Dantooine already exists
+ERROR :: 2021-10-19 15:42:25,139 :: app.main:117 :: Planet Bestine IV already exists
+ERROR :: 2021-10-19 15:42:25,144 :: app.main:117 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-19 15:42:25,149 :: app.main:117 :: Planet unknown already exists
+ERROR :: 2021-10-19 15:42:25,153 :: app.main:117 :: Planet Trandosha already exists
+ERROR :: 2021-10-19 15:42:25,158 :: app.main:117 :: Planet Socorro already exists
+ERROR :: 2021-10-19 15:42:25,163 :: app.main:117 :: Planet Mon Cala already exists
+ERROR :: 2021-10-19 15:42:25,168 :: app.main:117 :: Planet Chandrila already exists
+ERROR :: 2021-10-19 15:42:25,173 :: app.main:117 :: Planet Sullust already exists
+ERROR :: 2021-10-19 15:42:25,177 :: app.main:117 :: Planet Toydaria already exists
+ERROR :: 2021-10-19 15:42:25,182 :: app.main:117 :: Planet Malastare already exists
+ERROR :: 2021-10-19 15:42:25,187 :: app.main:117 :: Planet Dathomir already exists
+ERROR :: 2021-10-19 15:42:25,192 :: app.main:117 :: Planet Ryloth already exists
+ERROR :: 2021-10-19 15:42:25,196 :: app.main:117 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-19 15:42:25,201 :: app.main:117 :: Planet Vulpter already exists
+ERROR :: 2021-10-19 15:42:25,206 :: app.main:117 :: Planet Troiken already exists
+ERROR :: 2021-10-19 15:42:25,210 :: app.main:117 :: Planet Tund already exists
+ERROR :: 2021-10-19 15:42:25,215 :: app.main:117 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-19 15:42:25,220 :: app.main:117 :: Planet Cerea already exists
+ERROR :: 2021-10-19 15:42:25,225 :: app.main:117 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-19 15:42:25,229 :: app.main:117 :: Planet Iridonia already exists
+ERROR :: 2021-10-19 15:42:25,234 :: app.main:117 :: Planet Tholoth already exists
+ERROR :: 2021-10-19 15:42:25,238 :: app.main:117 :: Planet Iktotch already exists
+ERROR :: 2021-10-19 15:42:25,243 :: app.main:117 :: Planet Quermia already exists
+ERROR :: 2021-10-19 15:42:25,248 :: app.main:117 :: Planet Dorin already exists
+ERROR :: 2021-10-19 15:42:25,253 :: app.main:117 :: Planet Champala already exists
+ERROR :: 2021-10-19 15:42:25,258 :: app.main:117 :: Planet Mirial already exists
+ERROR :: 2021-10-19 15:42:25,263 :: app.main:117 :: Planet Serenno already exists
+ERROR :: 2021-10-19 15:42:25,268 :: app.main:117 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-19 15:42:25,272 :: app.main:117 :: Planet Zolan already exists
+ERROR :: 2021-10-19 15:42:25,278 :: app.main:117 :: Planet Ojom already exists
+ERROR :: 2021-10-19 15:42:25,282 :: app.main:117 :: Planet Skako already exists
+ERROR :: 2021-10-19 15:42:25,287 :: app.main:117 :: Planet Muunilinst already exists
+ERROR :: 2021-10-19 15:42:25,292 :: app.main:117 :: Planet Shili already exists
+ERROR :: 2021-10-19 15:42:25,296 :: app.main:117 :: Planet Kalee already exists
+ERROR :: 2021-10-19 15:42:25,301 :: app.main:117 :: Planet Umbara already exists
+INFO :: 2021-10-19 15:42:25,301 :: app.main:118 :: Adding planets completed
+INFO :: 2021-10-19 15:42:25,301 :: app.main:133 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 15:42:25,301 :: app.main:134 :: Getting contacts and contact's data
+ERROR :: 2021-10-19 15:42:44,701 :: app.main:183 :: Failed to connect to db
+INFO :: 2021-10-19 15:42:44,701 :: app.main:83 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 15:42:44,701 :: app.main:84 :: Getting planets and planet's data
+INFO :: 2021-10-19 15:42:46,818 :: app.main:86 :: 60 planets received
+INFO :: 2021-10-19 15:42:46,818 :: app.main:87 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 15:42:46,818 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,818 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,818 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,819 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,819 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,819 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,819 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,819 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,819 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,820 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,820 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,820 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,820 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,820 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,820 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,821 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,821 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,821 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,821 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,821 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,821 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,822 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,822 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,822 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,822 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,822 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,822 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,823 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,823 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,823 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,823 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,823 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,823 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,823 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,824 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,824 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,824 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,824 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,824 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,824 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,825 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,825 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,825 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,825 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,825 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,825 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,826 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,826 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,826 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,826 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,826 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,826 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,827 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,827 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,827 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,827 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,827 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,827 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,827 :: app.main:115 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:46,828 :: app.main:115 :: name 'models' is not defined
+INFO :: 2021-10-19 15:42:46,828 :: app.main:118 :: Adding planets completed
+INFO :: 2021-10-19 15:42:46,828 :: app.main:133 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 15:42:46,828 :: app.main:134 :: Getting contacts and contact's data
+INFO :: 2021-10-19 15:42:55,030 :: app.main:136 :: 82 contacts received
+INFO :: 2021-10-19 15:42:55,030 :: app.main:137 :: Started adding contacts to Odoo
+ERROR :: 2021-10-19 15:42:55,450 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:55,826 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:56,186 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:56,536 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:56,873 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:42:57,210 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:02,554 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:02,900 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:03,264 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:03,655 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:04,097 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:04,440 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:04,816 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:05,149 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:05,481 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:05,882 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:06,213 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:06,543 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:06,879 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:07,223 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:07,605 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:07,949 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:08,288 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:08,639 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:08,962 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:09,287 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:09,616 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:09,943 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:10,308 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:10,658 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:10,992 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:11,344 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:11,767 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:12,099 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:12,428 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:12,752 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:13,083 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:13,436 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:13,747 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:14,097 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:14,444 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:14,749 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:15,092 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:15,408 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:15,761 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:16,078 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:16,402 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:16,717 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:17,055 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:17,375 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:17,727 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:18,062 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:18,422 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:18,739 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:19,067 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:19,360 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:19,664 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:19,976 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:20,303 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:20,603 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:20,922 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:21,268 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:21,614 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:21,985 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:22,312 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:22,647 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:23,033 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:23,364 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:23,685 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:24,028 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:24,357 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:24,687 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:25,064 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:25,418 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:25,747 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:26,068 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:26,395 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:26,719 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:27,060 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:27,388 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:27,709 :: app.main:158 :: name 'models' is not defined
+ERROR :: 2021-10-19 15:43:28,042 :: app.main:158 :: name 'models' is not defined
+INFO :: 2021-10-19 15:43:28,042 :: app.main:174 :: Adding contacts completed
+ERROR :: 2021-10-19 15:43:33,480 :: app.main:183 :: Failed to connect to db
+INFO :: 2021-10-19 15:44:43,893 :: app.main:185 :: Connection with Odoo established successfully
+INFO :: 2021-10-19 15:44:43,893 :: app.main:83 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 15:44:43,893 :: app.main:84 :: Getting planets and planet's data
+INFO :: 2021-10-19 15:44:46,076 :: app.main:86 :: 60 planets received
+INFO :: 2021-10-19 15:44:46,077 :: app.main:87 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 15:44:46,100 :: app.main:117 :: Planet Tatooine already exists
+ERROR :: 2021-10-19 15:44:46,112 :: app.main:117 :: Planet Alderaan already exists
+ERROR :: 2021-10-19 15:44:46,117 :: app.main:117 :: Planet Yavin IV already exists
+ERROR :: 2021-10-19 15:44:46,122 :: app.main:117 :: Planet Hoth already exists
+ERROR :: 2021-10-19 15:44:46,127 :: app.main:117 :: Planet Dagobah already exists
+ERROR :: 2021-10-19 15:44:46,132 :: app.main:117 :: Planet Bespin already exists
+ERROR :: 2021-10-19 15:44:46,136 :: app.main:117 :: Planet Endor already exists
+ERROR :: 2021-10-19 15:44:46,141 :: app.main:117 :: Planet Naboo already exists
+ERROR :: 2021-10-19 15:44:46,146 :: app.main:117 :: Planet Coruscant already exists
+ERROR :: 2021-10-19 15:44:46,151 :: app.main:117 :: Planet Kamino already exists
+ERROR :: 2021-10-19 15:44:46,156 :: app.main:117 :: Planet Geonosis already exists
+ERROR :: 2021-10-19 15:44:46,161 :: app.main:117 :: Planet Utapau already exists
+ERROR :: 2021-10-19 15:44:46,165 :: app.main:117 :: Planet Mustafar already exists
+ERROR :: 2021-10-19 15:44:46,170 :: app.main:117 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-19 15:44:46,174 :: app.main:117 :: Planet Polis Massa already exists
+ERROR :: 2021-10-19 15:44:46,179 :: app.main:117 :: Planet Mygeeto already exists
+ERROR :: 2021-10-19 15:44:46,184 :: app.main:117 :: Planet Felucia already exists
+ERROR :: 2021-10-19 15:44:46,188 :: app.main:117 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-19 15:44:46,193 :: app.main:117 :: Planet Saleucami already exists
+ERROR :: 2021-10-19 15:44:46,197 :: app.main:117 :: Planet Stewjon already exists
+ERROR :: 2021-10-19 15:44:46,202 :: app.main:117 :: Planet Eriadu already exists
+ERROR :: 2021-10-19 15:44:46,207 :: app.main:117 :: Planet Corellia already exists
+ERROR :: 2021-10-19 15:44:46,212 :: app.main:117 :: Planet Rodia already exists
+ERROR :: 2021-10-19 15:44:46,217 :: app.main:117 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-19 15:44:46,221 :: app.main:117 :: Planet Dantooine already exists
+ERROR :: 2021-10-19 15:44:46,226 :: app.main:117 :: Planet Bestine IV already exists
+ERROR :: 2021-10-19 15:44:46,231 :: app.main:117 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-19 15:44:46,236 :: app.main:117 :: Planet unknown already exists
+ERROR :: 2021-10-19 15:44:46,241 :: app.main:117 :: Planet Trandosha already exists
+ERROR :: 2021-10-19 15:44:46,245 :: app.main:117 :: Planet Socorro already exists
+ERROR :: 2021-10-19 15:44:46,250 :: app.main:117 :: Planet Mon Cala already exists
+ERROR :: 2021-10-19 15:44:46,254 :: app.main:117 :: Planet Chandrila already exists
+ERROR :: 2021-10-19 15:44:46,259 :: app.main:117 :: Planet Sullust already exists
+ERROR :: 2021-10-19 15:44:46,264 :: app.main:117 :: Planet Toydaria already exists
+ERROR :: 2021-10-19 15:44:46,269 :: app.main:117 :: Planet Malastare already exists
+ERROR :: 2021-10-19 15:44:46,274 :: app.main:117 :: Planet Dathomir already exists
+ERROR :: 2021-10-19 15:44:46,278 :: app.main:117 :: Planet Ryloth already exists
+ERROR :: 2021-10-19 15:44:46,283 :: app.main:117 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-19 15:44:46,287 :: app.main:117 :: Planet Vulpter already exists
+ERROR :: 2021-10-19 15:44:46,292 :: app.main:117 :: Planet Troiken already exists
+ERROR :: 2021-10-19 15:44:46,297 :: app.main:117 :: Planet Tund already exists
+ERROR :: 2021-10-19 15:44:46,302 :: app.main:117 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-19 15:44:46,306 :: app.main:117 :: Planet Cerea already exists
+ERROR :: 2021-10-19 15:44:46,311 :: app.main:117 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-19 15:44:46,315 :: app.main:117 :: Planet Iridonia already exists
+ERROR :: 2021-10-19 15:44:46,320 :: app.main:117 :: Planet Tholoth already exists
+ERROR :: 2021-10-19 15:44:46,325 :: app.main:117 :: Planet Iktotch already exists
+ERROR :: 2021-10-19 15:44:46,330 :: app.main:117 :: Planet Quermia already exists
+ERROR :: 2021-10-19 15:44:46,335 :: app.main:117 :: Planet Dorin already exists
+ERROR :: 2021-10-19 15:44:46,340 :: app.main:117 :: Planet Champala already exists
+ERROR :: 2021-10-19 15:44:46,344 :: app.main:117 :: Planet Mirial already exists
+ERROR :: 2021-10-19 15:44:46,349 :: app.main:117 :: Planet Serenno already exists
+ERROR :: 2021-10-19 15:44:46,354 :: app.main:117 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-19 15:44:46,359 :: app.main:117 :: Planet Zolan already exists
+ERROR :: 2021-10-19 15:44:46,363 :: app.main:117 :: Planet Ojom already exists
+ERROR :: 2021-10-19 15:44:46,368 :: app.main:117 :: Planet Skako already exists
+ERROR :: 2021-10-19 15:44:46,373 :: app.main:117 :: Planet Muunilinst already exists
+ERROR :: 2021-10-19 15:44:46,377 :: app.main:117 :: Planet Shili already exists
+ERROR :: 2021-10-19 15:44:46,382 :: app.main:117 :: Planet Kalee already exists
+ERROR :: 2021-10-19 15:44:46,386 :: app.main:117 :: Planet Umbara already exists
+INFO :: 2021-10-19 15:44:46,386 :: app.main:118 :: Adding planets completed
+INFO :: 2021-10-19 15:44:46,386 :: app.main:133 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 15:44:46,386 :: app.main:134 :: Getting contacts and contact's data
+ERROR :: 2021-10-19 15:45:31,012 :: app.main:183 :: Failed to connect to db
+INFO :: 2021-10-19 15:45:41,922 :: app.main:185 :: Connection with Odoo established successfully
+INFO :: 2021-10-19 15:45:41,922 :: app.main:83 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 15:45:41,922 :: app.main:84 :: Getting planets and planet's data
+INFO :: 2021-10-19 15:45:44,042 :: app.main:86 :: 60 planets received
+INFO :: 2021-10-19 15:45:44,042 :: app.main:87 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 15:45:44,065 :: app.main:117 :: Planet Tatooine already exists
+ERROR :: 2021-10-19 15:45:44,088 :: app.main:117 :: Planet Alderaan already exists
+ERROR :: 2021-10-19 15:45:44,110 :: app.main:117 :: Planet Yavin IV already exists
+ERROR :: 2021-10-19 15:45:44,133 :: app.main:117 :: Planet Hoth already exists
+ERROR :: 2021-10-19 15:45:44,154 :: app.main:117 :: Planet Dagobah already exists
+ERROR :: 2021-10-19 15:45:44,177 :: app.main:117 :: Planet Bespin already exists
+ERROR :: 2021-10-19 15:45:44,199 :: app.main:117 :: Planet Endor already exists
+ERROR :: 2021-10-19 15:45:44,221 :: app.main:117 :: Planet Naboo already exists
+ERROR :: 2021-10-19 15:45:44,243 :: app.main:117 :: Planet Coruscant already exists
+ERROR :: 2021-10-19 15:45:44,265 :: app.main:117 :: Planet Kamino already exists
+ERROR :: 2021-10-19 15:45:44,287 :: app.main:117 :: Planet Geonosis already exists
+ERROR :: 2021-10-19 15:45:44,309 :: app.main:117 :: Planet Utapau already exists
+ERROR :: 2021-10-19 15:45:44,331 :: app.main:117 :: Planet Mustafar already exists
+ERROR :: 2021-10-19 15:45:44,353 :: app.main:117 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-19 15:45:44,375 :: app.main:117 :: Planet Polis Massa already exists
+ERROR :: 2021-10-19 15:45:44,397 :: app.main:117 :: Planet Mygeeto already exists
+ERROR :: 2021-10-19 15:45:44,420 :: app.main:117 :: Planet Felucia already exists
+ERROR :: 2021-10-19 15:45:44,442 :: app.main:117 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-19 15:45:44,464 :: app.main:117 :: Planet Saleucami already exists
+ERROR :: 2021-10-19 15:45:44,486 :: app.main:117 :: Planet Stewjon already exists
+ERROR :: 2021-10-19 15:45:44,508 :: app.main:117 :: Planet Eriadu already exists
+ERROR :: 2021-10-19 15:45:44,530 :: app.main:117 :: Planet Corellia already exists
+ERROR :: 2021-10-19 15:45:44,552 :: app.main:117 :: Planet Rodia already exists
+ERROR :: 2021-10-19 15:45:44,574 :: app.main:117 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-19 15:45:44,596 :: app.main:117 :: Planet Dantooine already exists
+ERROR :: 2021-10-19 15:45:44,619 :: app.main:117 :: Planet Bestine IV already exists
+ERROR :: 2021-10-19 15:45:44,641 :: app.main:117 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-19 15:45:44,662 :: app.main:117 :: Planet unknown already exists
+ERROR :: 2021-10-19 15:45:44,685 :: app.main:117 :: Planet Trandosha already exists
+ERROR :: 2021-10-19 15:45:44,707 :: app.main:117 :: Planet Socorro already exists
+ERROR :: 2021-10-19 15:45:44,729 :: app.main:117 :: Planet Mon Cala already exists
+ERROR :: 2021-10-19 15:45:44,751 :: app.main:117 :: Planet Chandrila already exists
+ERROR :: 2021-10-19 15:45:44,773 :: app.main:117 :: Planet Sullust already exists
+ERROR :: 2021-10-19 15:45:44,795 :: app.main:117 :: Planet Toydaria already exists
+ERROR :: 2021-10-19 15:45:44,817 :: app.main:117 :: Planet Malastare already exists
+ERROR :: 2021-10-19 15:45:44,839 :: app.main:117 :: Planet Dathomir already exists
+ERROR :: 2021-10-19 15:45:44,862 :: app.main:117 :: Planet Ryloth already exists
+ERROR :: 2021-10-19 15:45:44,885 :: app.main:117 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-19 15:45:44,907 :: app.main:117 :: Planet Vulpter already exists
+ERROR :: 2021-10-19 15:45:44,929 :: app.main:117 :: Planet Troiken already exists
+ERROR :: 2021-10-19 15:45:44,951 :: app.main:117 :: Planet Tund already exists
+ERROR :: 2021-10-19 15:45:44,970 :: app.main:117 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-19 15:45:44,986 :: app.main:117 :: Planet Cerea already exists
+ERROR :: 2021-10-19 15:45:45,002 :: app.main:117 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-19 15:45:45,018 :: app.main:117 :: Planet Iridonia already exists
+ERROR :: 2021-10-19 15:45:45,034 :: app.main:117 :: Planet Tholoth already exists
+ERROR :: 2021-10-19 15:45:45,050 :: app.main:117 :: Planet Iktotch already exists
+ERROR :: 2021-10-19 15:45:45,065 :: app.main:117 :: Planet Quermia already exists
+ERROR :: 2021-10-19 15:45:45,081 :: app.main:117 :: Planet Dorin already exists
+ERROR :: 2021-10-19 15:45:45,097 :: app.main:117 :: Planet Champala already exists
+ERROR :: 2021-10-19 15:45:45,113 :: app.main:117 :: Planet Mirial already exists
+ERROR :: 2021-10-19 15:45:45,130 :: app.main:117 :: Planet Serenno already exists
+ERROR :: 2021-10-19 15:45:45,146 :: app.main:117 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-19 15:45:45,161 :: app.main:117 :: Planet Zolan already exists
+ERROR :: 2021-10-19 15:45:45,177 :: app.main:117 :: Planet Ojom already exists
+ERROR :: 2021-10-19 15:45:45,193 :: app.main:117 :: Planet Skako already exists
+ERROR :: 2021-10-19 15:45:45,209 :: app.main:117 :: Planet Muunilinst already exists
+ERROR :: 2021-10-19 15:45:45,226 :: app.main:117 :: Planet Shili already exists
+ERROR :: 2021-10-19 15:45:45,242 :: app.main:117 :: Planet Kalee already exists
+ERROR :: 2021-10-19 15:45:45,257 :: app.main:117 :: Planet Umbara already exists
+INFO :: 2021-10-19 15:45:45,258 :: app.main:118 :: Adding planets completed
+INFO :: 2021-10-19 15:45:45,258 :: app.main:133 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 15:45:45,258 :: app.main:134 :: Getting contacts and contact's data
+INFO :: 2021-10-19 15:45:54,049 :: app.main:136 :: 82 contacts received
+INFO :: 2021-10-19 15:45:54,049 :: app.main:137 :: Started adding contacts to Odoo
+ERROR :: 2021-10-19 15:45:54,070 :: app.main:173 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-19 15:45:54,076 :: app.main:173 :: Contact C-3PO already exists
+ERROR :: 2021-10-19 15:45:54,081 :: app.main:173 :: Contact R2-D2 already exists
+ERROR :: 2021-10-19 15:45:54,087 :: app.main:173 :: Contact Darth Vader already exists
+ERROR :: 2021-10-19 15:45:54,092 :: app.main:173 :: Contact Leia Organa already exists
+ERROR :: 2021-10-19 15:45:54,097 :: app.main:173 :: Contact Owen Lars already exists
+ERROR :: 2021-10-19 15:45:54,102 :: app.main:173 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-19 15:45:54,107 :: app.main:173 :: Contact R5-D4 already exists
+ERROR :: 2021-10-19 15:45:54,112 :: app.main:173 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-19 15:45:54,117 :: app.main:173 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-19 15:45:54,122 :: app.main:173 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-19 15:45:54,127 :: app.main:173 :: Contact Wilhuff Tarkin already exists
+ERROR :: 2021-10-19 15:45:54,132 :: app.main:173 :: Contact Chewbacca already exists
+ERROR :: 2021-10-19 15:45:54,137 :: app.main:173 :: Contact Han Solo already exists
+ERROR :: 2021-10-19 15:45:54,141 :: app.main:173 :: Contact Greedo already exists
+ERROR :: 2021-10-19 15:45:54,146 :: app.main:173 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-19 15:45:54,151 :: app.main:173 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-19 15:45:54,156 :: app.main:173 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-19 15:45:54,161 :: app.main:173 :: Contact Yoda already exists
+ERROR :: 2021-10-19 15:45:54,165 :: app.main:173 :: Contact Palpatine already exists
+ERROR :: 2021-10-19 15:45:54,170 :: app.main:173 :: Contact Boba Fett already exists
+ERROR :: 2021-10-19 15:45:54,175 :: app.main:173 :: Contact IG-88 already exists
+ERROR :: 2021-10-19 15:45:54,179 :: app.main:173 :: Contact Bossk already exists
+ERROR :: 2021-10-19 15:45:54,184 :: app.main:173 :: Contact Lando Calrissian already exists
+ERROR :: 2021-10-19 15:45:54,189 :: app.main:173 :: Contact Lobot already exists
+ERROR :: 2021-10-19 15:45:54,194 :: app.main:173 :: Contact Ackbar already exists
+ERROR :: 2021-10-19 15:45:54,198 :: app.main:173 :: Contact Mon Mothma already exists
+ERROR :: 2021-10-19 15:45:54,203 :: app.main:173 :: Contact Arvel Crynyd already exists
+ERROR :: 2021-10-19 15:45:54,208 :: app.main:173 :: Contact Wicket Systri Warrick already exists
+ERROR :: 2021-10-19 15:45:54,213 :: app.main:173 :: Contact Nien Nunb already exists
+ERROR :: 2021-10-19 15:45:54,217 :: app.main:173 :: Contact Qui-Gon Jinn already exists
+ERROR :: 2021-10-19 15:45:54,222 :: app.main:173 :: Contact Nute Gunray already exists
+ERROR :: 2021-10-19 15:45:54,227 :: app.main:173 :: Contact Finis Valorum already exists
+ERROR :: 2021-10-19 15:45:54,232 :: app.main:173 :: Contact Padmé Amidala already exists
+ERROR :: 2021-10-19 15:45:54,237 :: app.main:173 :: Contact Jar Jar Binks already exists
+ERROR :: 2021-10-19 15:45:54,242 :: app.main:173 :: Contact Roos Tarpals already exists
+ERROR :: 2021-10-19 15:45:54,247 :: app.main:173 :: Contact Rugor Nass already exists
+ERROR :: 2021-10-19 15:45:54,252 :: app.main:173 :: Contact Ric Olié already exists
+ERROR :: 2021-10-19 15:45:54,256 :: app.main:173 :: Contact Watto already exists
+ERROR :: 2021-10-19 15:45:54,261 :: app.main:173 :: Contact Sebulba already exists
+ERROR :: 2021-10-19 15:45:54,266 :: app.main:173 :: Contact Quarsh Panaka already exists
+ERROR :: 2021-10-19 15:45:54,271 :: app.main:173 :: Contact Shmi Skywalker already exists
+ERROR :: 2021-10-19 15:45:54,275 :: app.main:173 :: Contact Darth Maul already exists
+ERROR :: 2021-10-19 15:45:54,281 :: app.main:173 :: Contact Bib Fortuna already exists
+ERROR :: 2021-10-19 15:45:54,286 :: app.main:173 :: Contact Ayla Secura already exists
+ERROR :: 2021-10-19 15:45:54,291 :: app.main:173 :: Contact Ratts Tyerel already exists
+ERROR :: 2021-10-19 15:45:54,295 :: app.main:173 :: Contact Dud Bolt already exists
+ERROR :: 2021-10-19 15:45:54,300 :: app.main:173 :: Contact Gasgano already exists
+ERROR :: 2021-10-19 15:45:54,305 :: app.main:173 :: Contact Ben Quadinaros already exists
+ERROR :: 2021-10-19 15:45:54,310 :: app.main:173 :: Contact Mace Windu already exists
+ERROR :: 2021-10-19 15:45:54,314 :: app.main:173 :: Contact Ki-Adi-Mundi already exists
+ERROR :: 2021-10-19 15:45:54,319 :: app.main:173 :: Contact Kit Fisto already exists
+ERROR :: 2021-10-19 15:45:54,324 :: app.main:173 :: Contact Eeth Koth already exists
+ERROR :: 2021-10-19 15:45:54,329 :: app.main:173 :: Contact Adi Gallia already exists
+ERROR :: 2021-10-19 15:45:54,334 :: app.main:173 :: Contact Saesee Tiin already exists
+ERROR :: 2021-10-19 15:45:54,339 :: app.main:173 :: Contact Yarael Poof already exists
+ERROR :: 2021-10-19 15:45:54,344 :: app.main:173 :: Contact Plo Koon already exists
+ERROR :: 2021-10-19 15:45:54,348 :: app.main:173 :: Contact Mas Amedda already exists
+ERROR :: 2021-10-19 15:45:54,353 :: app.main:173 :: Contact Gregar Typho already exists
+ERROR :: 2021-10-19 15:45:54,358 :: app.main:173 :: Contact Cordé already exists
+ERROR :: 2021-10-19 15:45:54,363 :: app.main:173 :: Contact Cliegg Lars already exists
+ERROR :: 2021-10-19 15:45:54,368 :: app.main:173 :: Contact Poggle the Lesser already exists
+ERROR :: 2021-10-19 15:45:54,373 :: app.main:173 :: Contact Luminara Unduli already exists
+ERROR :: 2021-10-19 15:45:54,378 :: app.main:173 :: Contact Barriss Offee already exists
+ERROR :: 2021-10-19 15:45:54,383 :: app.main:173 :: Contact Dormé already exists
+ERROR :: 2021-10-19 15:45:54,387 :: app.main:173 :: Contact Dooku already exists
+ERROR :: 2021-10-19 15:45:54,393 :: app.main:173 :: Contact Bail Prestor Organa already exists
+ERROR :: 2021-10-19 15:45:54,398 :: app.main:173 :: Contact Jango Fett already exists
+ERROR :: 2021-10-19 15:45:54,403 :: app.main:173 :: Contact Zam Wesell already exists
+ERROR :: 2021-10-19 15:45:54,407 :: app.main:173 :: Contact Dexter Jettster already exists
+ERROR :: 2021-10-19 15:45:54,412 :: app.main:173 :: Contact Lama Su already exists
+ERROR :: 2021-10-19 15:45:54,417 :: app.main:173 :: Contact Taun We already exists
+ERROR :: 2021-10-19 15:45:54,421 :: app.main:173 :: Contact Jocasta Nu already exists
+ERROR :: 2021-10-19 15:45:54,426 :: app.main:173 :: Contact R4-P17 already exists
+ERROR :: 2021-10-19 15:45:54,431 :: app.main:173 :: Contact Wat Tambor already exists
+ERROR :: 2021-10-19 15:45:54,436 :: app.main:173 :: Contact San Hill already exists
+ERROR :: 2021-10-19 15:45:54,441 :: app.main:173 :: Contact Shaak Ti already exists
+ERROR :: 2021-10-19 15:45:54,446 :: app.main:173 :: Contact Grievous already exists
+ERROR :: 2021-10-19 15:45:54,451 :: app.main:173 :: Contact Tarfful already exists
+ERROR :: 2021-10-19 15:45:54,456 :: app.main:173 :: Contact Raymus Antilles already exists
+ERROR :: 2021-10-19 15:45:54,461 :: app.main:173 :: Contact Sly Moore already exists
+ERROR :: 2021-10-19 15:45:54,465 :: app.main:173 :: Contact Tion Medon already exists
+INFO :: 2021-10-19 15:45:54,466 :: app.main:174 :: Adding contacts completed
+INFO :: 2021-10-19 15:47:46,924 :: app.main:185 :: Connection with Odoo established successfully
+INFO :: 2021-10-19 15:47:46,925 :: app.main:83 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 15:47:46,925 :: app.main:84 :: Getting planets and planet's data
+INFO :: 2021-10-19 15:47:49,281 :: app.main:86 :: 60 planets received
+INFO :: 2021-10-19 15:47:49,281 :: app.main:87 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 15:47:49,299 :: app.main:117 :: Planet Tatooine already exists
+ERROR :: 2021-10-19 15:47:49,305 :: app.main:117 :: Planet Alderaan already exists
+ERROR :: 2021-10-19 15:47:49,310 :: app.main:117 :: Planet Yavin IV already exists
+ERROR :: 2021-10-19 15:47:49,317 :: app.main:117 :: Planet Hoth already exists
+ERROR :: 2021-10-19 15:47:49,322 :: app.main:117 :: Planet Dagobah already exists
+ERROR :: 2021-10-19 15:47:49,327 :: app.main:117 :: Planet Bespin already exists
+ERROR :: 2021-10-19 15:47:49,332 :: app.main:117 :: Planet Endor already exists
+ERROR :: 2021-10-19 15:47:49,337 :: app.main:117 :: Planet Naboo already exists
+ERROR :: 2021-10-19 15:47:49,342 :: app.main:117 :: Planet Coruscant already exists
+ERROR :: 2021-10-19 15:47:49,347 :: app.main:117 :: Planet Kamino already exists
+ERROR :: 2021-10-19 15:47:49,352 :: app.main:117 :: Planet Geonosis already exists
+ERROR :: 2021-10-19 15:47:49,356 :: app.main:117 :: Planet Utapau already exists
+ERROR :: 2021-10-19 15:47:49,361 :: app.main:117 :: Planet Mustafar already exists
+ERROR :: 2021-10-19 15:47:49,365 :: app.main:117 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-19 15:47:49,370 :: app.main:117 :: Planet Polis Massa already exists
+ERROR :: 2021-10-19 15:47:49,375 :: app.main:117 :: Planet Mygeeto already exists
+ERROR :: 2021-10-19 15:47:49,380 :: app.main:117 :: Planet Felucia already exists
+ERROR :: 2021-10-19 15:47:49,385 :: app.main:117 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-19 15:47:49,389 :: app.main:117 :: Planet Saleucami already exists
+ERROR :: 2021-10-19 15:47:49,394 :: app.main:117 :: Planet Stewjon already exists
+ERROR :: 2021-10-19 15:47:49,398 :: app.main:117 :: Planet Eriadu already exists
+ERROR :: 2021-10-19 15:47:49,403 :: app.main:117 :: Planet Corellia already exists
+ERROR :: 2021-10-19 15:47:49,408 :: app.main:117 :: Planet Rodia already exists
+ERROR :: 2021-10-19 15:47:49,412 :: app.main:117 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-19 15:47:49,417 :: app.main:117 :: Planet Dantooine already exists
+ERROR :: 2021-10-19 15:47:49,421 :: app.main:117 :: Planet Bestine IV already exists
+ERROR :: 2021-10-19 15:47:49,426 :: app.main:117 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-19 15:47:49,450 :: app.main:117 :: Planet unknown already exists
+ERROR :: 2021-10-19 15:47:49,455 :: app.main:117 :: Planet Trandosha already exists
+ERROR :: 2021-10-19 15:47:49,459 :: app.main:117 :: Planet Socorro already exists
+ERROR :: 2021-10-19 15:47:49,464 :: app.main:117 :: Planet Mon Cala already exists
+ERROR :: 2021-10-19 15:47:49,469 :: app.main:117 :: Planet Chandrila already exists
+ERROR :: 2021-10-19 15:47:49,474 :: app.main:117 :: Planet Sullust already exists
+ERROR :: 2021-10-19 15:47:49,478 :: app.main:117 :: Planet Toydaria already exists
+ERROR :: 2021-10-19 15:47:49,483 :: app.main:117 :: Planet Malastare already exists
+ERROR :: 2021-10-19 15:47:49,487 :: app.main:117 :: Planet Dathomir already exists
+ERROR :: 2021-10-19 15:47:49,492 :: app.main:117 :: Planet Ryloth already exists
+ERROR :: 2021-10-19 15:47:49,497 :: app.main:117 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-19 15:47:49,502 :: app.main:117 :: Planet Vulpter already exists
+ERROR :: 2021-10-19 15:47:49,507 :: app.main:117 :: Planet Troiken already exists
+ERROR :: 2021-10-19 15:47:49,511 :: app.main:117 :: Planet Tund already exists
+ERROR :: 2021-10-19 15:47:49,516 :: app.main:117 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-19 15:47:49,520 :: app.main:117 :: Planet Cerea already exists
+ERROR :: 2021-10-19 15:47:49,525 :: app.main:117 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-19 15:47:49,530 :: app.main:117 :: Planet Iridonia already exists
+ERROR :: 2021-10-19 15:47:49,535 :: app.main:117 :: Planet Tholoth already exists
+ERROR :: 2021-10-19 15:47:49,539 :: app.main:117 :: Planet Iktotch already exists
+ERROR :: 2021-10-19 15:47:49,544 :: app.main:117 :: Planet Quermia already exists
+ERROR :: 2021-10-19 15:47:49,548 :: app.main:117 :: Planet Dorin already exists
+ERROR :: 2021-10-19 15:47:49,553 :: app.main:117 :: Planet Champala already exists
+ERROR :: 2021-10-19 15:47:49,557 :: app.main:117 :: Planet Mirial already exists
+ERROR :: 2021-10-19 15:47:49,562 :: app.main:117 :: Planet Serenno already exists
+ERROR :: 2021-10-19 15:47:49,567 :: app.main:117 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-19 15:47:49,571 :: app.main:117 :: Planet Zolan already exists
+ERROR :: 2021-10-19 15:47:49,576 :: app.main:117 :: Planet Ojom already exists
+ERROR :: 2021-10-19 15:47:49,580 :: app.main:117 :: Planet Skako already exists
+ERROR :: 2021-10-19 15:47:49,585 :: app.main:117 :: Planet Muunilinst already exists
+ERROR :: 2021-10-19 15:47:49,590 :: app.main:117 :: Planet Shili already exists
+ERROR :: 2021-10-19 15:47:49,595 :: app.main:117 :: Planet Kalee already exists
+ERROR :: 2021-10-19 15:47:49,599 :: app.main:117 :: Planet Umbara already exists
+INFO :: 2021-10-19 15:47:49,600 :: app.main:118 :: Adding planets completed
+INFO :: 2021-10-19 15:47:49,600 :: app.main:133 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 15:47:49,600 :: app.main:134 :: Getting contacts and contact's data
+INFO :: 2021-10-19 15:47:53,793 :: app.main:136 :: 82 contacts received
+INFO :: 2021-10-19 15:47:53,793 :: app.main:137 :: Started adding contacts to Odoo
+INFO :: 2021-10-19 15:47:54,244 :: app.main:155 :: Successfully added: Contact Luke Skywalker, remote system ID=[1], Odoo ID=[2902]
+INFO :: 2021-10-19 15:47:54,801 :: app.main:169 :: Successfully added: Contact Luke Skywalker photo added
+INFO :: 2021-10-19 15:47:55,255 :: app.main:155 :: Successfully added: Contact C-3PO, remote system ID=[2], Odoo ID=[2903]
+INFO :: 2021-10-19 15:47:55,952 :: app.main:169 :: Successfully added: Contact C-3PO photo added
+INFO :: 2021-10-19 15:47:56,397 :: app.main:155 :: Successfully added: Contact R2-D2, remote system ID=[3], Odoo ID=[2904]
+INFO :: 2021-10-19 15:47:56,899 :: app.main:169 :: Successfully added: Contact R2-D2 photo added
+INFO :: 2021-10-19 15:50:58,236 :: app.main:185 :: Connection with Odoo established successfully
+INFO :: 2021-10-19 15:50:58,236 :: app.main:83 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 15:50:58,236 :: app.main:84 :: Getting planets and planet's data
+INFO :: 2021-10-19 15:51:00,344 :: app.main:86 :: 60 planets received
+INFO :: 2021-10-19 15:51:00,344 :: app.main:87 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 15:51:00,367 :: app.main:117 :: Planet Tatooine already exists
+ERROR :: 2021-10-19 15:51:00,380 :: app.main:117 :: Planet Alderaan already exists
+ERROR :: 2021-10-19 15:51:00,385 :: app.main:117 :: Planet Yavin IV already exists
+ERROR :: 2021-10-19 15:51:00,390 :: app.main:117 :: Planet Hoth already exists
+ERROR :: 2021-10-19 15:51:00,395 :: app.main:117 :: Planet Dagobah already exists
+ERROR :: 2021-10-19 15:51:00,399 :: app.main:117 :: Planet Bespin already exists
+ERROR :: 2021-10-19 15:51:00,404 :: app.main:117 :: Planet Endor already exists
+ERROR :: 2021-10-19 15:51:00,408 :: app.main:117 :: Planet Naboo already exists
+ERROR :: 2021-10-19 15:51:00,413 :: app.main:117 :: Planet Coruscant already exists
+ERROR :: 2021-10-19 15:51:00,417 :: app.main:117 :: Planet Kamino already exists
+ERROR :: 2021-10-19 15:51:00,422 :: app.main:117 :: Planet Geonosis already exists
+ERROR :: 2021-10-19 15:51:00,426 :: app.main:117 :: Planet Utapau already exists
+ERROR :: 2021-10-19 15:51:00,431 :: app.main:117 :: Planet Mustafar already exists
+ERROR :: 2021-10-19 15:51:00,435 :: app.main:117 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-19 15:51:00,440 :: app.main:117 :: Planet Polis Massa already exists
+ERROR :: 2021-10-19 15:51:00,444 :: app.main:117 :: Planet Mygeeto already exists
+ERROR :: 2021-10-19 15:51:00,449 :: app.main:117 :: Planet Felucia already exists
+ERROR :: 2021-10-19 15:51:00,453 :: app.main:117 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-19 15:51:00,457 :: app.main:117 :: Planet Saleucami already exists
+ERROR :: 2021-10-19 15:51:00,462 :: app.main:117 :: Planet Stewjon already exists
+ERROR :: 2021-10-19 15:51:00,466 :: app.main:117 :: Planet Eriadu already exists
+ERROR :: 2021-10-19 15:51:00,471 :: app.main:117 :: Planet Corellia already exists
+ERROR :: 2021-10-19 15:51:00,476 :: app.main:117 :: Planet Rodia already exists
+ERROR :: 2021-10-19 15:51:00,480 :: app.main:117 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-19 15:51:00,484 :: app.main:117 :: Planet Dantooine already exists
+ERROR :: 2021-10-19 15:51:00,489 :: app.main:117 :: Planet Bestine IV already exists
+ERROR :: 2021-10-19 15:51:00,493 :: app.main:117 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-19 15:51:00,497 :: app.main:117 :: Planet unknown already exists
+ERROR :: 2021-10-19 15:51:00,502 :: app.main:117 :: Planet Trandosha already exists
+ERROR :: 2021-10-19 15:51:00,506 :: app.main:117 :: Planet Socorro already exists
+ERROR :: 2021-10-19 15:51:00,511 :: app.main:117 :: Planet Mon Cala already exists
+ERROR :: 2021-10-19 15:51:00,515 :: app.main:117 :: Planet Chandrila already exists
+ERROR :: 2021-10-19 15:51:00,519 :: app.main:117 :: Planet Sullust already exists
+ERROR :: 2021-10-19 15:51:00,524 :: app.main:117 :: Planet Toydaria already exists
+ERROR :: 2021-10-19 15:51:00,528 :: app.main:117 :: Planet Malastare already exists
+ERROR :: 2021-10-19 15:51:00,533 :: app.main:117 :: Planet Dathomir already exists
+ERROR :: 2021-10-19 15:51:00,538 :: app.main:117 :: Planet Ryloth already exists
+ERROR :: 2021-10-19 15:51:00,542 :: app.main:117 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-19 15:51:00,547 :: app.main:117 :: Planet Vulpter already exists
+ERROR :: 2021-10-19 15:51:00,552 :: app.main:117 :: Planet Troiken already exists
+ERROR :: 2021-10-19 15:51:00,556 :: app.main:117 :: Planet Tund already exists
+ERROR :: 2021-10-19 15:51:00,561 :: app.main:117 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-19 15:51:00,566 :: app.main:117 :: Planet Cerea already exists
+ERROR :: 2021-10-19 15:51:00,570 :: app.main:117 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-19 15:51:00,574 :: app.main:117 :: Planet Iridonia already exists
+ERROR :: 2021-10-19 15:51:00,579 :: app.main:117 :: Planet Tholoth already exists
+ERROR :: 2021-10-19 15:51:00,583 :: app.main:117 :: Planet Iktotch already exists
+ERROR :: 2021-10-19 15:51:00,587 :: app.main:117 :: Planet Quermia already exists
+ERROR :: 2021-10-19 15:51:00,592 :: app.main:117 :: Planet Dorin already exists
+ERROR :: 2021-10-19 15:51:00,596 :: app.main:117 :: Planet Champala already exists
+ERROR :: 2021-10-19 15:51:00,601 :: app.main:117 :: Planet Mirial already exists
+ERROR :: 2021-10-19 15:51:00,605 :: app.main:117 :: Planet Serenno already exists
+ERROR :: 2021-10-19 15:51:00,610 :: app.main:117 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-19 15:51:00,614 :: app.main:117 :: Planet Zolan already exists
+ERROR :: 2021-10-19 15:51:00,618 :: app.main:117 :: Planet Ojom already exists
+ERROR :: 2021-10-19 15:51:00,623 :: app.main:117 :: Planet Skako already exists
+ERROR :: 2021-10-19 15:51:00,628 :: app.main:117 :: Planet Muunilinst already exists
+ERROR :: 2021-10-19 15:51:00,632 :: app.main:117 :: Planet Shili already exists
+ERROR :: 2021-10-19 15:51:00,637 :: app.main:117 :: Planet Kalee already exists
+ERROR :: 2021-10-19 15:51:00,641 :: app.main:117 :: Planet Umbara already exists
+INFO :: 2021-10-19 15:51:00,641 :: app.main:118 :: Adding planets completed
+INFO :: 2021-10-19 15:51:00,641 :: app.main:133 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 15:51:00,641 :: app.main:134 :: Getting contacts and contact's data
+INFO :: 2021-10-19 15:51:05,075 :: app.main:136 :: 82 contacts received
+INFO :: 2021-10-19 15:51:05,075 :: app.main:137 :: Started adding contacts to Odoo
+ERROR :: 2021-10-19 15:51:05,099 :: app.main:173 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-19 15:51:05,122 :: app.main:173 :: Contact C-3PO already exists
+ERROR :: 2021-10-19 15:51:05,146 :: app.main:173 :: Contact R2-D2 already exists
+INFO :: 2021-10-19 15:51:05,642 :: app.main:155 :: Successfully added: Contact Darth Vader, remote system ID=[4], Odoo ID=[2905]
+WARNING :: 2021-10-19 15:51:06,261 :: app.main:171 :: Error adding photo: people Darth Vader
+INFO :: 2021-10-19 15:51:06,689 :: app.main:155 :: Successfully added: Contact Leia Organa, remote system ID=[5], Odoo ID=[2906]
+WARNING :: 2021-10-19 15:51:07,310 :: app.main:171 :: Error adding photo: people Leia Organa
+INFO :: 2021-10-19 15:51:07,719 :: app.main:155 :: Successfully added: Contact Owen Lars, remote system ID=[6], Odoo ID=[2907]
+WARNING :: 2021-10-19 15:51:08,191 :: app.main:171 :: Error adding photo: people Owen Lars
+INFO :: 2021-10-19 15:51:08,589 :: app.main:155 :: Successfully added: Contact Beru Whitesun lars, remote system ID=[7], Odoo ID=[2908]
+WARNING :: 2021-10-19 15:51:09,485 :: app.main:171 :: Error adding photo: people Beru Whitesun lars
+INFO :: 2021-10-19 15:51:09,964 :: app.main:155 :: Successfully added: Contact R5-D4, remote system ID=[8], Odoo ID=[2909]
+WARNING :: 2021-10-19 15:51:10,273 :: app.main:171 :: Error adding photo: people R5-D4
+INFO :: 2021-10-19 15:51:10,729 :: app.main:155 :: Successfully added: Contact Biggs Darklighter, remote system ID=[9], Odoo ID=[2910]
+WARNING :: 2021-10-19 15:51:10,999 :: app.main:171 :: Error adding photo: people Biggs Darklighter
+INFO :: 2021-10-19 15:51:11,495 :: app.main:155 :: Successfully added: Contact Obi-Wan Kenobi, remote system ID=[10], Odoo ID=[2911]
+WARNING :: 2021-10-19 15:51:12,193 :: app.main:171 :: Error adding photo: people Obi-Wan Kenobi
+INFO :: 2021-10-19 15:51:12,624 :: app.main:155 :: Successfully added: Contact Anakin Skywalker, remote system ID=[11], Odoo ID=[2912]
+WARNING :: 2021-10-19 15:51:12,866 :: app.main:171 :: Error adding photo: people Anakin Skywalker
+INFO :: 2021-10-19 15:52:10,316 :: app.main:186 :: Connection with Odoo established successfully
+INFO :: 2021-10-19 15:52:10,316 :: app.main:83 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 15:52:10,316 :: app.main:84 :: Getting planets and planet's data
+INFO :: 2021-10-19 15:52:12,413 :: app.main:86 :: 60 planets received
+INFO :: 2021-10-19 15:52:12,414 :: app.main:87 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 15:52:12,437 :: app.main:117 :: Planet Tatooine already exists
+ERROR :: 2021-10-19 15:52:12,461 :: app.main:117 :: Planet Alderaan already exists
+ERROR :: 2021-10-19 15:52:12,483 :: app.main:117 :: Planet Yavin IV already exists
+ERROR :: 2021-10-19 15:52:12,505 :: app.main:117 :: Planet Hoth already exists
+ERROR :: 2021-10-19 15:52:12,528 :: app.main:117 :: Planet Dagobah already exists
+ERROR :: 2021-10-19 15:52:12,550 :: app.main:117 :: Planet Bespin already exists
+ERROR :: 2021-10-19 15:52:12,572 :: app.main:117 :: Planet Endor already exists
+ERROR :: 2021-10-19 15:52:12,595 :: app.main:117 :: Planet Naboo already exists
+ERROR :: 2021-10-19 15:52:12,618 :: app.main:117 :: Planet Coruscant already exists
+ERROR :: 2021-10-19 15:52:12,640 :: app.main:117 :: Planet Kamino already exists
+ERROR :: 2021-10-19 15:52:12,663 :: app.main:117 :: Planet Geonosis already exists
+ERROR :: 2021-10-19 15:52:12,685 :: app.main:117 :: Planet Utapau already exists
+ERROR :: 2021-10-19 15:52:12,708 :: app.main:117 :: Planet Mustafar already exists
+ERROR :: 2021-10-19 15:52:12,730 :: app.main:117 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-19 15:52:12,752 :: app.main:117 :: Planet Polis Massa already exists
+ERROR :: 2021-10-19 15:52:12,774 :: app.main:117 :: Planet Mygeeto already exists
+ERROR :: 2021-10-19 15:52:12,797 :: app.main:117 :: Planet Felucia already exists
+ERROR :: 2021-10-19 15:52:12,819 :: app.main:117 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-19 15:52:12,841 :: app.main:117 :: Planet Saleucami already exists
+ERROR :: 2021-10-19 15:52:12,863 :: app.main:117 :: Planet Stewjon already exists
+ERROR :: 2021-10-19 15:52:12,886 :: app.main:117 :: Planet Eriadu already exists
+ERROR :: 2021-10-19 15:52:12,908 :: app.main:117 :: Planet Corellia already exists
+ERROR :: 2021-10-19 15:52:12,930 :: app.main:117 :: Planet Rodia already exists
+ERROR :: 2021-10-19 15:52:12,952 :: app.main:117 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-19 15:52:12,975 :: app.main:117 :: Planet Dantooine already exists
+ERROR :: 2021-10-19 15:52:12,996 :: app.main:117 :: Planet Bestine IV already exists
+ERROR :: 2021-10-19 15:52:13,019 :: app.main:117 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-19 15:52:13,042 :: app.main:117 :: Planet unknown already exists
+ERROR :: 2021-10-19 15:52:13,064 :: app.main:117 :: Planet Trandosha already exists
+ERROR :: 2021-10-19 15:52:13,087 :: app.main:117 :: Planet Socorro already exists
+ERROR :: 2021-10-19 15:52:13,109 :: app.main:117 :: Planet Mon Cala already exists
+ERROR :: 2021-10-19 15:52:13,130 :: app.main:117 :: Planet Chandrila already exists
+ERROR :: 2021-10-19 15:52:13,153 :: app.main:117 :: Planet Sullust already exists
+ERROR :: 2021-10-19 15:52:13,175 :: app.main:117 :: Planet Toydaria already exists
+ERROR :: 2021-10-19 15:52:13,197 :: app.main:117 :: Planet Malastare already exists
+ERROR :: 2021-10-19 15:52:13,220 :: app.main:117 :: Planet Dathomir already exists
+ERROR :: 2021-10-19 15:52:13,242 :: app.main:117 :: Planet Ryloth already exists
+ERROR :: 2021-10-19 15:52:13,264 :: app.main:117 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-19 15:52:13,287 :: app.main:117 :: Planet Vulpter already exists
+ERROR :: 2021-10-19 15:52:13,309 :: app.main:117 :: Planet Troiken already exists
+ERROR :: 2021-10-19 15:52:13,331 :: app.main:117 :: Planet Tund already exists
+ERROR :: 2021-10-19 15:52:13,353 :: app.main:117 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-19 15:52:13,375 :: app.main:117 :: Planet Cerea already exists
+ERROR :: 2021-10-19 15:52:13,398 :: app.main:117 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-19 15:52:13,420 :: app.main:117 :: Planet Iridonia already exists
+ERROR :: 2021-10-19 15:52:13,443 :: app.main:117 :: Planet Tholoth already exists
+ERROR :: 2021-10-19 15:52:13,465 :: app.main:117 :: Planet Iktotch already exists
+ERROR :: 2021-10-19 15:52:13,489 :: app.main:117 :: Planet Quermia already exists
+ERROR :: 2021-10-19 15:52:13,511 :: app.main:117 :: Planet Dorin already exists
+ERROR :: 2021-10-19 15:52:13,533 :: app.main:117 :: Planet Champala already exists
+ERROR :: 2021-10-19 15:52:13,555 :: app.main:117 :: Planet Mirial already exists
+ERROR :: 2021-10-19 15:52:13,577 :: app.main:117 :: Planet Serenno already exists
+ERROR :: 2021-10-19 15:52:13,590 :: app.main:117 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-19 15:52:13,595 :: app.main:117 :: Planet Zolan already exists
+ERROR :: 2021-10-19 15:52:13,600 :: app.main:117 :: Planet Ojom already exists
+ERROR :: 2021-10-19 15:52:13,604 :: app.main:117 :: Planet Skako already exists
+ERROR :: 2021-10-19 15:52:13,609 :: app.main:117 :: Planet Muunilinst already exists
+ERROR :: 2021-10-19 15:52:13,613 :: app.main:117 :: Planet Shili already exists
+ERROR :: 2021-10-19 15:52:13,618 :: app.main:117 :: Planet Kalee already exists
+ERROR :: 2021-10-19 15:52:13,623 :: app.main:117 :: Planet Umbara already exists
+INFO :: 2021-10-19 15:52:13,623 :: app.main:118 :: Adding planets completed
+INFO :: 2021-10-19 15:52:13,623 :: app.main:133 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 15:52:13,623 :: app.main:134 :: Getting contacts and contact's data
+INFO :: 2021-10-19 15:52:16,916 :: app.main:136 :: 82 contacts received
+INFO :: 2021-10-19 15:52:16,916 :: app.main:137 :: Started adding contacts to Odoo
+ERROR :: 2021-10-19 15:52:16,940 :: app.main:174 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-19 15:52:16,963 :: app.main:174 :: Contact C-3PO already exists
+ERROR :: 2021-10-19 15:52:16,982 :: app.main:174 :: Contact R2-D2 already exists
+ERROR :: 2021-10-19 15:52:16,987 :: app.main:174 :: Contact Darth Vader already exists
+ERROR :: 2021-10-19 15:52:16,992 :: app.main:174 :: Contact Leia Organa already exists
+ERROR :: 2021-10-19 15:52:16,997 :: app.main:174 :: Contact Owen Lars already exists
+ERROR :: 2021-10-19 15:52:17,002 :: app.main:174 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-19 15:52:17,007 :: app.main:174 :: Contact R5-D4 already exists
+ERROR :: 2021-10-19 15:52:17,012 :: app.main:174 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-19 15:52:17,017 :: app.main:174 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-19 15:52:17,022 :: app.main:174 :: Contact Anakin Skywalker already exists
+INFO :: 2021-10-19 15:52:17,458 :: app.main:155 :: Successfully added: Contact Wilhuff Tarkin, remote system ID=[12], Odoo ID=[2913]
+WARNING :: 2021-10-19 15:52:18,173 :: app.main:172 :: Error adding photo: people Wilhuff Tarkin
+INFO :: 2021-10-19 15:52:18,583 :: app.main:155 :: Successfully added: Contact Chewbacca, remote system ID=[13], Odoo ID=[2914]
+WARNING :: 2021-10-19 15:52:18,830 :: app.main:172 :: Error adding photo: people Chewbacca
+INFO :: 2021-10-19 15:52:19,276 :: app.main:155 :: Successfully added: Contact Han Solo, remote system ID=[14], Odoo ID=[2915]
+WARNING :: 2021-10-19 15:52:19,312 :: app.main:172 :: Error adding photo: people Han Solo
+INFO :: 2021-10-19 15:52:19,758 :: app.main:155 :: Successfully added: Contact Greedo, remote system ID=[15], Odoo ID=[2916]
+WARNING :: 2021-10-19 15:52:20,450 :: app.main:172 :: Error adding photo: people Greedo
+INFO :: 2021-10-19 15:53:29,932 :: app.main:187 :: Connection with Odoo established successfully
+INFO :: 2021-10-19 15:53:29,932 :: app.main:83 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 15:53:29,932 :: app.main:84 :: Getting planets and planet's data
+INFO :: 2021-10-19 15:53:33,236 :: app.main:86 :: 60 planets received
+INFO :: 2021-10-19 15:53:33,236 :: app.main:87 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 15:53:33,259 :: app.main:117 :: Planet Tatooine already exists
+ERROR :: 2021-10-19 15:53:33,283 :: app.main:117 :: Planet Alderaan already exists
+ERROR :: 2021-10-19 15:53:33,305 :: app.main:117 :: Planet Yavin IV already exists
+ERROR :: 2021-10-19 15:53:33,327 :: app.main:117 :: Planet Hoth already exists
+ERROR :: 2021-10-19 15:53:33,350 :: app.main:117 :: Planet Dagobah already exists
+ERROR :: 2021-10-19 15:53:33,373 :: app.main:117 :: Planet Bespin already exists
+ERROR :: 2021-10-19 15:53:33,395 :: app.main:117 :: Planet Endor already exists
+ERROR :: 2021-10-19 15:53:33,418 :: app.main:117 :: Planet Naboo already exists
+ERROR :: 2021-10-19 15:53:33,440 :: app.main:117 :: Planet Coruscant already exists
+ERROR :: 2021-10-19 15:53:33,463 :: app.main:117 :: Planet Kamino already exists
+ERROR :: 2021-10-19 15:53:33,485 :: app.main:117 :: Planet Geonosis already exists
+ERROR :: 2021-10-19 15:53:33,508 :: app.main:117 :: Planet Utapau already exists
+ERROR :: 2021-10-19 15:53:33,530 :: app.main:117 :: Planet Mustafar already exists
+ERROR :: 2021-10-19 15:53:33,553 :: app.main:117 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-19 15:53:33,575 :: app.main:117 :: Planet Polis Massa already exists
+ERROR :: 2021-10-19 15:53:33,597 :: app.main:117 :: Planet Mygeeto already exists
+ERROR :: 2021-10-19 15:53:33,620 :: app.main:117 :: Planet Felucia already exists
+ERROR :: 2021-10-19 15:53:33,642 :: app.main:117 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-19 15:53:33,665 :: app.main:117 :: Planet Saleucami already exists
+ERROR :: 2021-10-19 15:53:33,687 :: app.main:117 :: Planet Stewjon already exists
+ERROR :: 2021-10-19 15:53:33,709 :: app.main:117 :: Planet Eriadu already exists
+ERROR :: 2021-10-19 15:53:33,732 :: app.main:117 :: Planet Corellia already exists
+ERROR :: 2021-10-19 15:53:33,754 :: app.main:117 :: Planet Rodia already exists
+ERROR :: 2021-10-19 15:53:33,776 :: app.main:117 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-19 15:53:33,799 :: app.main:117 :: Planet Dantooine already exists
+ERROR :: 2021-10-19 15:53:33,821 :: app.main:117 :: Planet Bestine IV already exists
+ERROR :: 2021-10-19 15:53:33,843 :: app.main:117 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-19 15:53:33,866 :: app.main:117 :: Planet unknown already exists
+ERROR :: 2021-10-19 15:53:33,888 :: app.main:117 :: Planet Trandosha already exists
+ERROR :: 2021-10-19 15:53:33,910 :: app.main:117 :: Planet Socorro already exists
+ERROR :: 2021-10-19 15:53:33,932 :: app.main:117 :: Planet Mon Cala already exists
+ERROR :: 2021-10-19 15:53:33,954 :: app.main:117 :: Planet Chandrila already exists
+ERROR :: 2021-10-19 15:53:33,976 :: app.main:117 :: Planet Sullust already exists
+ERROR :: 2021-10-19 15:53:33,998 :: app.main:117 :: Planet Toydaria already exists
+ERROR :: 2021-10-19 15:53:34,021 :: app.main:117 :: Planet Malastare already exists
+ERROR :: 2021-10-19 15:53:34,043 :: app.main:117 :: Planet Dathomir already exists
+ERROR :: 2021-10-19 15:53:34,065 :: app.main:117 :: Planet Ryloth already exists
+ERROR :: 2021-10-19 15:53:34,087 :: app.main:117 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-19 15:53:34,109 :: app.main:117 :: Planet Vulpter already exists
+ERROR :: 2021-10-19 15:53:34,132 :: app.main:117 :: Planet Troiken already exists
+ERROR :: 2021-10-19 15:53:34,154 :: app.main:117 :: Planet Tund already exists
+ERROR :: 2021-10-19 15:53:34,176 :: app.main:117 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-19 15:53:34,197 :: app.main:117 :: Planet Cerea already exists
+ERROR :: 2021-10-19 15:53:34,211 :: app.main:117 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-19 15:53:34,223 :: app.main:117 :: Planet Iridonia already exists
+ERROR :: 2021-10-19 15:53:34,234 :: app.main:117 :: Planet Tholoth already exists
+ERROR :: 2021-10-19 15:53:34,243 :: app.main:117 :: Planet Iktotch already exists
+ERROR :: 2021-10-19 15:53:34,253 :: app.main:117 :: Planet Quermia already exists
+ERROR :: 2021-10-19 15:53:34,262 :: app.main:117 :: Planet Dorin already exists
+ERROR :: 2021-10-19 15:53:34,271 :: app.main:117 :: Planet Champala already exists
+ERROR :: 2021-10-19 15:53:34,281 :: app.main:117 :: Planet Mirial already exists
+ERROR :: 2021-10-19 15:53:34,290 :: app.main:117 :: Planet Serenno already exists
+ERROR :: 2021-10-19 15:53:34,299 :: app.main:117 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-19 15:53:34,304 :: app.main:117 :: Planet Zolan already exists
+ERROR :: 2021-10-19 15:53:34,309 :: app.main:117 :: Planet Ojom already exists
+ERROR :: 2021-10-19 15:53:34,313 :: app.main:117 :: Planet Skako already exists
+ERROR :: 2021-10-19 15:53:34,318 :: app.main:117 :: Planet Muunilinst already exists
+ERROR :: 2021-10-19 15:53:34,322 :: app.main:117 :: Planet Shili already exists
+ERROR :: 2021-10-19 15:53:34,327 :: app.main:117 :: Planet Kalee already exists
+ERROR :: 2021-10-19 15:53:34,332 :: app.main:117 :: Planet Umbara already exists
+INFO :: 2021-10-19 15:53:34,332 :: app.main:118 :: Adding planets completed
+INFO :: 2021-10-19 15:53:34,332 :: app.main:133 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 15:53:34,332 :: app.main:134 :: Getting contacts and contact's data
+INFO :: 2021-10-19 15:53:43,329 :: app.main:136 :: 82 contacts received
+INFO :: 2021-10-19 15:53:43,330 :: app.main:137 :: Started adding contacts to Odoo
+ERROR :: 2021-10-19 15:53:43,354 :: app.main:175 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-19 15:53:43,378 :: app.main:175 :: Contact C-3PO already exists
+ERROR :: 2021-10-19 15:53:43,401 :: app.main:175 :: Contact R2-D2 already exists
+ERROR :: 2021-10-19 15:53:43,424 :: app.main:175 :: Contact Darth Vader already exists
+ERROR :: 2021-10-19 15:53:43,447 :: app.main:175 :: Contact Leia Organa already exists
+ERROR :: 2021-10-19 15:53:43,470 :: app.main:175 :: Contact Owen Lars already exists
+ERROR :: 2021-10-19 15:53:43,494 :: app.main:175 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-19 15:53:43,519 :: app.main:175 :: Contact R5-D4 already exists
+ERROR :: 2021-10-19 15:53:43,543 :: app.main:175 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-19 15:53:43,567 :: app.main:175 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-19 15:53:43,591 :: app.main:175 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-19 15:53:43,615 :: app.main:175 :: Contact Wilhuff Tarkin already exists
+ERROR :: 2021-10-19 15:53:43,639 :: app.main:175 :: Contact Chewbacca already exists
+ERROR :: 2021-10-19 15:53:43,662 :: app.main:175 :: Contact Han Solo already exists
+ERROR :: 2021-10-19 15:53:43,686 :: app.main:175 :: Contact Greedo already exists
+ERROR :: 2021-10-19 15:53:43,710 :: app.main:175 :: Contact Jabba Desilijic Tiure already exists
+INFO :: 2021-10-19 15:53:44,188 :: app.main:155 :: Successfully added: Contact Wedge Antilles, remote system ID=[18], Odoo ID=[2918]
+INFO :: 2021-10-19 15:53:44,635 :: app.main:171 :: Successfully added: Contact Wedge Antilles photo added
+INFO :: 2021-10-19 15:54:31,656 :: app.main:186 :: Connection with Odoo established successfully
+INFO :: 2021-10-19 15:54:31,656 :: app.main:83 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 15:54:31,656 :: app.main:84 :: Getting planets and planet's data
+INFO :: 2021-10-19 15:54:34,404 :: app.main:86 :: 60 planets received
+INFO :: 2021-10-19 15:54:34,404 :: app.main:87 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 15:54:34,420 :: app.main:117 :: Planet Tatooine already exists
+ERROR :: 2021-10-19 15:54:34,425 :: app.main:117 :: Planet Alderaan already exists
+ERROR :: 2021-10-19 15:54:34,430 :: app.main:117 :: Planet Yavin IV already exists
+ERROR :: 2021-10-19 15:54:34,435 :: app.main:117 :: Planet Hoth already exists
+ERROR :: 2021-10-19 15:54:34,440 :: app.main:117 :: Planet Dagobah already exists
+ERROR :: 2021-10-19 15:54:34,444 :: app.main:117 :: Planet Bespin already exists
+ERROR :: 2021-10-19 15:54:34,449 :: app.main:117 :: Planet Endor already exists
+ERROR :: 2021-10-19 15:54:34,453 :: app.main:117 :: Planet Naboo already exists
+ERROR :: 2021-10-19 15:54:34,458 :: app.main:117 :: Planet Coruscant already exists
+ERROR :: 2021-10-19 15:54:34,462 :: app.main:117 :: Planet Kamino already exists
+ERROR :: 2021-10-19 15:54:34,467 :: app.main:117 :: Planet Geonosis already exists
+ERROR :: 2021-10-19 15:54:34,471 :: app.main:117 :: Planet Utapau already exists
+ERROR :: 2021-10-19 15:54:34,476 :: app.main:117 :: Planet Mustafar already exists
+ERROR :: 2021-10-19 15:54:34,480 :: app.main:117 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-19 15:54:34,485 :: app.main:117 :: Planet Polis Massa already exists
+ERROR :: 2021-10-19 15:54:34,489 :: app.main:117 :: Planet Mygeeto already exists
+ERROR :: 2021-10-19 15:54:34,494 :: app.main:117 :: Planet Felucia already exists
+ERROR :: 2021-10-19 15:54:34,498 :: app.main:117 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-19 15:54:34,503 :: app.main:117 :: Planet Saleucami already exists
+ERROR :: 2021-10-19 15:54:34,507 :: app.main:117 :: Planet Stewjon already exists
+ERROR :: 2021-10-19 15:54:34,512 :: app.main:117 :: Planet Eriadu already exists
+ERROR :: 2021-10-19 15:54:34,516 :: app.main:117 :: Planet Corellia already exists
+ERROR :: 2021-10-19 15:54:34,521 :: app.main:117 :: Planet Rodia already exists
+ERROR :: 2021-10-19 15:54:34,525 :: app.main:117 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-19 15:54:34,530 :: app.main:117 :: Planet Dantooine already exists
+ERROR :: 2021-10-19 15:54:34,534 :: app.main:117 :: Planet Bestine IV already exists
+ERROR :: 2021-10-19 15:54:34,539 :: app.main:117 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-19 15:54:34,543 :: app.main:117 :: Planet unknown already exists
+ERROR :: 2021-10-19 15:54:34,547 :: app.main:117 :: Planet Trandosha already exists
+ERROR :: 2021-10-19 15:54:34,552 :: app.main:117 :: Planet Socorro already exists
+ERROR :: 2021-10-19 15:54:34,556 :: app.main:117 :: Planet Mon Cala already exists
+ERROR :: 2021-10-19 15:54:34,561 :: app.main:117 :: Planet Chandrila already exists
+ERROR :: 2021-10-19 15:54:34,565 :: app.main:117 :: Planet Sullust already exists
+ERROR :: 2021-10-19 15:54:34,570 :: app.main:117 :: Planet Toydaria already exists
+ERROR :: 2021-10-19 15:54:34,574 :: app.main:117 :: Planet Malastare already exists
+ERROR :: 2021-10-19 15:54:34,579 :: app.main:117 :: Planet Dathomir already exists
+ERROR :: 2021-10-19 15:54:34,583 :: app.main:117 :: Planet Ryloth already exists
+ERROR :: 2021-10-19 15:54:34,588 :: app.main:117 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-19 15:54:34,592 :: app.main:117 :: Planet Vulpter already exists
+ERROR :: 2021-10-19 15:54:34,597 :: app.main:117 :: Planet Troiken already exists
+ERROR :: 2021-10-19 15:54:34,601 :: app.main:117 :: Planet Tund already exists
+ERROR :: 2021-10-19 15:54:34,605 :: app.main:117 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-19 15:54:34,610 :: app.main:117 :: Planet Cerea already exists
+ERROR :: 2021-10-19 15:54:34,614 :: app.main:117 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-19 15:54:34,618 :: app.main:117 :: Planet Iridonia already exists
+ERROR :: 2021-10-19 15:54:34,623 :: app.main:117 :: Planet Tholoth already exists
+ERROR :: 2021-10-19 15:54:34,627 :: app.main:117 :: Planet Iktotch already exists
+ERROR :: 2021-10-19 15:54:34,632 :: app.main:117 :: Planet Quermia already exists
+ERROR :: 2021-10-19 15:54:34,636 :: app.main:117 :: Planet Dorin already exists
+ERROR :: 2021-10-19 15:54:34,640 :: app.main:117 :: Planet Champala already exists
+ERROR :: 2021-10-19 15:54:34,645 :: app.main:117 :: Planet Mirial already exists
+ERROR :: 2021-10-19 15:54:34,649 :: app.main:117 :: Planet Serenno already exists
+ERROR :: 2021-10-19 15:54:34,654 :: app.main:117 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-19 15:54:34,658 :: app.main:117 :: Planet Zolan already exists
+ERROR :: 2021-10-19 15:54:34,663 :: app.main:117 :: Planet Ojom already exists
+ERROR :: 2021-10-19 15:54:34,667 :: app.main:117 :: Planet Skako already exists
+ERROR :: 2021-10-19 15:54:34,671 :: app.main:117 :: Planet Muunilinst already exists
+ERROR :: 2021-10-19 15:54:34,675 :: app.main:117 :: Planet Shili already exists
+ERROR :: 2021-10-19 15:54:34,680 :: app.main:117 :: Planet Kalee already exists
+ERROR :: 2021-10-19 15:54:34,684 :: app.main:117 :: Planet Umbara already exists
+INFO :: 2021-10-19 15:54:34,684 :: app.main:118 :: Adding planets completed
+INFO :: 2021-10-19 15:54:34,685 :: app.main:133 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 15:54:34,685 :: app.main:134 :: Getting contacts and contact's data
+INFO :: 2021-10-19 15:54:38,382 :: app.main:136 :: 82 contacts received
+INFO :: 2021-10-19 15:54:38,382 :: app.main:137 :: Started adding contacts to Odoo
+ERROR :: 2021-10-19 15:54:38,407 :: app.main:174 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-19 15:54:38,431 :: app.main:174 :: Contact C-3PO already exists
+ERROR :: 2021-10-19 15:54:38,455 :: app.main:174 :: Contact R2-D2 already exists
+ERROR :: 2021-10-19 15:54:38,478 :: app.main:174 :: Contact Darth Vader already exists
+ERROR :: 2021-10-19 15:54:38,502 :: app.main:174 :: Contact Leia Organa already exists
+ERROR :: 2021-10-19 15:54:38,525 :: app.main:174 :: Contact Owen Lars already exists
+ERROR :: 2021-10-19 15:54:38,547 :: app.main:174 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-19 15:54:38,571 :: app.main:174 :: Contact R5-D4 already exists
+ERROR :: 2021-10-19 15:54:38,594 :: app.main:174 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-19 15:54:38,617 :: app.main:174 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-19 15:54:38,640 :: app.main:174 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-19 15:54:38,663 :: app.main:174 :: Contact Wilhuff Tarkin already exists
+ERROR :: 2021-10-19 15:54:38,686 :: app.main:174 :: Contact Chewbacca already exists
+ERROR :: 2021-10-19 15:54:38,710 :: app.main:174 :: Contact Han Solo already exists
+ERROR :: 2021-10-19 15:54:38,733 :: app.main:174 :: Contact Greedo already exists
+ERROR :: 2021-10-19 15:54:38,755 :: app.main:174 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-19 15:54:38,778 :: app.main:174 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-19 15:54:38,802 :: app.main:174 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-19 15:54:38,822 :: app.main:174 :: Contact Yoda already exists
+INFO :: 2021-10-19 15:54:39,297 :: app.main:155 :: Successfully added: Contact Palpatine, remote system ID=[21], Odoo ID=[2920]
+INFO :: 2021-10-19 15:54:40,013 :: app.main:170 :: Successfully added: Contact Palpatine photo added
+INFO :: 2021-10-19 15:54:40,464 :: app.main:155 :: Successfully added: Contact Boba Fett, remote system ID=[22], Odoo ID=[2921]
+INFO :: 2021-10-19 15:54:40,780 :: app.main:170 :: Successfully added: Contact Boba Fett photo added
+INFO :: 2021-10-19 15:54:41,191 :: app.main:155 :: Successfully added: Contact IG-88, remote system ID=[23], Odoo ID=[2922]
+INFO :: 2021-10-19 15:54:41,947 :: app.main:170 :: Successfully added: Contact IG-88 photo added
+INFO :: 2021-10-19 15:54:42,390 :: app.main:155 :: Successfully added: Contact Bossk, remote system ID=[24], Odoo ID=[2923]
+INFO :: 2021-10-19 15:54:43,160 :: app.main:170 :: Successfully added: Contact Bossk photo added
+INFO :: 2021-10-19 15:54:43,629 :: app.main:155 :: Successfully added: Contact Lando Calrissian, remote system ID=[25], Odoo ID=[2924]
+INFO :: 2021-10-19 15:54:44,320 :: app.main:170 :: Successfully added: Contact Lando Calrissian photo added
+INFO :: 2021-10-19 15:54:44,709 :: app.main:155 :: Successfully added: Contact Lobot, remote system ID=[26], Odoo ID=[2925]
+INFO :: 2021-10-19 15:54:45,490 :: app.main:170 :: Successfully added: Contact Lobot photo added
+INFO :: 2021-10-19 15:54:45,908 :: app.main:155 :: Successfully added: Contact Ackbar, remote system ID=[27], Odoo ID=[2926]
+INFO :: 2021-10-19 15:54:46,236 :: app.main:170 :: Successfully added: Contact Ackbar photo added
+INFO :: 2021-10-19 15:54:46,630 :: app.main:155 :: Successfully added: Contact Mon Mothma, remote system ID=[28], Odoo ID=[2927]
+INFO :: 2021-10-19 15:54:46,920 :: app.main:170 :: Successfully added: Contact Mon Mothma photo added
+INFO :: 2021-10-19 15:54:47,330 :: app.main:155 :: Successfully added: Contact Arvel Crynyd, remote system ID=[29], Odoo ID=[2928]
+INFO :: 2021-10-19 15:54:48,266 :: app.main:170 :: Successfully added: Contact Arvel Crynyd photo added
+INFO :: 2021-10-19 18:40:47,078 :: app.main:186 :: Connection with Odoo established successfully
+INFO :: 2021-10-19 18:40:47,079 :: app.main:83 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 18:40:47,079 :: app.main:84 :: Getting planets and planet's data
+INFO :: 2021-10-19 18:41:14,045 :: app.main:86 :: 60 planets received
+INFO :: 2021-10-19 18:41:14,045 :: app.main:87 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 18:41:14,068 :: app.main:117 :: Planet Tatooine already exists
+ERROR :: 2021-10-19 18:41:14,091 :: app.main:117 :: Planet Alderaan already exists
+ERROR :: 2021-10-19 18:41:14,110 :: app.main:117 :: Planet Yavin IV already exists
+ERROR :: 2021-10-19 18:41:14,116 :: app.main:117 :: Planet Hoth already exists
+ERROR :: 2021-10-19 18:41:14,121 :: app.main:117 :: Planet Dagobah already exists
+ERROR :: 2021-10-19 18:41:14,126 :: app.main:117 :: Planet Bespin already exists
+ERROR :: 2021-10-19 18:41:14,131 :: app.main:117 :: Planet Endor already exists
+ERROR :: 2021-10-19 18:41:14,136 :: app.main:117 :: Planet Naboo already exists
+ERROR :: 2021-10-19 18:41:14,141 :: app.main:117 :: Planet Coruscant already exists
+ERROR :: 2021-10-19 18:41:14,146 :: app.main:117 :: Planet Kamino already exists
+ERROR :: 2021-10-19 18:41:14,151 :: app.main:117 :: Planet Geonosis already exists
+ERROR :: 2021-10-19 18:41:14,155 :: app.main:117 :: Planet Utapau already exists
+ERROR :: 2021-10-19 18:41:14,160 :: app.main:117 :: Planet Mustafar already exists
+ERROR :: 2021-10-19 18:41:14,165 :: app.main:117 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-19 18:41:14,169 :: app.main:117 :: Planet Polis Massa already exists
+ERROR :: 2021-10-19 18:41:14,174 :: app.main:117 :: Planet Mygeeto already exists
+ERROR :: 2021-10-19 18:41:14,179 :: app.main:117 :: Planet Felucia already exists
+ERROR :: 2021-10-19 18:41:14,184 :: app.main:117 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-19 18:41:14,189 :: app.main:117 :: Planet Saleucami already exists
+ERROR :: 2021-10-19 18:41:14,193 :: app.main:117 :: Planet Stewjon already exists
+ERROR :: 2021-10-19 18:41:14,198 :: app.main:117 :: Planet Eriadu already exists
+ERROR :: 2021-10-19 18:41:14,203 :: app.main:117 :: Planet Corellia already exists
+ERROR :: 2021-10-19 18:41:14,208 :: app.main:117 :: Planet Rodia already exists
+ERROR :: 2021-10-19 18:41:14,213 :: app.main:117 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-19 18:41:14,217 :: app.main:117 :: Planet Dantooine already exists
+ERROR :: 2021-10-19 18:41:14,222 :: app.main:117 :: Planet Bestine IV already exists
+ERROR :: 2021-10-19 18:41:14,227 :: app.main:117 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-19 18:41:14,232 :: app.main:117 :: Planet unknown already exists
+ERROR :: 2021-10-19 18:41:14,236 :: app.main:117 :: Planet Trandosha already exists
+ERROR :: 2021-10-19 18:41:14,241 :: app.main:117 :: Planet Socorro already exists
+ERROR :: 2021-10-19 18:41:14,246 :: app.main:117 :: Planet Mon Cala already exists
+ERROR :: 2021-10-19 18:41:14,251 :: app.main:117 :: Planet Chandrila already exists
+ERROR :: 2021-10-19 18:41:14,256 :: app.main:117 :: Planet Sullust already exists
+ERROR :: 2021-10-19 18:41:14,261 :: app.main:117 :: Planet Toydaria already exists
+ERROR :: 2021-10-19 18:41:14,265 :: app.main:117 :: Planet Malastare already exists
+ERROR :: 2021-10-19 18:41:14,270 :: app.main:117 :: Planet Dathomir already exists
+ERROR :: 2021-10-19 18:41:14,275 :: app.main:117 :: Planet Ryloth already exists
+ERROR :: 2021-10-19 18:41:14,280 :: app.main:117 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-19 18:41:14,285 :: app.main:117 :: Planet Vulpter already exists
+ERROR :: 2021-10-19 18:41:14,290 :: app.main:117 :: Planet Troiken already exists
+ERROR :: 2021-10-19 18:41:14,294 :: app.main:117 :: Planet Tund already exists
+ERROR :: 2021-10-19 18:41:14,299 :: app.main:117 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-19 18:41:14,304 :: app.main:117 :: Planet Cerea already exists
+ERROR :: 2021-10-19 18:41:14,309 :: app.main:117 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-19 18:41:14,314 :: app.main:117 :: Planet Iridonia already exists
+ERROR :: 2021-10-19 18:41:14,319 :: app.main:117 :: Planet Tholoth already exists
+ERROR :: 2021-10-19 18:41:14,323 :: app.main:117 :: Planet Iktotch already exists
+ERROR :: 2021-10-19 18:41:14,328 :: app.main:117 :: Planet Quermia already exists
+ERROR :: 2021-10-19 18:41:14,333 :: app.main:117 :: Planet Dorin already exists
+ERROR :: 2021-10-19 18:41:14,338 :: app.main:117 :: Planet Champala already exists
+ERROR :: 2021-10-19 18:41:14,343 :: app.main:117 :: Planet Mirial already exists
+ERROR :: 2021-10-19 18:41:14,347 :: app.main:117 :: Planet Serenno already exists
+ERROR :: 2021-10-19 18:41:14,352 :: app.main:117 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-19 18:41:14,356 :: app.main:117 :: Planet Zolan already exists
+ERROR :: 2021-10-19 18:41:14,362 :: app.main:117 :: Planet Ojom already exists
+ERROR :: 2021-10-19 18:41:14,366 :: app.main:117 :: Planet Skako already exists
+ERROR :: 2021-10-19 18:41:14,371 :: app.main:117 :: Planet Muunilinst already exists
+ERROR :: 2021-10-19 18:41:14,376 :: app.main:117 :: Planet Shili already exists
+ERROR :: 2021-10-19 18:41:14,381 :: app.main:117 :: Planet Kalee already exists
+ERROR :: 2021-10-19 18:41:14,385 :: app.main:117 :: Planet Umbara already exists
+INFO :: 2021-10-19 18:41:14,385 :: app.main:118 :: Adding planets completed
+INFO :: 2021-10-19 18:41:14,385 :: app.main:133 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 18:41:14,385 :: app.main:134 :: Getting contacts and contact's data
+INFO :: 2021-10-19 18:41:18,912 :: app.main:136 :: 82 contacts received
+INFO :: 2021-10-19 18:41:18,912 :: app.main:137 :: Started adding contacts to Odoo
+ERROR :: 2021-10-19 18:41:18,936 :: app.main:174 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-19 18:41:18,959 :: app.main:174 :: Contact C-3PO already exists
+ERROR :: 2021-10-19 18:41:18,983 :: app.main:174 :: Contact R2-D2 already exists
+ERROR :: 2021-10-19 18:41:19,006 :: app.main:174 :: Contact Darth Vader already exists
+ERROR :: 2021-10-19 18:41:19,030 :: app.main:174 :: Contact Leia Organa already exists
+ERROR :: 2021-10-19 18:41:19,054 :: app.main:174 :: Contact Owen Lars already exists
+ERROR :: 2021-10-19 18:41:19,077 :: app.main:174 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-19 18:41:19,100 :: app.main:174 :: Contact R5-D4 already exists
+ERROR :: 2021-10-19 18:41:19,124 :: app.main:174 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-19 18:41:19,147 :: app.main:174 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-19 18:41:19,170 :: app.main:174 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-19 18:41:19,186 :: app.main:174 :: Contact Wilhuff Tarkin already exists
+ERROR :: 2021-10-19 18:41:19,191 :: app.main:174 :: Contact Chewbacca already exists
+ERROR :: 2021-10-19 18:41:19,196 :: app.main:174 :: Contact Han Solo already exists
+ERROR :: 2021-10-19 18:41:19,200 :: app.main:174 :: Contact Greedo already exists
+ERROR :: 2021-10-19 18:41:19,205 :: app.main:174 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-19 18:41:19,210 :: app.main:174 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-19 18:41:19,215 :: app.main:174 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-19 18:41:19,219 :: app.main:174 :: Contact Yoda already exists
+ERROR :: 2021-10-19 18:41:19,224 :: app.main:174 :: Contact Palpatine already exists
+ERROR :: 2021-10-19 18:41:19,228 :: app.main:174 :: Contact Boba Fett already exists
+ERROR :: 2021-10-19 18:41:19,233 :: app.main:174 :: Contact IG-88 already exists
+ERROR :: 2021-10-19 18:41:19,238 :: app.main:174 :: Contact Bossk already exists
+ERROR :: 2021-10-19 18:41:19,243 :: app.main:174 :: Contact Lando Calrissian already exists
+ERROR :: 2021-10-19 18:41:19,248 :: app.main:174 :: Contact Lobot already exists
+ERROR :: 2021-10-19 18:41:19,253 :: app.main:174 :: Contact Ackbar already exists
+ERROR :: 2021-10-19 18:41:19,257 :: app.main:174 :: Contact Mon Mothma already exists
+ERROR :: 2021-10-19 18:41:19,262 :: app.main:174 :: Contact Arvel Crynyd already exists
+INFO :: 2021-10-19 18:41:24,737 :: app.main:155 :: Successfully added: Contact Wicket Systri Warrick, remote system ID=[30], Odoo ID=[2929]
+INFO :: 2021-10-19 18:41:25,548 :: app.main:170 :: Successfully added: Contact Wicket Systri Warrick photo added
+INFO :: 2021-10-19 18:41:25,977 :: app.main:155 :: Successfully added: Contact Nien Nunb, remote system ID=[31], Odoo ID=[2930]
+INFO :: 2021-10-19 18:41:26,926 :: app.main:170 :: Successfully added: Contact Nien Nunb photo added
+INFO :: 2021-10-19 18:41:27,326 :: app.main:155 :: Successfully added: Contact Qui-Gon Jinn, remote system ID=[32], Odoo ID=[2931]
+INFO :: 2021-10-19 18:41:28,438 :: app.main:170 :: Successfully added: Contact Qui-Gon Jinn photo added
+INFO :: 2021-10-19 18:41:28,861 :: app.main:155 :: Successfully added: Contact Nute Gunray, remote system ID=[33], Odoo ID=[2932]
+INFO :: 2021-10-19 18:41:29,243 :: app.main:170 :: Successfully added: Contact Nute Gunray photo added
+INFO :: 2021-10-19 18:41:29,712 :: app.main:155 :: Successfully added: Contact Finis Valorum, remote system ID=[34], Odoo ID=[2933]
+INFO :: 2021-10-19 18:41:30,853 :: app.main:170 :: Successfully added: Contact Finis Valorum photo added
+INFO :: 2021-10-19 18:41:31,252 :: app.main:155 :: Successfully added: Contact Padmé Amidala, remote system ID=[35], Odoo ID=[2934]
+INFO :: 2021-10-19 18:41:31,562 :: app.main:170 :: Successfully added: Contact Padmé Amidala photo added
+INFO :: 2021-10-19 18:41:31,913 :: app.main:155 :: Successfully added: Contact Jar Jar Binks, remote system ID=[36], Odoo ID=[2935]
+INFO :: 2021-10-19 18:41:32,157 :: app.main:170 :: Successfully added: Contact Jar Jar Binks photo added
+INFO :: 2021-10-19 18:41:32,547 :: app.main:155 :: Successfully added: Contact Roos Tarpals, remote system ID=[37], Odoo ID=[2936]
+INFO :: 2021-10-19 18:41:33,361 :: app.main:170 :: Successfully added: Contact Roos Tarpals photo added
+INFO :: 2021-10-19 18:41:33,817 :: app.main:155 :: Successfully added: Contact Rugor Nass, remote system ID=[38], Odoo ID=[2937]
+INFO :: 2021-10-19 18:41:34,473 :: app.main:170 :: Successfully added: Contact Rugor Nass photo added
+INFO :: 2021-10-19 18:41:34,859 :: app.main:155 :: Successfully added: Contact Ric Olié, remote system ID=[39], Odoo ID=[2938]
+INFO :: 2021-10-19 18:41:35,523 :: app.main:170 :: Successfully added: Contact Ric Olié photo added
+INFO :: 2021-10-19 18:41:35,972 :: app.main:155 :: Successfully added: Contact Watto, remote system ID=[40], Odoo ID=[2939]
+INFO :: 2021-10-19 18:41:36,828 :: app.main:170 :: Successfully added: Contact Watto photo added
+INFO :: 2021-10-19 18:41:37,310 :: app.main:155 :: Successfully added: Contact Sebulba, remote system ID=[41], Odoo ID=[2940]
+INFO :: 2021-10-19 18:41:37,636 :: app.main:170 :: Successfully added: Contact Sebulba photo added
+INFO :: 2021-10-19 18:41:38,037 :: app.main:155 :: Successfully added: Contact Quarsh Panaka, remote system ID=[42], Odoo ID=[2941]
+INFO :: 2021-10-19 18:41:39,200 :: app.main:170 :: Successfully added: Contact Quarsh Panaka photo added
+INFO :: 2021-10-19 18:41:39,623 :: app.main:155 :: Successfully added: Contact Shmi Skywalker, remote system ID=[43], Odoo ID=[2942]
+INFO :: 2021-10-19 18:41:40,209 :: app.main:170 :: Successfully added: Contact Shmi Skywalker photo added
+INFO :: 2021-10-19 18:41:40,637 :: app.main:155 :: Successfully added: Contact Darth Maul, remote system ID=[44], Odoo ID=[2943]
+INFO :: 2021-10-19 18:41:40,902 :: app.main:170 :: Successfully added: Contact Darth Maul photo added
+INFO :: 2021-10-19 18:41:41,326 :: app.main:155 :: Successfully added: Contact Bib Fortuna, remote system ID=[45], Odoo ID=[2944]
+INFO :: 2021-10-19 18:41:42,009 :: app.main:170 :: Successfully added: Contact Bib Fortuna photo added
+INFO :: 2021-10-19 18:41:42,374 :: app.main:155 :: Successfully added: Contact Ayla Secura, remote system ID=[46], Odoo ID=[2945]
+INFO :: 2021-10-19 18:41:43,027 :: app.main:170 :: Successfully added: Contact Ayla Secura photo added
+INFO :: 2021-10-19 18:41:43,436 :: app.main:155 :: Successfully added: Contact Ratts Tyerel, remote system ID=[47], Odoo ID=[2946]
+INFO :: 2021-10-19 18:41:43,734 :: app.main:170 :: Successfully added: Contact Ratts Tyerel photo added
+INFO :: 2021-10-19 18:41:44,097 :: app.main:155 :: Successfully added: Contact Dud Bolt, remote system ID=[48], Odoo ID=[2947]
+INFO :: 2021-10-19 18:41:44,550 :: app.main:170 :: Successfully added: Contact Dud Bolt photo added
+INFO :: 2021-10-19 18:41:44,967 :: app.main:155 :: Successfully added: Contact Gasgano, remote system ID=[49], Odoo ID=[2948]
+INFO :: 2021-10-19 18:41:45,262 :: app.main:170 :: Successfully added: Contact Gasgano photo added
+INFO :: 2021-10-19 18:41:45,639 :: app.main:155 :: Successfully added: Contact Ben Quadinaros, remote system ID=[50], Odoo ID=[2949]
+INFO :: 2021-10-19 18:41:45,903 :: app.main:170 :: Successfully added: Contact Ben Quadinaros photo added
+INFO :: 2021-10-19 18:41:46,379 :: app.main:155 :: Successfully added: Contact Mace Windu, remote system ID=[51], Odoo ID=[2950]
+INFO :: 2021-10-19 18:41:47,278 :: app.main:170 :: Successfully added: Contact Mace Windu photo added
+INFO :: 2021-10-19 18:41:47,665 :: app.main:155 :: Successfully added: Contact Ki-Adi-Mundi, remote system ID=[52], Odoo ID=[2951]
+INFO :: 2021-10-19 18:41:47,916 :: app.main:170 :: Successfully added: Contact Ki-Adi-Mundi photo added
+INFO :: 2021-10-19 18:41:48,334 :: app.main:155 :: Successfully added: Contact Kit Fisto, remote system ID=[53], Odoo ID=[2952]
+INFO :: 2021-10-19 18:41:48,688 :: app.main:170 :: Successfully added: Contact Kit Fisto photo added
+INFO :: 2021-10-19 18:41:49,153 :: app.main:155 :: Successfully added: Contact Eeth Koth, remote system ID=[54], Odoo ID=[2953]
+INFO :: 2021-10-19 18:41:49,888 :: app.main:170 :: Successfully added: Contact Eeth Koth photo added
+INFO :: 2021-10-19 18:41:50,237 :: app.main:155 :: Successfully added: Contact Adi Gallia, remote system ID=[55], Odoo ID=[2954]
+INFO :: 2021-10-19 18:41:50,952 :: app.main:170 :: Successfully added: Contact Adi Gallia photo added
+INFO :: 2021-10-19 18:41:51,334 :: app.main:155 :: Successfully added: Contact Saesee Tiin, remote system ID=[56], Odoo ID=[2955]
+INFO :: 2021-10-19 18:41:52,196 :: app.main:170 :: Successfully added: Contact Saesee Tiin photo added
+ERROR :: 2021-10-19 18:41:52,202 :: app.main:174 :: Contact Yarael Poof already exists
+INFO :: 2021-10-19 18:41:52,570 :: app.main:155 :: Successfully added: Contact Plo Koon, remote system ID=[58], Odoo ID=[2956]
+INFO :: 2021-10-19 18:41:53,268 :: app.main:170 :: Successfully added: Contact Plo Koon photo added
+INFO :: 2021-10-19 18:41:53,847 :: app.main:155 :: Successfully added: Contact Mas Amedda, remote system ID=[59], Odoo ID=[2957]
+INFO :: 2021-10-19 18:41:54,665 :: app.main:170 :: Successfully added: Contact Mas Amedda photo added
+INFO :: 2021-10-19 18:41:55,983 :: app.main:155 :: Successfully added: Contact Gregar Typho, remote system ID=[60], Odoo ID=[2958]
+WARNING :: 2021-10-19 18:42:01,015 :: app.main:172 :: Error adding photo: people Gregar Typho
+INFO :: 2021-10-19 18:42:03,386 :: app.main:155 :: Successfully added: Contact Cordé, remote system ID=[61], Odoo ID=[2959]
+INFO :: 2021-10-19 18:42:04,239 :: app.main:170 :: Successfully added: Contact Cordé photo added
+INFO :: 2021-10-19 18:42:06,297 :: app.main:155 :: Successfully added: Contact Cliegg Lars, remote system ID=[62], Odoo ID=[2960]
+INFO :: 2021-10-19 18:42:07,037 :: app.main:170 :: Successfully added: Contact Cliegg Lars photo added
+INFO :: 2021-10-19 18:42:39,599 :: app.main:185 :: Connection with Odoo established successfully
+INFO :: 2021-10-19 18:42:39,599 :: app.main:83 :: The process of transferring the planets has begun
+INFO :: 2021-10-19 18:42:39,599 :: app.main:84 :: Getting planets and planet's data
+INFO :: 2021-10-19 18:42:45,432 :: app.main:86 :: 60 planets received
+INFO :: 2021-10-19 18:42:45,433 :: app.main:87 :: Started adding planets to Odoo
+ERROR :: 2021-10-19 18:42:45,443 :: app.main:117 :: Planet Tatooine already exists
+ERROR :: 2021-10-19 18:42:45,448 :: app.main:117 :: Planet Alderaan already exists
+ERROR :: 2021-10-19 18:42:45,453 :: app.main:117 :: Planet Yavin IV already exists
+ERROR :: 2021-10-19 18:42:45,458 :: app.main:117 :: Planet Hoth already exists
+ERROR :: 2021-10-19 18:42:45,463 :: app.main:117 :: Planet Dagobah already exists
+ERROR :: 2021-10-19 18:42:45,468 :: app.main:117 :: Planet Bespin already exists
+ERROR :: 2021-10-19 18:42:45,473 :: app.main:117 :: Planet Endor already exists
+ERROR :: 2021-10-19 18:42:45,478 :: app.main:117 :: Planet Naboo already exists
+ERROR :: 2021-10-19 18:42:45,484 :: app.main:117 :: Planet Coruscant already exists
+ERROR :: 2021-10-19 18:42:45,489 :: app.main:117 :: Planet Kamino already exists
+ERROR :: 2021-10-19 18:42:45,494 :: app.main:117 :: Planet Geonosis already exists
+ERROR :: 2021-10-19 18:42:45,499 :: app.main:117 :: Planet Utapau already exists
+ERROR :: 2021-10-19 18:42:45,504 :: app.main:117 :: Planet Mustafar already exists
+ERROR :: 2021-10-19 18:42:45,509 :: app.main:117 :: Planet Kashyyyk already exists
+ERROR :: 2021-10-19 18:42:45,514 :: app.main:117 :: Planet Polis Massa already exists
+ERROR :: 2021-10-19 18:42:45,519 :: app.main:117 :: Planet Mygeeto already exists
+ERROR :: 2021-10-19 18:42:45,525 :: app.main:117 :: Planet Felucia already exists
+ERROR :: 2021-10-19 18:42:45,530 :: app.main:117 :: Planet Cato Neimoidia already exists
+ERROR :: 2021-10-19 18:42:45,535 :: app.main:117 :: Planet Saleucami already exists
+ERROR :: 2021-10-19 18:42:45,539 :: app.main:117 :: Planet Stewjon already exists
+ERROR :: 2021-10-19 18:42:45,544 :: app.main:117 :: Planet Eriadu already exists
+ERROR :: 2021-10-19 18:42:45,549 :: app.main:117 :: Planet Corellia already exists
+ERROR :: 2021-10-19 18:42:45,554 :: app.main:117 :: Planet Rodia already exists
+ERROR :: 2021-10-19 18:42:45,559 :: app.main:117 :: Planet Nal Hutta already exists
+ERROR :: 2021-10-19 18:42:45,564 :: app.main:117 :: Planet Dantooine already exists
+ERROR :: 2021-10-19 18:42:45,568 :: app.main:117 :: Planet Bestine IV already exists
+ERROR :: 2021-10-19 18:42:45,572 :: app.main:117 :: Planet Ord Mantell already exists
+ERROR :: 2021-10-19 18:42:45,577 :: app.main:117 :: Planet unknown already exists
+ERROR :: 2021-10-19 18:42:45,581 :: app.main:117 :: Planet Trandosha already exists
+ERROR :: 2021-10-19 18:42:45,586 :: app.main:117 :: Planet Socorro already exists
+ERROR :: 2021-10-19 18:42:45,591 :: app.main:117 :: Planet Mon Cala already exists
+ERROR :: 2021-10-19 18:42:45,596 :: app.main:117 :: Planet Chandrila already exists
+ERROR :: 2021-10-19 18:42:45,601 :: app.main:117 :: Planet Sullust already exists
+ERROR :: 2021-10-19 18:42:45,606 :: app.main:117 :: Planet Toydaria already exists
+ERROR :: 2021-10-19 18:42:45,611 :: app.main:117 :: Planet Malastare already exists
+ERROR :: 2021-10-19 18:42:45,617 :: app.main:117 :: Planet Dathomir already exists
+ERROR :: 2021-10-19 18:42:45,622 :: app.main:117 :: Planet Ryloth already exists
+ERROR :: 2021-10-19 18:42:45,627 :: app.main:117 :: Planet Aleen Minor already exists
+ERROR :: 2021-10-19 18:42:45,632 :: app.main:117 :: Planet Vulpter already exists
+ERROR :: 2021-10-19 18:42:45,636 :: app.main:117 :: Planet Troiken already exists
+ERROR :: 2021-10-19 18:42:45,641 :: app.main:117 :: Planet Tund already exists
+ERROR :: 2021-10-19 18:42:45,647 :: app.main:117 :: Planet Haruun Kal already exists
+ERROR :: 2021-10-19 18:42:45,652 :: app.main:117 :: Planet Cerea already exists
+ERROR :: 2021-10-19 18:42:45,657 :: app.main:117 :: Planet Glee Anselm already exists
+ERROR :: 2021-10-19 18:42:45,662 :: app.main:117 :: Planet Iridonia already exists
+ERROR :: 2021-10-19 18:42:45,667 :: app.main:117 :: Planet Tholoth already exists
+ERROR :: 2021-10-19 18:42:45,672 :: app.main:117 :: Planet Iktotch already exists
+ERROR :: 2021-10-19 18:42:45,677 :: app.main:117 :: Planet Quermia already exists
+ERROR :: 2021-10-19 18:42:45,682 :: app.main:117 :: Planet Dorin already exists
+ERROR :: 2021-10-19 18:42:45,687 :: app.main:117 :: Planet Champala already exists
+ERROR :: 2021-10-19 18:42:45,692 :: app.main:117 :: Planet Mirial already exists
+ERROR :: 2021-10-19 18:42:45,697 :: app.main:117 :: Planet Serenno already exists
+ERROR :: 2021-10-19 18:42:45,702 :: app.main:117 :: Planet Concord Dawn already exists
+ERROR :: 2021-10-19 18:42:45,707 :: app.main:117 :: Planet Zolan already exists
+ERROR :: 2021-10-19 18:42:45,712 :: app.main:117 :: Planet Ojom already exists
+ERROR :: 2021-10-19 18:42:45,717 :: app.main:117 :: Planet Skako already exists
+ERROR :: 2021-10-19 18:42:45,722 :: app.main:117 :: Planet Muunilinst already exists
+ERROR :: 2021-10-19 18:42:45,727 :: app.main:117 :: Planet Shili already exists
+ERROR :: 2021-10-19 18:42:45,732 :: app.main:117 :: Planet Kalee already exists
+ERROR :: 2021-10-19 18:42:45,737 :: app.main:117 :: Planet Umbara already exists
+INFO :: 2021-10-19 18:42:45,737 :: app.main:118 :: Adding planets completed
+INFO :: 2021-10-19 18:42:45,737 :: app.main:133 :: The process of transferring the peoples has begun
+INFO :: 2021-10-19 18:42:45,737 :: app.main:134 :: Getting contacts and contact's data
+INFO :: 2021-10-19 18:42:55,276 :: app.main:136 :: 82 contacts received
+INFO :: 2021-10-19 18:42:55,277 :: app.main:137 :: Started adding contacts to Odoo
+INFO :: 2021-10-19 18:42:55,715 :: app.main:155 :: Successfully added: Contact Luke Skywalker, remote system ID=[1], Odoo ID=[2961]
+INFO :: 2021-10-19 18:42:56,027 :: app.main:169 :: Successfully added: Contact Luke Skywalker photo added
+INFO :: 2021-10-19 18:42:56,469 :: app.main:155 :: Successfully added: Contact C-3PO, remote system ID=[2], Odoo ID=[2962]
+INFO :: 2021-10-19 18:42:56,943 :: app.main:169 :: Successfully added: Contact C-3PO photo added
+INFO :: 2021-10-19 18:42:57,431 :: app.main:155 :: Successfully added: Contact R2-D2, remote system ID=[3], Odoo ID=[2963]
+INFO :: 2021-10-19 18:42:58,173 :: app.main:169 :: Successfully added: Contact R2-D2 photo added
+INFO :: 2021-10-19 18:42:58,638 :: app.main:155 :: Successfully added: Contact Darth Vader, remote system ID=[4], Odoo ID=[2964]
+INFO :: 2021-10-19 18:42:58,992 :: app.main:169 :: Successfully added: Contact Darth Vader photo added
+INFO :: 2021-10-19 18:42:59,439 :: app.main:155 :: Successfully added: Contact Leia Organa, remote system ID=[5], Odoo ID=[2965]
+INFO :: 2021-10-19 18:42:59,830 :: app.main:169 :: Successfully added: Contact Leia Organa photo added
+INFO :: 2021-10-19 18:43:00,280 :: app.main:155 :: Successfully added: Contact Owen Lars, remote system ID=[6], Odoo ID=[2966]
+INFO :: 2021-10-19 18:43:00,572 :: app.main:169 :: Successfully added: Contact Owen Lars photo added
+INFO :: 2021-10-19 18:43:01,055 :: app.main:155 :: Successfully added: Contact Beru Whitesun lars, remote system ID=[7], Odoo ID=[2967]
+INFO :: 2021-10-19 18:43:01,480 :: app.main:169 :: Successfully added: Contact Beru Whitesun lars photo added
+INFO :: 2021-10-19 18:43:01,915 :: app.main:155 :: Successfully added: Contact R5-D4, remote system ID=[8], Odoo ID=[2968]
+INFO :: 2021-10-19 18:43:02,328 :: app.main:169 :: Successfully added: Contact R5-D4 photo added
+INFO :: 2021-10-19 18:43:02,817 :: app.main:155 :: Successfully added: Contact Biggs Darklighter, remote system ID=[9], Odoo ID=[2969]
+INFO :: 2021-10-19 18:43:03,156 :: app.main:169 :: Successfully added: Contact Biggs Darklighter photo added
+INFO :: 2021-10-19 18:43:03,563 :: app.main:155 :: Successfully added: Contact Obi-Wan Kenobi, remote system ID=[10], Odoo ID=[2970]
+INFO :: 2021-10-19 18:43:04,005 :: app.main:169 :: Successfully added: Contact Obi-Wan Kenobi photo added
+INFO :: 2021-10-19 18:43:04,458 :: app.main:155 :: Successfully added: Contact Anakin Skywalker, remote system ID=[11], Odoo ID=[2971]
+INFO :: 2021-10-19 18:43:04,810 :: app.main:169 :: Successfully added: Contact Anakin Skywalker photo added
+INFO :: 2021-10-19 18:43:05,193 :: app.main:155 :: Successfully added: Contact Wilhuff Tarkin, remote system ID=[12], Odoo ID=[2972]
+INFO :: 2021-10-19 18:43:05,641 :: app.main:169 :: Successfully added: Contact Wilhuff Tarkin photo added
+INFO :: 2021-10-19 18:43:06,045 :: app.main:155 :: Successfully added: Contact Chewbacca, remote system ID=[13], Odoo ID=[2973]
+INFO :: 2021-10-19 18:43:06,411 :: app.main:169 :: Successfully added: Contact Chewbacca photo added
+INFO :: 2021-10-19 18:43:06,776 :: app.main:155 :: Successfully added: Contact Han Solo, remote system ID=[14], Odoo ID=[2974]
+INFO :: 2021-10-19 18:43:12,101 :: app.main:169 :: Successfully added: Contact Han Solo photo added
+INFO :: 2021-10-19 18:43:12,519 :: app.main:155 :: Successfully added: Contact Greedo, remote system ID=[15], Odoo ID=[2975]
+INFO :: 2021-10-19 18:43:13,191 :: app.main:169 :: Successfully added: Contact Greedo photo added
+INFO :: 2021-10-19 18:43:13,576 :: app.main:155 :: Successfully added: Contact Jabba Desilijic Tiure, remote system ID=[16], Odoo ID=[2976]
+INFO :: 2021-10-19 18:43:13,912 :: app.main:169 :: Successfully added: Contact Jabba Desilijic Tiure photo added
+INFO :: 2021-10-19 18:43:14,363 :: app.main:155 :: Successfully added: Contact Wedge Antilles, remote system ID=[18], Odoo ID=[2977]
+INFO :: 2021-10-19 18:43:14,776 :: app.main:169 :: Successfully added: Contact Wedge Antilles photo added
+INFO :: 2021-10-19 18:43:15,193 :: app.main:155 :: Successfully added: Contact Jek Tono Porkins, remote system ID=[19], Odoo ID=[2978]
+INFO :: 2021-10-19 18:43:15,920 :: app.main:169 :: Successfully added: Contact Jek Tono Porkins photo added
+INFO :: 2021-10-19 18:43:16,354 :: app.main:155 :: Successfully added: Contact Yoda, remote system ID=[20], Odoo ID=[2979]
+INFO :: 2021-10-19 18:43:16,640 :: app.main:169 :: Successfully added: Contact Yoda photo added
+INFO :: 2021-10-19 18:43:17,088 :: app.main:155 :: Successfully added: Contact Palpatine, remote system ID=[21], Odoo ID=[2980]
+INFO :: 2021-10-19 18:43:22,424 :: app.main:169 :: Successfully added: Contact Palpatine photo added
+INFO :: 2021-10-19 18:43:22,855 :: app.main:155 :: Successfully added: Contact Boba Fett, remote system ID=[22], Odoo ID=[2981]
+INFO :: 2021-10-19 18:43:23,154 :: app.main:169 :: Successfully added: Contact Boba Fett photo added
+INFO :: 2021-10-19 18:43:23,616 :: app.main:155 :: Successfully added: Contact IG-88, remote system ID=[23], Odoo ID=[2982]
+INFO :: 2021-10-19 18:43:23,962 :: app.main:169 :: Successfully added: Contact IG-88 photo added
+INFO :: 2021-10-19 18:43:24,622 :: app.main:155 :: Successfully added: Contact Bossk, remote system ID=[24], Odoo ID=[2983]
+INFO :: 2021-10-19 18:43:25,365 :: app.main:169 :: Successfully added: Contact Bossk photo added
+INFO :: 2021-10-19 18:43:26,587 :: app.main:155 :: Successfully added: Contact Lando Calrissian, remote system ID=[25], Odoo ID=[2984]
+INFO :: 2021-10-19 18:43:26,851 :: app.main:169 :: Successfully added: Contact Lando Calrissian photo added
+INFO :: 2021-10-19 18:43:44,964 :: app.main:155 :: Successfully added: Contact Lobot, remote system ID=[26], Odoo ID=[2985]
+INFO :: 2021-10-19 18:43:45,363 :: app.main:169 :: Successfully added: Contact Lobot photo added
+INFO :: 2021-10-19 18:43:46,474 :: app.main:155 :: Successfully added: Contact Ackbar, remote system ID=[27], Odoo ID=[2986]
+INFO :: 2021-10-19 18:43:47,209 :: app.main:169 :: Successfully added: Contact Ackbar photo added
+INFO :: 2021-10-19 18:43:51,842 :: app.main:155 :: Successfully added: Contact Mon Mothma, remote system ID=[28], Odoo ID=[2987]
+INFO :: 2021-10-19 18:43:52,171 :: app.main:169 :: Successfully added: Contact Mon Mothma photo added
+INFO :: 2021-10-19 18:43:56,950 :: app.main:155 :: Successfully added: Contact Arvel Crynyd, remote system ID=[29], Odoo ID=[2988]
+INFO :: 2021-10-19 18:43:57,353 :: app.main:169 :: Successfully added: Contact Arvel Crynyd photo added
+INFO :: 2021-10-19 18:43:58,639 :: app.main:155 :: Successfully added: Contact Wicket Systri Warrick, remote system ID=[30], Odoo ID=[2989]
+INFO :: 2021-10-19 18:43:58,989 :: app.main:169 :: Successfully added: Contact Wicket Systri Warrick photo added
+INFO :: 2021-10-19 18:44:07,550 :: app.main:155 :: Successfully added: Contact Nien Nunb, remote system ID=[31], Odoo ID=[2990]
+INFO :: 2021-10-19 18:44:07,898 :: app.main:169 :: Successfully added: Contact Nien Nunb photo added
+INFO :: 2021-10-19 18:44:09,349 :: app.main:155 :: Successfully added: Contact Qui-Gon Jinn, remote system ID=[32], Odoo ID=[2991]
+INFO :: 2021-10-19 18:44:09,752 :: app.main:169 :: Successfully added: Contact Qui-Gon Jinn photo added
+INFO :: 2021-10-19 18:44:12,203 :: app.main:155 :: Successfully added: Contact Nute Gunray, remote system ID=[33], Odoo ID=[2992]
+INFO :: 2021-10-19 18:44:12,548 :: app.main:169 :: Successfully added: Contact Nute Gunray photo added
+INFO :: 2021-10-19 18:44:14,044 :: app.main:155 :: Successfully added: Contact Finis Valorum, remote system ID=[34], Odoo ID=[2993]
+INFO :: 2021-10-19 18:44:14,443 :: app.main:169 :: Successfully added: Contact Finis Valorum photo added
+INFO :: 2021-10-19 18:44:16,536 :: app.main:155 :: Successfully added: Contact Padmé Amidala, remote system ID=[35], Odoo ID=[2994]
+INFO :: 2021-10-19 18:44:16,887 :: app.main:169 :: Successfully added: Contact Padmé Amidala photo added
+INFO :: 2021-10-19 18:44:18,552 :: app.main:155 :: Successfully added: Contact Jar Jar Binks, remote system ID=[36], Odoo ID=[2995]
+INFO :: 2021-10-19 18:44:18,830 :: app.main:169 :: Successfully added: Contact Jar Jar Binks photo added
+INFO :: 2021-10-19 18:44:27,818 :: app.main:155 :: Successfully added: Contact Roos Tarpals, remote system ID=[37], Odoo ID=[2996]
+INFO :: 2021-10-19 18:44:28,162 :: app.main:169 :: Successfully added: Contact Roos Tarpals photo added
+INFO :: 2021-10-19 18:44:31,309 :: app.main:155 :: Successfully added: Contact Rugor Nass, remote system ID=[38], Odoo ID=[2997]
+INFO :: 2021-10-19 18:44:31,648 :: app.main:169 :: Successfully added: Contact Rugor Nass photo added
+INFO :: 2021-10-19 18:44:33,043 :: app.main:155 :: Successfully added: Contact Ric Olié, remote system ID=[39], Odoo ID=[2998]
+INFO :: 2021-10-19 18:44:33,360 :: app.main:169 :: Successfully added: Contact Ric Olié photo added
+INFO :: 2021-10-19 18:44:34,569 :: app.main:155 :: Successfully added: Contact Watto, remote system ID=[40], Odoo ID=[2999]
+INFO :: 2021-10-19 18:44:35,022 :: app.main:169 :: Successfully added: Contact Watto photo added
+INFO :: 2021-10-19 18:44:36,259 :: app.main:155 :: Successfully added: Contact Sebulba, remote system ID=[41], Odoo ID=[3000]
+INFO :: 2021-10-19 18:44:36,634 :: app.main:169 :: Successfully added: Contact Sebulba photo added
+INFO :: 2021-10-19 18:44:44,146 :: app.main:155 :: Successfully added: Contact Quarsh Panaka, remote system ID=[42], Odoo ID=[3001]
+INFO :: 2021-10-19 18:44:44,560 :: app.main:169 :: Successfully added: Contact Quarsh Panaka photo added
+INFO :: 2021-10-19 18:44:46,004 :: app.main:155 :: Successfully added: Contact Shmi Skywalker, remote system ID=[43], Odoo ID=[3002]
+INFO :: 2021-10-19 18:44:46,396 :: app.main:169 :: Successfully added: Contact Shmi Skywalker photo added
+INFO :: 2021-10-19 18:44:47,794 :: app.main:155 :: Successfully added: Contact Darth Maul, remote system ID=[44], Odoo ID=[3003]
+INFO :: 2021-10-19 18:44:48,111 :: app.main:169 :: Successfully added: Contact Darth Maul photo added
+INFO :: 2021-10-19 18:44:48,819 :: app.main:155 :: Successfully added: Contact Bib Fortuna, remote system ID=[45], Odoo ID=[3004]
+INFO :: 2021-10-19 18:44:49,218 :: app.main:169 :: Successfully added: Contact Bib Fortuna photo added
+INFO :: 2021-10-19 18:44:49,909 :: app.main:155 :: Successfully added: Contact Ayla Secura, remote system ID=[46], Odoo ID=[3005]
+INFO :: 2021-10-19 18:44:50,821 :: app.main:169 :: Successfully added: Contact Ayla Secura photo added
+INFO :: 2021-10-19 18:44:51,287 :: app.main:155 :: Successfully added: Contact Ratts Tyerel, remote system ID=[47], Odoo ID=[3006]
+INFO :: 2021-10-19 18:44:51,584 :: app.main:169 :: Successfully added: Contact Ratts Tyerel photo added
+INFO :: 2021-10-19 18:44:52,016 :: app.main:155 :: Successfully added: Contact Dud Bolt, remote system ID=[48], Odoo ID=[3007]
+INFO :: 2021-10-19 18:44:55,032 :: app.main:169 :: Successfully added: Contact Dud Bolt photo added
+INFO :: 2021-10-19 18:44:55,479 :: app.main:155 :: Successfully added: Contact Gasgano, remote system ID=[49], Odoo ID=[3008]
+INFO :: 2021-10-19 18:44:55,775 :: app.main:169 :: Successfully added: Contact Gasgano photo added
+INFO :: 2021-10-19 18:44:56,253 :: app.main:155 :: Successfully added: Contact Ben Quadinaros, remote system ID=[50], Odoo ID=[3009]
+INFO :: 2021-10-19 18:44:56,883 :: app.main:169 :: Successfully added: Contact Ben Quadinaros photo added
+INFO :: 2021-10-19 18:44:57,338 :: app.main:155 :: Successfully added: Contact Mace Windu, remote system ID=[51], Odoo ID=[3010]
+INFO :: 2021-10-19 18:44:57,757 :: app.main:169 :: Successfully added: Contact Mace Windu photo added
+INFO :: 2021-10-19 18:44:58,228 :: app.main:155 :: Successfully added: Contact Ki-Adi-Mundi, remote system ID=[52], Odoo ID=[3011]
+INFO :: 2021-10-19 18:45:03,486 :: app.main:169 :: Successfully added: Contact Ki-Adi-Mundi photo added
+INFO :: 2021-10-19 18:45:03,947 :: app.main:155 :: Successfully added: Contact Kit Fisto, remote system ID=[53], Odoo ID=[3012]
+INFO :: 2021-10-19 18:45:04,691 :: app.main:169 :: Successfully added: Contact Kit Fisto photo added
+INFO :: 2021-10-19 18:45:05,136 :: app.main:155 :: Successfully added: Contact Eeth Koth, remote system ID=[54], Odoo ID=[3013]
+INFO :: 2021-10-19 18:45:05,881 :: app.main:169 :: Successfully added: Contact Eeth Koth photo added
+INFO :: 2021-10-19 18:45:06,362 :: app.main:155 :: Successfully added: Contact Adi Gallia, remote system ID=[55], Odoo ID=[3014]
+INFO :: 2021-10-19 18:45:06,668 :: app.main:169 :: Successfully added: Contact Adi Gallia photo added
+INFO :: 2021-10-19 18:45:07,113 :: app.main:155 :: Successfully added: Contact Saesee Tiin, remote system ID=[56], Odoo ID=[3015]
+INFO :: 2021-10-19 18:45:07,532 :: app.main:169 :: Successfully added: Contact Saesee Tiin photo added
+INFO :: 2021-10-19 18:45:07,992 :: app.main:155 :: Successfully added: Contact Yarael Poof, remote system ID=[57], Odoo ID=[3016]
+INFO :: 2021-10-19 18:45:08,680 :: app.main:169 :: Successfully added: Contact Yarael Poof photo added
+INFO :: 2021-10-19 18:45:09,118 :: app.main:155 :: Successfully added: Contact Plo Koon, remote system ID=[58], Odoo ID=[3017]
+INFO :: 2021-10-19 18:45:09,483 :: app.main:169 :: Successfully added: Contact Plo Koon photo added
+INFO :: 2021-10-19 18:45:09,893 :: app.main:155 :: Successfully added: Contact Mas Amedda, remote system ID=[59], Odoo ID=[3018]
+INFO :: 2021-10-19 18:45:10,605 :: app.main:169 :: Successfully added: Contact Mas Amedda photo added
+INFO :: 2021-10-19 18:45:11,146 :: app.main:155 :: Successfully added: Contact Gregar Typho, remote system ID=[60], Odoo ID=[3019]
+INFO :: 2021-10-19 18:45:11,416 :: app.main:169 :: Successfully added: Contact Gregar Typho photo added
+INFO :: 2021-10-19 18:45:11,829 :: app.main:155 :: Successfully added: Contact Cordé, remote system ID=[61], Odoo ID=[3020]
+INFO :: 2021-10-19 18:45:13,358 :: app.main:169 :: Successfully added: Contact Cordé photo added
+INFO :: 2021-10-19 18:45:13,769 :: app.main:155 :: Successfully added: Contact Cliegg Lars, remote system ID=[62], Odoo ID=[3021]
+INFO :: 2021-10-19 18:45:14,122 :: app.main:169 :: Successfully added: Contact Cliegg Lars photo added
+INFO :: 2021-10-19 18:45:14,509 :: app.main:155 :: Successfully added: Contact Poggle the Lesser, remote system ID=[63], Odoo ID=[3022]
+INFO :: 2021-10-19 18:45:14,892 :: app.main:169 :: Successfully added: Contact Poggle the Lesser photo added
+INFO :: 2021-10-19 18:45:15,336 :: app.main:155 :: Successfully added: Contact Luminara Unduli, remote system ID=[64], Odoo ID=[3023]
+INFO :: 2021-10-19 18:45:16,319 :: app.main:169 :: Successfully added: Contact Luminara Unduli photo added
+INFO :: 2021-10-19 18:45:16,749 :: app.main:155 :: Successfully added: Contact Barriss Offee, remote system ID=[65], Odoo ID=[3024]
+INFO :: 2021-10-19 18:45:17,546 :: app.main:169 :: Successfully added: Contact Barriss Offee photo added
+INFO :: 2021-10-19 18:45:18,064 :: app.main:155 :: Successfully added: Contact Dormé, remote system ID=[66], Odoo ID=[3025]
+INFO :: 2021-10-19 18:45:18,761 :: app.main:169 :: Successfully added: Contact Dormé photo added
+INFO :: 2021-10-19 18:45:19,161 :: app.main:155 :: Successfully added: Contact Dooku, remote system ID=[67], Odoo ID=[3026]
+INFO :: 2021-10-19 18:45:19,857 :: app.main:169 :: Successfully added: Contact Dooku photo added
+INFO :: 2021-10-19 18:45:25,253 :: app.main:155 :: Successfully added: Contact Bail Prestor Organa, remote system ID=[68], Odoo ID=[3027]
+INFO :: 2021-10-19 18:45:25,571 :: app.main:169 :: Successfully added: Contact Bail Prestor Organa photo added
+INFO :: 2021-10-19 18:45:25,984 :: app.main:155 :: Successfully added: Contact Jango Fett, remote system ID=[69], Odoo ID=[3028]
+INFO :: 2021-10-19 18:45:26,657 :: app.main:169 :: Successfully added: Contact Jango Fett photo added
+INFO :: 2021-10-19 18:45:27,100 :: app.main:155 :: Successfully added: Contact Zam Wesell, remote system ID=[70], Odoo ID=[3029]
+INFO :: 2021-10-19 18:45:27,935 :: app.main:169 :: Successfully added: Contact Zam Wesell photo added
+INFO :: 2021-10-19 18:45:28,416 :: app.main:155 :: Successfully added: Contact Dexter Jettster, remote system ID=[71], Odoo ID=[3030]
+INFO :: 2021-10-19 18:45:28,706 :: app.main:169 :: Successfully added: Contact Dexter Jettster photo added
+INFO :: 2021-10-19 18:45:29,137 :: app.main:155 :: Successfully added: Contact Lama Su, remote system ID=[72], Odoo ID=[3031]
+INFO :: 2021-10-19 18:45:29,741 :: app.main:169 :: Successfully added: Contact Lama Su photo added
+INFO :: 2021-10-19 18:45:30,162 :: app.main:155 :: Successfully added: Contact Taun We, remote system ID=[73], Odoo ID=[3032]
+INFO :: 2021-10-19 18:45:31,678 :: app.main:169 :: Successfully added: Contact Taun We photo added
+INFO :: 2021-10-19 18:45:32,143 :: app.main:155 :: Successfully added: Contact Jocasta Nu, remote system ID=[74], Odoo ID=[3033]
+INFO :: 2021-10-19 18:45:33,993 :: app.main:169 :: Successfully added: Contact Jocasta Nu photo added
+INFO :: 2021-10-19 18:45:34,430 :: app.main:155 :: Successfully added: Contact R4-P17, remote system ID=[75], Odoo ID=[3034]
+INFO :: 2021-10-19 18:45:35,058 :: app.main:169 :: Successfully added: Contact R4-P17 photo added
+INFO :: 2021-10-19 18:45:42,823 :: app.main:155 :: Successfully added: Contact Wat Tambor, remote system ID=[76], Odoo ID=[3035]
+INFO :: 2021-10-19 18:45:43,481 :: app.main:169 :: Successfully added: Contact Wat Tambor photo added
+INFO :: 2021-10-19 18:45:44,721 :: app.main:155 :: Successfully added: Contact San Hill, remote system ID=[77], Odoo ID=[3036]
+INFO :: 2021-10-19 18:45:47,332 :: app.main:169 :: Successfully added: Contact San Hill photo added
+INFO :: 2021-10-19 18:45:48,701 :: app.main:155 :: Successfully added: Contact Shaak Ti, remote system ID=[78], Odoo ID=[3037]
+INFO :: 2021-10-19 18:45:49,293 :: app.main:169 :: Successfully added: Contact Shaak Ti photo added
+INFO :: 2021-10-19 18:45:50,582 :: app.main:155 :: Successfully added: Contact Grievous, remote system ID=[79], Odoo ID=[3038]
+INFO :: 2021-10-19 18:45:52,706 :: app.main:169 :: Successfully added: Contact Grievous photo added
+INFO :: 2021-10-19 18:45:57,277 :: app.main:155 :: Successfully added: Contact Tarfful, remote system ID=[80], Odoo ID=[3039]
+INFO :: 2021-10-19 18:45:58,045 :: app.main:169 :: Successfully added: Contact Tarfful photo added
+INFO :: 2021-10-19 18:45:59,505 :: app.main:155 :: Successfully added: Contact Raymus Antilles, remote system ID=[81], Odoo ID=[3040]
+INFO :: 2021-10-19 18:45:59,881 :: app.main:169 :: Successfully added: Contact Raymus Antilles photo added
+INFO :: 2021-10-19 18:46:02,531 :: app.main:155 :: Successfully added: Contact Sly Moore, remote system ID=[82], Odoo ID=[3041]
+INFO :: 2021-10-19 18:46:03,363 :: app.main:169 :: Successfully added: Contact Sly Moore photo added
+INFO :: 2021-10-19 18:46:07,723 :: app.main:155 :: Successfully added: Contact Tion Medon, remote system ID=[83], Odoo ID=[3042]
+INFO :: 2021-10-19 18:46:08,466 :: app.main:169 :: Successfully added: Contact Tion Medon photo added
+INFO :: 2021-10-19 18:46:08,466 :: app.main:174 :: Adding contacts completed
