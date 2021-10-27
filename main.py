@@ -1,8 +1,9 @@
 import classes
-# import asyncio
-import base64
-import xmlrpc.client
 import logging
+# import asyncio
+
+
+
 
 
 configurer = classes.Configurer()
@@ -12,17 +13,24 @@ receiver = systems['receiver']
 
 entities = configurer.select_etities()
 
-full_content = {}
-for entity in entities:
-    url = source.urls.get(entity)
-    content = source.get_content(url)
-    full_content[entity] = content
-print(len(full_content['planets']))
+entity_objects = source.create_objects(source, entities)
+planets = entity_objects['planets']
+contacts = entity_objects['contacts']
 
-# print(a['source'].planetsUrl)
+receiver.get_connect()
+
+for contact in contacts:
+    contact.push_data(receiver, planets)
 
 
-# # Function for create logger (console log and file log)
+
+#
+
+
+
+
+
+# Function for create logger (console log and file log)
 # def init_logger(name):
 #     logger = logging.getLogger(name)
 #     FORMAT = '%(levelname)s :: %(asctime)s :: %(name)s:%(lineno)s :: %(message)s'
@@ -95,17 +103,7 @@ print(len(full_content['planets']))
 #         try:
 #             search_by_name(model, planet)   # 2
 #         except:
-#             if planet['population'] == 'unknown':
-#                 planet['population'] = '0'
-#             if planet['rotation_period'] == 'unknown':
-#                 planet['rotation_period'] = '0'
-#             if planet['orbital_period'] == 'unknown':
-#                 planet['orbital_period'] = '0'
-#             if planet['diameter'] == 'unknown':
-#                 planet['diameter'] = '0'
-#             population = float(planet['population'])
-#             if population > 2147483640:
-#                 population = float(str(population).replace(str(population), '999999999'))
+#
 #             try:
 #                 planet['id'] = get_swapi_id(planet['url'])
 #                 models.execute_kw(db, uid, password, model, 'create', [{    # 3
@@ -408,3 +406,4 @@ print(len(full_content['planets']))
 #     logger.info('Connection with Odoo established successfully')
 #     adding_planets('swapi', 'planetsUrl', 'res.planet')
 #     adding_partners('swapi', 'peoplesUrl', 'photosUrl', 'res.partner')
+
