@@ -8,7 +8,11 @@ import base64
 config = ConfigParser()
 config.read(str(sys.argv[1]))
 
+
 def init_logger(name):
+    """
+    Create logger configuration
+    """
     logger = logging.getLogger(name)
     FORMAT = '%(levelname)s :: %(asctime)s :: %(name)s:%(lineno)s :: %(message)s'
     logger.setLevel(logging.INFO)
@@ -30,7 +34,6 @@ class Configurer:
     """
     read config and create instance of source and receiver
     """
-
     def __init__(self):
         self.remote_source = None
         self.remote_receiver = None
@@ -72,6 +75,9 @@ class Configurer:
 
 
 class SwapiSource:
+    """
+    class that receives data from "Swapi" and creates objects of entity classes
+    """
     def __init__(self):
         self.planetsUrl = None
         self.contactsUrl = None
@@ -105,56 +111,67 @@ class SwapiSource:
         return content
 
     def create_objects(self, source, entities):
+        """
+        creates objects of entity classes
+        :param source: source of data
+        :param entities: entities for transfer
+
+        :return: dict with entity objects
+        {entity1: entity1_objects, entity2: entity2_objects}
+        """
         logger.info("Receiving data")
         planets = []
         contacts = []
         entity_objects = {}
-        for entity in entities:
-            url = source.urls.get(entity)
-            content = source.get_content(url)
-            # print(content)
-            if entity == "planets":
-                logger.info("Receiving planets")
-                for planet in content:
-                    if planet['population'] == 'unknown':
-                        planet['population'] = '0'
-                    if planet['rotation_period'] == 'unknown':
-                        planet['rotation_period'] = '0'
-                    if planet['orbital_period'] == 'unknown':
-                        planet['orbital_period'] = '0'
-                    if planet['diameter'] == 'unknown':
-                        planet['diameter'] = '0'
-                    population = float(planet['population'])
-                    if population > 2147483640:
-                        population = float(str(population).replace(str(population), '999999999'))
-                    new_planet = Planets(
-                        planet['name'],
-                        planet['diameter'],
-                        planet['rotation_period'],
-                        planet['orbital_period'],
-                        population)
-                    new_planet.source_id = source.get_source_id(planet['url'])
-                    planets.append(new_planet)
-                entity_objects['planets'] = planets
+        try:
+            for entity in entities:
+                url = source.urls.get(entity)
+                content = source.get_content(url)
+                if entity == "planets":
+                    logger.info("Receiving planets")
+                    for planet in content:
+                        if planet['population'] == 'unknown':
+                            planet['population'] = '0'
+                        if planet['rotation_period'] == 'unknown':
+                            planet['rotation_period'] = '0'
+                        if planet['orbital_period'] == 'unknown':
+                            planet['orbital_period'] = '0'
+                        if planet['diameter'] == 'unknown':
+                            planet['diameter'] = '0'
+                        population = float(planet['population'])
+                        if population > 2147483640:
+                            population = float(str(population).replace(str(population), '999999999'))
+                        new_planet = Planets(
+                            planet['name'],
+                            planet['diameter'],
+                            planet['rotation_period'],
+                            planet['orbital_period'],
+                            population)
+                        new_planet.source_id = source.get_source_id(planet['url'])
+                        planets.append(new_planet)
+                    entity_objects['planets'] = planets
 
-            elif entity == "contacts":
-                logger.info("Receiving contacts")
-                for contact in content:
-                    planet_id = source.get_source_id(contact['homeworld'])
-                    people_id = source.get_source_id(contact['url'])
-                    homeworld = ""
-                    for planet in planets:
-                        if planet.source_id == planet_id:
-                            homeworld = planet.name
-                    photo_url = f'{source.photosUrl}{people_id}.jpg'
-                    new_contact = Contacts(
-                        contact['name'],
-                        homeworld,
-                        photo_url)
-                    new_contact.source_id = people_id
-                    contacts.append(new_contact)
-                entity_objects['contacts'] = contacts
-        return entity_objects
+                elif entity == "contacts":
+                    logger.info("Receiving contacts")
+                    for contact in content:
+                        planet_id = source.get_source_id(contact['homeworld'])
+                        people_id = source.get_source_id(contact['url'])
+                        homeworld = ""
+                        for planet in planets:
+                            if planet.source_id == planet_id:
+                                homeworld = planet.name
+                        photo_url = f'{source.photosUrl}{people_id}.jpg'
+                        new_contact = Contacts(
+                            contact['name'],
+                            homeworld,
+                            photo_url)
+                        new_contact.source_id = people_id
+                        contacts.append(new_contact)
+                    entity_objects['contacts'] = contacts
+        except Exception as e:
+            logger.error(e)
+        finally:
+            return entity_objects
 
     def get_source_id(self, content_url):
 
@@ -168,6 +185,9 @@ class SwapiSource:
 
 
 class OdooReceiver:
+    """
+    entity transfer management class
+    """
     def __init__(self):
         self.url = None
         self.db = None
@@ -183,6 +203,9 @@ class OdooReceiver:
         self.password = config.get('odoo', 'password')
 
     def get_connect(self):
+        """
+        establishing a connection with receiver
+        """
         try:
             logger.info('Connecting to Odoo')
             common = xmlrpc.client.ServerProxy('{}/xmlrpc/2/common'.format(self.url))
@@ -194,6 +217,12 @@ class OdooReceiver:
             logger.info('Connection with Odoo established successfully')
 
     def search_by_name(self, model, content):
+        """
+        item search in odoo
+        :param model: odoo model ('res.partner')
+        :param content:
+        :return: required element
+        """
         elem = self.models.execute_kw(
             self.db, self.uid, self.password,
             model, 'search',
@@ -201,6 +230,14 @@ class OdooReceiver:
         return elem
 
     def push_content(self, entity, elem, img='', planet=''):
+        """
+        Function for push element to odoo
+        :param entity: element entity
+        :param elem: element to carry
+        :param img: url of image (optional)
+        :param planet: name planet (optional)
+        :return: 'receiver id' for further transfer of contacts or logging
+        """
         receiver_id = None
         if entity == 'contact':
             receiver_id = self.models.execute_kw(self.db, self.uid, self.password, 'res.partner', 'create', [{
@@ -218,6 +255,9 @@ class OdooReceiver:
         return receiver_id
 
 class Planets:
+    """
+    entity Planet
+    """
     def __init__(self, name, diameter, rotation_period, orbital_period, population):
         self.source_id = None
         self.receiver_id = None
@@ -228,15 +268,20 @@ class Planets:
         self.population = population
 
     def push_data(self, receiver):
+        """
+        function starts transferring the object
+        :param receiver: into which system is the transfer
+        :return:'receiver id' for further transfer of contacts or logging
+        """
         try:
-            """Прорверяем наличие планеты"""
+            """Check planet in odoo"""
             self.receiver_id = receiver.search_by_name('res.planet', self)
         except:
-            """Добавляем планету"""
+            """adding planet"""
             try:
                 self.receiver_id = receiver.push_content('planet', self)
-            except Exception as e:
-                logger.error(f"Ошибка при добавлении планеты {self.name}{e}")
+            except:
+                logger.error(f"Error while adding planet {self.name}")
             else:
                 logger.info(f'Successfully added: Planet {self.name},'
                             f' remote system ID=[{self.source_id}], Odoo ID=[{self.receiver_id}]')
@@ -247,6 +292,9 @@ class Planets:
 
 
 class Contacts:
+    """
+    entity contact
+    """
     def __init__(self, name, planet, photo_url):
         self.source_id = None
         self.receiver_id = None
@@ -255,27 +303,33 @@ class Contacts:
         self.photo_url = photo_url
 
     def push_data(self, receiver, planets):
-
+        """
+        function starts transferring the object
+        :param receiver: into which system is the transfer
+        :param planets: list of planets
+        """
         try:
-            """Проверяем наличие контакта"""
-            self.receiver_id = receiver.search_by_name('res.partner', self)
-        except:
-            planet_id = None
-            for planet in planets:
-                if planet.name == self.planet:
-                    try:
-                        planet_id = planet.push_data(receiver)
-                    except Exception as e:
-                        print(e)
-            img = requests.get(self.photo_url)
-            img = base64.b64encode(img.content).decode('utf-8')
             try:
-                self.receiver_id = receiver.push_content('contact', self, img, planet_id)
-            except Exception as e:
-                logger.error(e)
+                """Check contact in odoo"""
+                self.receiver_id = receiver.search_by_name('res.partner', self)
+            except:
+                planet_id = None
+                for planet in planets:
+                    if planet.name == self.planet:
+                        try:
+                            planet_id = planet.push_data(receiver)
+                        except Exception as e:
+                            print(e)
+                img = requests.get(self.photo_url)
+                img = base64.b64encode(img.content).decode('utf-8')
+                try:
+                    self.receiver_id = receiver.push_content('contact', self, img, planet_id)
+                except:
+                    logger.error('Error while adding contact')
+                else:
+                    logger.info(f'Successfully added: Contact {self.name},'
+                                f' remote system ID=[{self.source_id}], Odoo ID=[{self.receiver_id}]')
             else:
-                logger.info(f'Successfully added: Contact {self.name},'
-                            f' remote system ID=[{self.source_id}], Odoo ID=[{self.receiver_id}]')
-        else:
-            logger.error(f'Contact {self.name} already exists')
-
+                logger.error(f'Contact {self.name} already exists')
+        except Exception as e:
+            logger.error(e)
