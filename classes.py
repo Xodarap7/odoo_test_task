@@ -4,11 +4,9 @@ import requests
 import xmlrpc.client
 import logging
 import base64
-import time
 
 config = ConfigParser()
 config.read(str(sys.argv[1]))
-
 
 def init_logger(name):
     logger = logging.getLogger(name)
@@ -26,6 +24,7 @@ def init_logger(name):
 
 init_logger('app')
 logger = logging.getLogger('app.classes')
+
 
 class Configurer:
     """
@@ -113,6 +112,7 @@ class SwapiSource:
         for entity in entities:
             url = source.urls.get(entity)
             content = source.get_content(url)
+            # print(content)
             if entity == "planets":
                 logger.info("Receiving planets")
                 for planet in content:
@@ -201,28 +201,21 @@ class OdooReceiver:
         return elem
 
     def push_content(self, entity, elem, img='', planet=''):
+        receiver_id = None
         if entity == 'contact':
-            try:
-                self.models.execute_kw(self.db, self.uid, self.password, 'res.partner', 'create', [{
-                    'company_type': 'person',
-                    'name': elem.name,
-                    'planet': planet,
-                    'image_1920': img}])
-            except:
-                pass
-
+            receiver_id = self.models.execute_kw(self.db, self.uid, self.password, 'res.partner', 'create', [{
+                'company_type': 'person',
+                'name': elem.name,
+                'planet': planet,
+                'image_1920': img}])
         elif entity == 'planet':
-            try:
-                 self.models.execute_kw(self.db, self.uid, self.password, 'res.planet', 'create', [{
-                    'name': elem.name,
-                    'diameter': elem.diameter,
-                    'rotation_period': elem.rotation_period,
-                    'orbital_period': elem.orbital_period,
-                    'population': elem.population}])
-
-            except:
-                pass
-
+             receiver_id = self.models.execute_kw(self.db, self.uid, self.password, 'res.planet', 'create', [{
+                'name': elem.name,
+                'diameter': elem.diameter,
+                'rotation_period': elem.rotation_period,
+                'orbital_period': elem.orbital_period,
+                'population': elem.population}])
+        return receiver_id
 
 class Planets:
     def __init__(self, name, diameter, rotation_period, orbital_period, population):
@@ -242,10 +235,11 @@ class Planets:
             """Добавляем планету"""
             try:
                 self.receiver_id = receiver.push_content('planet', self)
+            except Exception as e:
+                logger.error(f"Ошибка при добавлении планеты {self.name}{e}")
+            else:
                 logger.info(f'Successfully added: Planet {self.name},'
                             f' remote system ID=[{self.source_id}], Odoo ID=[{self.receiver_id}]')
-            except:
-                pass
         else:
             logger.info(f'Planet {self.name} already exists')
         finally:
@@ -259,28 +253,29 @@ class Contacts:
         self.name = name
         self.planet = planet
         self.photo_url = photo_url
+
     def push_data(self, receiver, planets):
 
         try:
             """Проверяем наличие контакта"""
             self.receiver_id = receiver.search_by_name('res.partner', self)
         except:
-            planet_id = ''
+            planet_id = None
             for planet in planets:
                 if planet.name == self.planet:
                     try:
                         planet_id = planet.push_data(receiver)
-                    except:
-                        pass
+                    except Exception as e:
+                        print(e)
             img = requests.get(self.photo_url)
             img = base64.b64encode(img.content).decode('utf-8')
             try:
                 self.receiver_id = receiver.push_content('contact', self, img, planet_id)
+            except Exception as e:
+                logger.error(e)
+            else:
                 logger.info(f'Successfully added: Contact {self.name},'
                             f' remote system ID=[{self.source_id}], Odoo ID=[{self.receiver_id}]')
-
-            except Exception as e:
-                print(e)
         else:
             logger.error(f'Contact {self.name} already exists')
 
