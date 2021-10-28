@@ -254,6 +254,7 @@ class OdooReceiver:
                 'population': elem.population}])
         return receiver_id
 
+
 class Planets:
     """
     entity Planet
