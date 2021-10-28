@@ -1,0 +1,1015 @@
+INFO :: 2021-10-28 23:44:50,273 :: app.classes:47 :: Install config
+INFO :: 2021-10-28 23:44:50,273 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-28 23:44:50,273 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-28 23:44:50,273 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-28 23:44:52,998 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-28 23:44:56,733 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-28 23:44:56,735 :: app.classes:210 :: Connecting to Odoo
+INFO :: 2021-10-28 23:44:56,782 :: app.classes:217 :: Connection with Odoo established successfully
+INFO :: 2021-10-28 23:44:56,800 :: app.classes:286 :: Successfully added: Planet Tatooine, remote system ID=[1], Odoo ID=[6501]
+INFO :: 2021-10-28 23:44:57,267 :: app.classes:330 :: Successfully added: Contact Luke Skywalker, remote system ID=[1], Odoo ID=[5123]
+INFO :: 2021-10-28 23:44:57,278 :: app.classes:289 :: Planet Tatooine already exists
+INFO :: 2021-10-28 23:44:57,862 :: app.classes:330 :: Successfully added: Contact C-3PO, remote system ID=[2], Odoo ID=[5124]
+INFO :: 2021-10-28 23:44:57,879 :: app.classes:286 :: Successfully added: Planet Naboo, remote system ID=[8], Odoo ID=[6502]
+INFO :: 2021-10-28 23:44:58,225 :: app.classes:330 :: Successfully added: Contact R2-D2, remote system ID=[3], Odoo ID=[5125]
+INFO :: 2021-10-28 23:44:58,235 :: app.classes:289 :: Planet Tatooine already exists
+INFO :: 2021-10-28 23:44:58,666 :: app.classes:330 :: Successfully added: Contact Darth Vader, remote system ID=[4], Odoo ID=[5126]
+INFO :: 2021-10-28 23:44:58,683 :: app.classes:286 :: Successfully added: Planet Alderaan, remote system ID=[2], Odoo ID=[6503]
+INFO :: 2021-10-28 23:44:59,020 :: app.classes:330 :: Successfully added: Contact Leia Organa, remote system ID=[5], Odoo ID=[5127]
+INFO :: 2021-10-28 23:44:59,030 :: app.classes:289 :: Planet Tatooine already exists
+INFO :: 2021-10-28 23:44:59,438 :: app.classes:330 :: Successfully added: Contact Owen Lars, remote system ID=[6], Odoo ID=[5128]
+INFO :: 2021-10-28 23:44:59,449 :: app.classes:289 :: Planet Tatooine already exists
+INFO :: 2021-10-28 23:45:00,033 :: app.classes:330 :: Successfully added: Contact Beru Whitesun lars, remote system ID=[7], Odoo ID=[5129]
+INFO :: 2021-10-28 23:45:00,045 :: app.classes:289 :: Planet Tatooine already exists
+INFO :: 2021-10-28 23:45:00,371 :: app.classes:330 :: Successfully added: Contact R5-D4, remote system ID=[8], Odoo ID=[5130]
+INFO :: 2021-10-28 23:45:00,382 :: app.classes:289 :: Planet Tatooine already exists
+INFO :: 2021-10-28 23:45:00,775 :: app.classes:330 :: Successfully added: Contact Biggs Darklighter, remote system ID=[9], Odoo ID=[5131]
+INFO :: 2021-10-28 23:45:00,793 :: app.classes:286 :: Successfully added: Planet Stewjon, remote system ID=[20], Odoo ID=[6504]
+INFO :: 2021-10-28 23:45:01,122 :: app.classes:330 :: Successfully added: Contact Obi-Wan Kenobi, remote system ID=[10], Odoo ID=[5132]
+INFO :: 2021-10-28 23:45:01,132 :: app.classes:289 :: Planet Tatooine already exists
+INFO :: 2021-10-28 23:45:01,531 :: app.classes:330 :: Successfully added: Contact Anakin Skywalker, remote system ID=[11], Odoo ID=[5133]
+INFO :: 2021-10-28 23:45:01,548 :: app.classes:286 :: Successfully added: Planet Eriadu, remote system ID=[21], Odoo ID=[6505]
+INFO :: 2021-10-28 23:45:01,900 :: app.classes:330 :: Successfully added: Contact Wilhuff Tarkin, remote system ID=[12], Odoo ID=[5134]
+INFO :: 2021-10-28 23:45:01,917 :: app.classes:286 :: Successfully added: Planet Kashyyyk, remote system ID=[14], Odoo ID=[6506]
+INFO :: 2021-10-28 23:45:02,256 :: app.classes:330 :: Successfully added: Contact Chewbacca, remote system ID=[13], Odoo ID=[5135]
+INFO :: 2021-10-28 23:45:02,273 :: app.classes:286 :: Successfully added: Planet Corellia, remote system ID=[22], Odoo ID=[6507]
+INFO :: 2021-10-28 23:45:02,671 :: app.classes:330 :: Successfully added: Contact Han Solo, remote system ID=[14], Odoo ID=[5136]
+INFO :: 2021-10-28 23:45:02,689 :: app.classes:286 :: Successfully added: Planet Rodia, remote system ID=[23], Odoo ID=[6508]
+INFO :: 2021-10-28 23:45:03,256 :: app.classes:330 :: Successfully added: Contact Greedo, remote system ID=[15], Odoo ID=[5137]
+INFO :: 2021-10-28 23:45:03,275 :: app.classes:286 :: Successfully added: Planet Nal Hutta, remote system ID=[24], Odoo ID=[6509]
+INFO :: 2021-10-28 23:45:03,675 :: app.classes:330 :: Successfully added: Contact Jabba Desilijic Tiure, remote system ID=[16], Odoo ID=[5138]
+INFO :: 2021-10-28 23:45:03,685 :: app.classes:289 :: Planet Corellia already exists
+INFO :: 2021-10-28 23:45:09,028 :: app.classes:330 :: Successfully added: Contact Wedge Antilles, remote system ID=[18], Odoo ID=[5139]
+INFO :: 2021-10-28 23:45:09,045 :: app.classes:286 :: Successfully added: Planet Bestine IV, remote system ID=[26], Odoo ID=[6510]
+INFO :: 2021-10-28 23:45:09,376 :: app.classes:330 :: Successfully added: Contact Jek Tono Porkins, remote system ID=[19], Odoo ID=[5140]
+INFO :: 2021-10-28 23:45:09,393 :: app.classes:286 :: Successfully added: Planet unknown, remote system ID=[28], Odoo ID=[6511]
+INFO :: 2021-10-28 23:45:09,742 :: app.classes:330 :: Successfully added: Contact Yoda, remote system ID=[20], Odoo ID=[5141]
+INFO :: 2021-10-28 23:45:09,752 :: app.classes:289 :: Planet Naboo already exists
+INFO :: 2021-10-28 23:45:15,032 :: app.classes:330 :: Successfully added: Contact Palpatine, remote system ID=[21], Odoo ID=[5142]
+INFO :: 2021-10-28 23:45:15,049 :: app.classes:286 :: Successfully added: Planet Kamino, remote system ID=[10], Odoo ID=[6512]
+INFO :: 2021-10-28 23:45:15,357 :: app.classes:330 :: Successfully added: Contact Boba Fett, remote system ID=[22], Odoo ID=[5143]
+INFO :: 2021-10-28 23:45:15,368 :: app.classes:289 :: Planet unknown already exists
+INFO :: 2021-10-28 23:45:15,812 :: app.classes:330 :: Successfully added: Contact IG-88, remote system ID=[23], Odoo ID=[5144]
+INFO :: 2021-10-28 23:45:15,830 :: app.classes:286 :: Successfully added: Planet Trandosha, remote system ID=[29], Odoo ID=[6513]
+INFO :: 2021-10-28 23:45:16,187 :: app.classes:330 :: Successfully added: Contact Bossk, remote system ID=[24], Odoo ID=[5145]
+INFO :: 2021-10-28 23:45:16,204 :: app.classes:286 :: Successfully added: Planet Socorro, remote system ID=[30], Odoo ID=[6514]
+INFO :: 2021-10-28 23:45:16,595 :: app.classes:330 :: Successfully added: Contact Lando Calrissian, remote system ID=[25], Odoo ID=[5146]
+INFO :: 2021-10-28 23:45:16,612 :: app.classes:286 :: Successfully added: Planet Bespin, remote system ID=[6], Odoo ID=[6515]
+INFO :: 2021-10-28 23:45:16,946 :: app.classes:330 :: Successfully added: Contact Lobot, remote system ID=[26], Odoo ID=[5147]
+INFO :: 2021-10-28 23:45:16,963 :: app.classes:286 :: Successfully added: Planet Mon Cala, remote system ID=[31], Odoo ID=[6516]
+INFO :: 2021-10-28 23:45:17,280 :: app.classes:330 :: Successfully added: Contact Ackbar, remote system ID=[27], Odoo ID=[5148]
+INFO :: 2021-10-28 23:45:17,297 :: app.classes:286 :: Successfully added: Planet Chandrila, remote system ID=[32], Odoo ID=[6517]
+INFO :: 2021-10-28 23:45:17,710 :: app.classes:330 :: Successfully added: Contact Mon Mothma, remote system ID=[28], Odoo ID=[5149]
+INFO :: 2021-10-28 23:45:17,720 :: app.classes:289 :: Planet unknown already exists
+INFO :: 2021-10-28 23:45:18,091 :: app.classes:330 :: Successfully added: Contact Arvel Crynyd, remote system ID=[29], Odoo ID=[5150]
+INFO :: 2021-10-28 23:45:18,108 :: app.classes:286 :: Successfully added: Planet Endor, remote system ID=[7], Odoo ID=[6518]
+INFO :: 2021-10-28 23:45:18,442 :: app.classes:330 :: Successfully added: Contact Wicket Systri Warrick, remote system ID=[30], Odoo ID=[5151]
+INFO :: 2021-10-28 23:45:18,459 :: app.classes:286 :: Successfully added: Planet Sullust, remote system ID=[33], Odoo ID=[6519]
+INFO :: 2021-10-28 23:45:18,801 :: app.classes:330 :: Successfully added: Contact Nien Nunb, remote system ID=[31], Odoo ID=[5152]
+INFO :: 2021-10-28 23:45:18,812 :: app.classes:289 :: Planet unknown already exists
+INFO :: 2021-10-28 23:45:19,107 :: app.classes:330 :: Successfully added: Contact Qui-Gon Jinn, remote system ID=[32], Odoo ID=[5153]
+INFO :: 2021-10-28 23:45:19,124 :: app.classes:286 :: Successfully added: Planet Cato Neimoidia, remote system ID=[18], Odoo ID=[6520]
+INFO :: 2021-10-28 23:45:19,963 :: app.classes:330 :: Successfully added: Contact Nute Gunray, remote system ID=[33], Odoo ID=[5154]
+INFO :: 2021-10-28 23:45:19,979 :: app.classes:286 :: Successfully added: Planet Coruscant, remote system ID=[9], Odoo ID=[6521]
+INFO :: 2021-10-28 23:45:20,421 :: app.classes:330 :: Successfully added: Contact Finis Valorum, remote system ID=[34], Odoo ID=[5155]
+INFO :: 2021-10-28 23:45:20,431 :: app.classes:289 :: Planet Naboo already exists
+INFO :: 2021-10-28 23:45:20,790 :: app.classes:330 :: Successfully added: Contact Padmé Amidala, remote system ID=[35], Odoo ID=[5156]
+INFO :: 2021-10-28 23:45:20,800 :: app.classes:289 :: Planet Naboo already exists
+INFO :: 2021-10-28 23:45:21,099 :: app.classes:330 :: Successfully added: Contact Jar Jar Binks, remote system ID=[36], Odoo ID=[5157]
+INFO :: 2021-10-28 23:45:21,110 :: app.classes:289 :: Planet Naboo already exists
+INFO :: 2021-10-28 23:45:21,540 :: app.classes:330 :: Successfully added: Contact Roos Tarpals, remote system ID=[37], Odoo ID=[5158]
+INFO :: 2021-10-28 23:45:21,550 :: app.classes:289 :: Planet Naboo already exists
+INFO :: 2021-10-28 23:45:21,878 :: app.classes:330 :: Successfully added: Contact Rugor Nass, remote system ID=[38], Odoo ID=[5159]
+INFO :: 2021-10-28 23:45:21,888 :: app.classes:289 :: Planet Naboo already exists
+INFO :: 2021-10-28 23:45:22,235 :: app.classes:330 :: Successfully added: Contact Ric Olié, remote system ID=[39], Odoo ID=[5160]
+INFO :: 2021-10-28 23:45:22,252 :: app.classes:286 :: Successfully added: Planet Toydaria, remote system ID=[34], Odoo ID=[6522]
+INFO :: 2021-10-28 23:45:22,690 :: app.classes:330 :: Successfully added: Contact Watto, remote system ID=[40], Odoo ID=[5161]
+INFO :: 2021-10-28 23:45:22,708 :: app.classes:286 :: Successfully added: Planet Malastare, remote system ID=[35], Odoo ID=[6523]
+INFO :: 2021-10-28 23:45:23,037 :: app.classes:330 :: Successfully added: Contact Sebulba, remote system ID=[41], Odoo ID=[5162]
+INFO :: 2021-10-28 23:45:23,047 :: app.classes:289 :: Planet Naboo already exists
+INFO :: 2021-10-28 23:45:23,374 :: app.classes:330 :: Successfully added: Contact Quarsh Panaka, remote system ID=[42], Odoo ID=[5163]
+INFO :: 2021-10-28 23:45:23,385 :: app.classes:289 :: Planet Tatooine already exists
+INFO :: 2021-10-28 23:45:23,891 :: app.classes:330 :: Successfully added: Contact Shmi Skywalker, remote system ID=[43], Odoo ID=[5164]
+INFO :: 2021-10-28 23:45:23,909 :: app.classes:286 :: Successfully added: Planet Dathomir, remote system ID=[36], Odoo ID=[6524]
+INFO :: 2021-10-28 23:45:24,225 :: app.classes:330 :: Successfully added: Contact Darth Maul, remote system ID=[44], Odoo ID=[5165]
+INFO :: 2021-10-28 23:45:24,242 :: app.classes:286 :: Successfully added: Planet Ryloth, remote system ID=[37], Odoo ID=[6525]
+INFO :: 2021-10-28 23:45:24,671 :: app.classes:330 :: Successfully added: Contact Bib Fortuna, remote system ID=[45], Odoo ID=[5166]
+INFO :: 2021-10-28 23:45:24,681 :: app.classes:289 :: Planet Ryloth already exists
+INFO :: 2021-10-28 23:45:24,973 :: app.classes:330 :: Successfully added: Contact Ayla Secura, remote system ID=[46], Odoo ID=[5167]
+INFO :: 2021-10-28 23:45:24,990 :: app.classes:286 :: Successfully added: Planet Aleen Minor, remote system ID=[38], Odoo ID=[6526]
+INFO :: 2021-10-28 23:45:25,265 :: app.classes:330 :: Successfully added: Contact Ratts Tyerel, remote system ID=[47], Odoo ID=[5168]
+INFO :: 2021-10-28 23:45:25,282 :: app.classes:286 :: Successfully added: Planet Vulpter, remote system ID=[39], Odoo ID=[6527]
+INFO :: 2021-10-28 23:45:25,704 :: app.classes:330 :: Successfully added: Contact Dud Bolt, remote system ID=[48], Odoo ID=[5169]
+INFO :: 2021-10-28 23:45:25,721 :: app.classes:286 :: Successfully added: Planet Troiken, remote system ID=[40], Odoo ID=[6528]
+INFO :: 2021-10-28 23:45:25,992 :: app.classes:330 :: Successfully added: Contact Gasgano, remote system ID=[49], Odoo ID=[5170]
+INFO :: 2021-10-28 23:45:26,009 :: app.classes:286 :: Successfully added: Planet Tund, remote system ID=[41], Odoo ID=[6529]
+INFO :: 2021-10-28 23:45:26,350 :: app.classes:330 :: Successfully added: Contact Ben Quadinaros, remote system ID=[50], Odoo ID=[5171]
+INFO :: 2021-10-28 23:45:26,367 :: app.classes:286 :: Successfully added: Planet Haruun Kal, remote system ID=[42], Odoo ID=[6530]
+INFO :: 2021-10-28 23:45:26,806 :: app.classes:330 :: Successfully added: Contact Mace Windu, remote system ID=[51], Odoo ID=[5172]
+INFO :: 2021-10-28 23:45:26,823 :: app.classes:286 :: Successfully added: Planet Cerea, remote system ID=[43], Odoo ID=[6531]
+INFO :: 2021-10-28 23:45:27,208 :: app.classes:330 :: Successfully added: Contact Ki-Adi-Mundi, remote system ID=[52], Odoo ID=[5173]
+INFO :: 2021-10-28 23:45:27,226 :: app.classes:286 :: Successfully added: Planet Glee Anselm, remote system ID=[44], Odoo ID=[6532]
+INFO :: 2021-10-28 23:45:27,626 :: app.classes:330 :: Successfully added: Contact Kit Fisto, remote system ID=[53], Odoo ID=[5174]
+INFO :: 2021-10-28 23:45:27,643 :: app.classes:286 :: Successfully added: Planet Iridonia, remote system ID=[45], Odoo ID=[6533]
+INFO :: 2021-10-28 23:45:27,944 :: app.classes:330 :: Successfully added: Contact Eeth Koth, remote system ID=[54], Odoo ID=[5175]
+INFO :: 2021-10-28 23:45:27,955 :: app.classes:289 :: Planet Coruscant already exists
+INFO :: 2021-10-28 23:45:33,385 :: app.classes:330 :: Successfully added: Contact Adi Gallia, remote system ID=[55], Odoo ID=[5176]
+INFO :: 2021-10-28 23:45:33,403 :: app.classes:286 :: Successfully added: Planet Iktotch, remote system ID=[47], Odoo ID=[6534]
+INFO :: 2021-10-28 23:45:33,766 :: app.classes:330 :: Successfully added: Contact Saesee Tiin, remote system ID=[56], Odoo ID=[5177]
+INFO :: 2021-10-28 23:45:33,784 :: app.classes:286 :: Successfully added: Planet Quermia, remote system ID=[48], Odoo ID=[6535]
+INFO :: 2021-10-28 23:45:34,075 :: app.classes:330 :: Successfully added: Contact Yarael Poof, remote system ID=[57], Odoo ID=[5178]
+INFO :: 2021-10-28 23:45:34,092 :: app.classes:286 :: Successfully added: Planet Dorin, remote system ID=[49], Odoo ID=[6536]
+INFO :: 2021-10-28 23:45:34,458 :: app.classes:330 :: Successfully added: Contact Plo Koon, remote system ID=[58], Odoo ID=[5179]
+INFO :: 2021-10-28 23:45:34,475 :: app.classes:286 :: Successfully added: Planet Champala, remote system ID=[50], Odoo ID=[6537]
+INFO :: 2021-10-28 23:45:34,819 :: app.classes:330 :: Successfully added: Contact Mas Amedda, remote system ID=[59], Odoo ID=[5180]
+INFO :: 2021-10-28 23:45:34,830 :: app.classes:289 :: Planet Naboo already exists
+INFO :: 2021-10-28 23:45:35,096 :: app.classes:330 :: Successfully added: Contact Gregar Typho, remote system ID=[60], Odoo ID=[5181]
+INFO :: 2021-10-28 23:45:35,107 :: app.classes:289 :: Planet Naboo already exists
+INFO :: 2021-10-28 23:45:35,564 :: app.classes:330 :: Successfully added: Contact Cordé, remote system ID=[61], Odoo ID=[5182]
+INFO :: 2021-10-28 23:45:35,574 :: app.classes:289 :: Planet Tatooine already exists
+INFO :: 2021-10-28 23:45:35,925 :: app.classes:330 :: Successfully added: Contact Cliegg Lars, remote system ID=[62], Odoo ID=[5183]
+INFO :: 2021-10-28 23:45:35,942 :: app.classes:286 :: Successfully added: Planet Geonosis, remote system ID=[11], Odoo ID=[6538]
+INFO :: 2021-10-28 23:45:36,285 :: app.classes:330 :: Successfully added: Contact Poggle the Lesser, remote system ID=[63], Odoo ID=[5184]
+INFO :: 2021-10-28 23:45:36,302 :: app.classes:286 :: Successfully added: Planet Mirial, remote system ID=[51], Odoo ID=[6539]
+INFO :: 2021-10-28 23:45:36,682 :: app.classes:330 :: Successfully added: Contact Luminara Unduli, remote system ID=[64], Odoo ID=[5185]
+INFO :: 2021-10-28 23:45:36,693 :: app.classes:289 :: Planet Mirial already exists
+INFO :: 2021-10-28 23:45:36,980 :: app.classes:330 :: Successfully added: Contact Barriss Offee, remote system ID=[65], Odoo ID=[5186]
+INFO :: 2021-10-28 23:45:36,990 :: app.classes:289 :: Planet Naboo already exists
+INFO :: 2021-10-28 23:45:37,323 :: app.classes:330 :: Successfully added: Contact Dormé, remote system ID=[66], Odoo ID=[5187]
+INFO :: 2021-10-28 23:45:37,341 :: app.classes:286 :: Successfully added: Planet Serenno, remote system ID=[52], Odoo ID=[6540]
+INFO :: 2021-10-28 23:45:37,745 :: app.classes:330 :: Successfully added: Contact Dooku, remote system ID=[67], Odoo ID=[5188]
+INFO :: 2021-10-28 23:45:37,756 :: app.classes:289 :: Planet Alderaan already exists
+INFO :: 2021-10-28 23:45:38,046 :: app.classes:330 :: Successfully added: Contact Bail Prestor Organa, remote system ID=[68], Odoo ID=[5189]
+INFO :: 2021-10-28 23:45:38,064 :: app.classes:286 :: Successfully added: Planet Concord Dawn, remote system ID=[53], Odoo ID=[6541]
+INFO :: 2021-10-28 23:45:38,459 :: app.classes:330 :: Successfully added: Contact Jango Fett, remote system ID=[69], Odoo ID=[5190]
+INFO :: 2021-10-28 23:45:38,476 :: app.classes:286 :: Successfully added: Planet Zolan, remote system ID=[54], Odoo ID=[6542]
+INFO :: 2021-10-28 23:45:38,818 :: app.classes:330 :: Successfully added: Contact Zam Wesell, remote system ID=[70], Odoo ID=[5191]
+INFO :: 2021-10-28 23:45:38,835 :: app.classes:286 :: Successfully added: Planet Ojom, remote system ID=[55], Odoo ID=[6543]
+INFO :: 2021-10-28 23:45:39,152 :: app.classes:330 :: Successfully added: Contact Dexter Jettster, remote system ID=[71], Odoo ID=[5192]
+INFO :: 2021-10-28 23:45:39,163 :: app.classes:289 :: Planet Kamino already exists
+INFO :: 2021-10-28 23:45:39,531 :: app.classes:330 :: Successfully added: Contact Lama Su, remote system ID=[72], Odoo ID=[5193]
+INFO :: 2021-10-28 23:45:39,542 :: app.classes:289 :: Planet Kamino already exists
+INFO :: 2021-10-28 23:45:39,872 :: app.classes:330 :: Successfully added: Contact Taun We, remote system ID=[73], Odoo ID=[5194]
+INFO :: 2021-10-28 23:45:39,882 :: app.classes:289 :: Planet Coruscant already exists
+INFO :: 2021-10-28 23:45:40,240 :: app.classes:330 :: Successfully added: Contact Jocasta Nu, remote system ID=[74], Odoo ID=[5195]
+INFO :: 2021-10-28 23:45:40,251 :: app.classes:289 :: Planet unknown already exists
+INFO :: 2021-10-28 23:45:40,748 :: app.classes:330 :: Successfully added: Contact R4-P17, remote system ID=[75], Odoo ID=[5196]
+INFO :: 2021-10-28 23:45:40,766 :: app.classes:286 :: Successfully added: Planet Skako, remote system ID=[56], Odoo ID=[6544]
+INFO :: 2021-10-28 23:45:41,110 :: app.classes:330 :: Successfully added: Contact Wat Tambor, remote system ID=[76], Odoo ID=[5197]
+INFO :: 2021-10-28 23:45:41,128 :: app.classes:286 :: Successfully added: Planet Muunilinst, remote system ID=[57], Odoo ID=[6545]
+INFO :: 2021-10-28 23:45:41,437 :: app.classes:330 :: Successfully added: Contact San Hill, remote system ID=[77], Odoo ID=[5198]
+INFO :: 2021-10-28 23:45:41,454 :: app.classes:286 :: Successfully added: Planet Shili, remote system ID=[58], Odoo ID=[6546]
+INFO :: 2021-10-28 23:45:41,867 :: app.classes:330 :: Successfully added: Contact Shaak Ti, remote system ID=[78], Odoo ID=[5199]
+INFO :: 2021-10-28 23:45:41,885 :: app.classes:286 :: Successfully added: Planet Kalee, remote system ID=[59], Odoo ID=[6547]
+INFO :: 2021-10-28 23:45:42,310 :: app.classes:330 :: Successfully added: Contact Grievous, remote system ID=[79], Odoo ID=[5200]
+INFO :: 2021-10-28 23:45:42,321 :: app.classes:289 :: Planet Kashyyyk already exists
+INFO :: 2021-10-28 23:45:42,622 :: app.classes:330 :: Successfully added: Contact Tarfful, remote system ID=[80], Odoo ID=[5201]
+INFO :: 2021-10-28 23:45:42,632 :: app.classes:289 :: Planet Alderaan already exists
+INFO :: 2021-10-28 23:45:42,924 :: app.classes:330 :: Successfully added: Contact Raymus Antilles, remote system ID=[81], Odoo ID=[5202]
+INFO :: 2021-10-28 23:45:42,942 :: app.classes:286 :: Successfully added: Planet Umbara, remote system ID=[60], Odoo ID=[6548]
+INFO :: 2021-10-28 23:45:43,233 :: app.classes:330 :: Successfully added: Contact Sly Moore, remote system ID=[82], Odoo ID=[5203]
+INFO :: 2021-10-28 23:45:43,251 :: app.classes:286 :: Successfully added: Planet Utapau, remote system ID=[12], Odoo ID=[6549]
+INFO :: 2021-10-28 23:45:43,566 :: app.classes:330 :: Successfully added: Contact Tion Medon, remote system ID=[83], Odoo ID=[5204]
+INFO :: 2021-10-29 00:02:38,988 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:02:38,988 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:02:38,988 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:02:38,988 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:02:41,434 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:02:45,355 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:02:45,357 :: app.classes:210 :: Connecting to Odoo
+INFO :: 2021-10-29 00:02:45,382 :: app.classes:217 :: Connection with Odoo established successfully
+ERROR :: 2021-10-29 00:02:45,388 :: app.classes:334 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-29 00:02:45,393 :: app.classes:334 :: Contact C-3PO already exists
+ERROR :: 2021-10-29 00:02:45,398 :: app.classes:334 :: Contact R2-D2 already exists
+ERROR :: 2021-10-29 00:02:45,404 :: app.classes:334 :: Contact Darth Vader already exists
+ERROR :: 2021-10-29 00:02:45,408 :: app.classes:334 :: Contact Leia Organa already exists
+ERROR :: 2021-10-29 00:02:45,413 :: app.classes:334 :: Contact Owen Lars already exists
+ERROR :: 2021-10-29 00:02:45,419 :: app.classes:334 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-29 00:02:45,424 :: app.classes:334 :: Contact R5-D4 already exists
+ERROR :: 2021-10-29 00:02:45,429 :: app.classes:334 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-29 00:02:45,435 :: app.classes:334 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-29 00:02:45,440 :: app.classes:334 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-29 00:02:45,445 :: app.classes:334 :: Contact Wilhuff Tarkin already exists
+ERROR :: 2021-10-29 00:02:45,450 :: app.classes:334 :: Contact Chewbacca already exists
+ERROR :: 2021-10-29 00:02:45,456 :: app.classes:334 :: Contact Han Solo already exists
+ERROR :: 2021-10-29 00:02:45,461 :: app.classes:334 :: Contact Greedo already exists
+ERROR :: 2021-10-29 00:02:45,466 :: app.classes:334 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-29 00:02:45,471 :: app.classes:334 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-29 00:02:45,477 :: app.classes:334 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-29 00:02:45,482 :: app.classes:334 :: Contact Yoda already exists
+ERROR :: 2021-10-29 00:02:45,487 :: app.classes:334 :: Contact Palpatine already exists
+ERROR :: 2021-10-29 00:02:45,492 :: app.classes:334 :: Contact Boba Fett already exists
+ERROR :: 2021-10-29 00:02:45,497 :: app.classes:334 :: Contact IG-88 already exists
+ERROR :: 2021-10-29 00:02:45,502 :: app.classes:334 :: Contact Bossk already exists
+ERROR :: 2021-10-29 00:02:45,507 :: app.classes:334 :: Contact Lando Calrissian already exists
+ERROR :: 2021-10-29 00:02:45,512 :: app.classes:334 :: Contact Lobot already exists
+ERROR :: 2021-10-29 00:02:45,517 :: app.classes:334 :: Contact Ackbar already exists
+ERROR :: 2021-10-29 00:02:45,522 :: app.classes:334 :: Contact Mon Mothma already exists
+ERROR :: 2021-10-29 00:02:45,526 :: app.classes:334 :: Contact Arvel Crynyd already exists
+ERROR :: 2021-10-29 00:02:45,531 :: app.classes:334 :: Contact Wicket Systri Warrick already exists
+ERROR :: 2021-10-29 00:02:45,536 :: app.classes:334 :: Contact Nien Nunb already exists
+ERROR :: 2021-10-29 00:02:45,541 :: app.classes:334 :: Contact Qui-Gon Jinn already exists
+ERROR :: 2021-10-29 00:02:45,546 :: app.classes:334 :: Contact Nute Gunray already exists
+ERROR :: 2021-10-29 00:02:45,551 :: app.classes:334 :: Contact Finis Valorum already exists
+ERROR :: 2021-10-29 00:02:45,556 :: app.classes:334 :: Contact Padmé Amidala already exists
+ERROR :: 2021-10-29 00:02:45,561 :: app.classes:334 :: Contact Jar Jar Binks already exists
+ERROR :: 2021-10-29 00:02:45,566 :: app.classes:334 :: Contact Roos Tarpals already exists
+ERROR :: 2021-10-29 00:02:45,571 :: app.classes:334 :: Contact Rugor Nass already exists
+ERROR :: 2021-10-29 00:02:45,576 :: app.classes:334 :: Contact Ric Olié already exists
+ERROR :: 2021-10-29 00:02:45,581 :: app.classes:334 :: Contact Watto already exists
+ERROR :: 2021-10-29 00:02:45,586 :: app.classes:334 :: Contact Sebulba already exists
+ERROR :: 2021-10-29 00:02:45,591 :: app.classes:334 :: Contact Quarsh Panaka already exists
+ERROR :: 2021-10-29 00:02:45,596 :: app.classes:334 :: Contact Shmi Skywalker already exists
+ERROR :: 2021-10-29 00:02:45,601 :: app.classes:334 :: Contact Darth Maul already exists
+ERROR :: 2021-10-29 00:02:45,607 :: app.classes:334 :: Contact Bib Fortuna already exists
+ERROR :: 2021-10-29 00:02:45,612 :: app.classes:334 :: Contact Ayla Secura already exists
+ERROR :: 2021-10-29 00:02:45,617 :: app.classes:334 :: Contact Ratts Tyerel already exists
+ERROR :: 2021-10-29 00:02:45,622 :: app.classes:334 :: Contact Dud Bolt already exists
+ERROR :: 2021-10-29 00:02:45,627 :: app.classes:334 :: Contact Gasgano already exists
+ERROR :: 2021-10-29 00:02:45,631 :: app.classes:334 :: Contact Ben Quadinaros already exists
+ERROR :: 2021-10-29 00:02:45,637 :: app.classes:334 :: Contact Mace Windu already exists
+ERROR :: 2021-10-29 00:02:45,642 :: app.classes:334 :: Contact Ki-Adi-Mundi already exists
+ERROR :: 2021-10-29 00:02:45,647 :: app.classes:334 :: Contact Kit Fisto already exists
+ERROR :: 2021-10-29 00:02:45,652 :: app.classes:334 :: Contact Eeth Koth already exists
+ERROR :: 2021-10-29 00:02:45,657 :: app.classes:334 :: Contact Adi Gallia already exists
+ERROR :: 2021-10-29 00:02:45,662 :: app.classes:334 :: Contact Saesee Tiin already exists
+ERROR :: 2021-10-29 00:02:45,667 :: app.classes:334 :: Contact Yarael Poof already exists
+ERROR :: 2021-10-29 00:02:45,673 :: app.classes:334 :: Contact Plo Koon already exists
+ERROR :: 2021-10-29 00:02:45,678 :: app.classes:334 :: Contact Mas Amedda already exists
+ERROR :: 2021-10-29 00:02:45,683 :: app.classes:334 :: Contact Gregar Typho already exists
+ERROR :: 2021-10-29 00:02:45,688 :: app.classes:334 :: Contact Cordé already exists
+ERROR :: 2021-10-29 00:02:45,694 :: app.classes:334 :: Contact Cliegg Lars already exists
+ERROR :: 2021-10-29 00:02:45,699 :: app.classes:334 :: Contact Poggle the Lesser already exists
+ERROR :: 2021-10-29 00:02:45,704 :: app.classes:334 :: Contact Luminara Unduli already exists
+ERROR :: 2021-10-29 00:02:45,710 :: app.classes:334 :: Contact Barriss Offee already exists
+ERROR :: 2021-10-29 00:02:45,714 :: app.classes:334 :: Contact Dormé already exists
+ERROR :: 2021-10-29 00:02:45,720 :: app.classes:334 :: Contact Dooku already exists
+ERROR :: 2021-10-29 00:02:45,724 :: app.classes:334 :: Contact Bail Prestor Organa already exists
+ERROR :: 2021-10-29 00:02:45,730 :: app.classes:334 :: Contact Jango Fett already exists
+ERROR :: 2021-10-29 00:02:45,735 :: app.classes:334 :: Contact Zam Wesell already exists
+ERROR :: 2021-10-29 00:02:45,740 :: app.classes:334 :: Contact Dexter Jettster already exists
+ERROR :: 2021-10-29 00:02:45,745 :: app.classes:334 :: Contact Lama Su already exists
+ERROR :: 2021-10-29 00:02:45,751 :: app.classes:334 :: Contact Taun We already exists
+ERROR :: 2021-10-29 00:02:45,755 :: app.classes:334 :: Contact Jocasta Nu already exists
+ERROR :: 2021-10-29 00:02:45,761 :: app.classes:334 :: Contact R4-P17 already exists
+ERROR :: 2021-10-29 00:02:45,766 :: app.classes:334 :: Contact Wat Tambor already exists
+ERROR :: 2021-10-29 00:02:45,772 :: app.classes:334 :: Contact San Hill already exists
+ERROR :: 2021-10-29 00:02:45,777 :: app.classes:334 :: Contact Shaak Ti already exists
+ERROR :: 2021-10-29 00:02:45,782 :: app.classes:334 :: Contact Grievous already exists
+ERROR :: 2021-10-29 00:02:45,787 :: app.classes:334 :: Contact Tarfful already exists
+ERROR :: 2021-10-29 00:02:45,792 :: app.classes:334 :: Contact Raymus Antilles already exists
+ERROR :: 2021-10-29 00:02:45,797 :: app.classes:334 :: Contact Sly Moore already exists
+ERROR :: 2021-10-29 00:02:45,803 :: app.classes:334 :: Contact Tion Medon already exists
+INFO :: 2021-10-29 00:11:41,281 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:11:41,281 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:11:41,281 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:11:41,282 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:11:43,480 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:11:46,952 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:22:20,571 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:22:20,572 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:22:20,572 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:22:20,572 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:22:23,285 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:22:27,320 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:23:33,109 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:23:33,109 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:23:33,109 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:23:33,109 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:23:35,288 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:23:43,921 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:24:19,699 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:24:19,699 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:24:19,699 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:24:19,699 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:24:21,886 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:24:26,381 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:25:32,614 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:25:32,614 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:25:32,614 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:25:32,614 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:25:34,824 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:25:38,415 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:26:12,962 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:26:12,962 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:26:12,962 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:26:12,962 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:26:20,104 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:26:23,815 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:26:23,817 :: app.classes:210 :: Connecting to Odoo
+INFO :: 2021-10-29 00:26:23,862 :: app.classes:217 :: Connection with Odoo established successfully
+ERROR :: 2021-10-29 00:26:23,868 :: app.classes:334 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-29 00:26:23,874 :: app.classes:334 :: Contact C-3PO already exists
+ERROR :: 2021-10-29 00:26:23,879 :: app.classes:334 :: Contact R2-D2 already exists
+ERROR :: 2021-10-29 00:26:23,884 :: app.classes:334 :: Contact Darth Vader already exists
+ERROR :: 2021-10-29 00:26:23,889 :: app.classes:334 :: Contact Leia Organa already exists
+ERROR :: 2021-10-29 00:26:23,894 :: app.classes:334 :: Contact Owen Lars already exists
+ERROR :: 2021-10-29 00:26:23,899 :: app.classes:334 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-29 00:26:23,904 :: app.classes:334 :: Contact R5-D4 already exists
+ERROR :: 2021-10-29 00:26:23,909 :: app.classes:334 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-29 00:26:23,914 :: app.classes:334 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-29 00:26:23,920 :: app.classes:334 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-29 00:26:23,925 :: app.classes:334 :: Contact Wilhuff Tarkin already exists
+ERROR :: 2021-10-29 00:26:23,930 :: app.classes:334 :: Contact Chewbacca already exists
+ERROR :: 2021-10-29 00:26:23,934 :: app.classes:334 :: Contact Han Solo already exists
+ERROR :: 2021-10-29 00:26:23,940 :: app.classes:334 :: Contact Greedo already exists
+ERROR :: 2021-10-29 00:26:23,945 :: app.classes:334 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-29 00:26:23,950 :: app.classes:334 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-29 00:26:23,955 :: app.classes:334 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-29 00:26:23,960 :: app.classes:334 :: Contact Yoda already exists
+ERROR :: 2021-10-29 00:26:23,965 :: app.classes:334 :: Contact Palpatine already exists
+ERROR :: 2021-10-29 00:26:23,970 :: app.classes:334 :: Contact Boba Fett already exists
+ERROR :: 2021-10-29 00:26:23,975 :: app.classes:334 :: Contact IG-88 already exists
+ERROR :: 2021-10-29 00:26:23,980 :: app.classes:334 :: Contact Bossk already exists
+ERROR :: 2021-10-29 00:26:23,985 :: app.classes:334 :: Contact Lando Calrissian already exists
+ERROR :: 2021-10-29 00:26:23,990 :: app.classes:334 :: Contact Lobot already exists
+ERROR :: 2021-10-29 00:26:23,995 :: app.classes:334 :: Contact Ackbar already exists
+ERROR :: 2021-10-29 00:26:24,000 :: app.classes:334 :: Contact Mon Mothma already exists
+ERROR :: 2021-10-29 00:26:24,006 :: app.classes:334 :: Contact Arvel Crynyd already exists
+ERROR :: 2021-10-29 00:26:24,011 :: app.classes:334 :: Contact Wicket Systri Warrick already exists
+ERROR :: 2021-10-29 00:26:24,016 :: app.classes:334 :: Contact Nien Nunb already exists
+ERROR :: 2021-10-29 00:26:24,021 :: app.classes:334 :: Contact Qui-Gon Jinn already exists
+ERROR :: 2021-10-29 00:26:24,026 :: app.classes:334 :: Contact Nute Gunray already exists
+ERROR :: 2021-10-29 00:26:24,032 :: app.classes:334 :: Contact Finis Valorum already exists
+ERROR :: 2021-10-29 00:26:24,037 :: app.classes:334 :: Contact Padmé Amidala already exists
+ERROR :: 2021-10-29 00:26:24,042 :: app.classes:334 :: Contact Jar Jar Binks already exists
+ERROR :: 2021-10-29 00:26:24,047 :: app.classes:334 :: Contact Roos Tarpals already exists
+ERROR :: 2021-10-29 00:26:24,052 :: app.classes:334 :: Contact Rugor Nass already exists
+ERROR :: 2021-10-29 00:26:24,056 :: app.classes:334 :: Contact Ric Olié already exists
+ERROR :: 2021-10-29 00:26:24,062 :: app.classes:334 :: Contact Watto already exists
+ERROR :: 2021-10-29 00:26:24,067 :: app.classes:334 :: Contact Sebulba already exists
+ERROR :: 2021-10-29 00:26:24,072 :: app.classes:334 :: Contact Quarsh Panaka already exists
+ERROR :: 2021-10-29 00:26:24,077 :: app.classes:334 :: Contact Shmi Skywalker already exists
+ERROR :: 2021-10-29 00:26:24,082 :: app.classes:334 :: Contact Darth Maul already exists
+ERROR :: 2021-10-29 00:26:24,086 :: app.classes:334 :: Contact Bib Fortuna already exists
+ERROR :: 2021-10-29 00:26:24,091 :: app.classes:334 :: Contact Ayla Secura already exists
+ERROR :: 2021-10-29 00:26:24,096 :: app.classes:334 :: Contact Ratts Tyerel already exists
+ERROR :: 2021-10-29 00:26:24,101 :: app.classes:334 :: Contact Dud Bolt already exists
+ERROR :: 2021-10-29 00:26:24,106 :: app.classes:334 :: Contact Gasgano already exists
+ERROR :: 2021-10-29 00:26:24,111 :: app.classes:334 :: Contact Ben Quadinaros already exists
+ERROR :: 2021-10-29 00:26:24,116 :: app.classes:334 :: Contact Mace Windu already exists
+ERROR :: 2021-10-29 00:26:24,121 :: app.classes:334 :: Contact Ki-Adi-Mundi already exists
+ERROR :: 2021-10-29 00:26:24,126 :: app.classes:334 :: Contact Kit Fisto already exists
+ERROR :: 2021-10-29 00:26:24,131 :: app.classes:334 :: Contact Eeth Koth already exists
+ERROR :: 2021-10-29 00:26:24,136 :: app.classes:334 :: Contact Adi Gallia already exists
+ERROR :: 2021-10-29 00:26:24,141 :: app.classes:334 :: Contact Saesee Tiin already exists
+ERROR :: 2021-10-29 00:26:24,146 :: app.classes:334 :: Contact Yarael Poof already exists
+ERROR :: 2021-10-29 00:26:24,151 :: app.classes:334 :: Contact Plo Koon already exists
+ERROR :: 2021-10-29 00:26:24,156 :: app.classes:334 :: Contact Mas Amedda already exists
+ERROR :: 2021-10-29 00:26:24,161 :: app.classes:334 :: Contact Gregar Typho already exists
+ERROR :: 2021-10-29 00:26:24,166 :: app.classes:334 :: Contact Cordé already exists
+ERROR :: 2021-10-29 00:26:24,171 :: app.classes:334 :: Contact Cliegg Lars already exists
+ERROR :: 2021-10-29 00:26:24,176 :: app.classes:334 :: Contact Poggle the Lesser already exists
+ERROR :: 2021-10-29 00:26:24,181 :: app.classes:334 :: Contact Luminara Unduli already exists
+ERROR :: 2021-10-29 00:26:24,186 :: app.classes:334 :: Contact Barriss Offee already exists
+ERROR :: 2021-10-29 00:26:24,191 :: app.classes:334 :: Contact Dormé already exists
+ERROR :: 2021-10-29 00:26:24,196 :: app.classes:334 :: Contact Dooku already exists
+ERROR :: 2021-10-29 00:26:24,201 :: app.classes:334 :: Contact Bail Prestor Organa already exists
+ERROR :: 2021-10-29 00:26:24,206 :: app.classes:334 :: Contact Jango Fett already exists
+ERROR :: 2021-10-29 00:26:24,211 :: app.classes:334 :: Contact Zam Wesell already exists
+ERROR :: 2021-10-29 00:26:24,216 :: app.classes:334 :: Contact Dexter Jettster already exists
+ERROR :: 2021-10-29 00:26:24,221 :: app.classes:334 :: Contact Lama Su already exists
+ERROR :: 2021-10-29 00:26:24,226 :: app.classes:334 :: Contact Taun We already exists
+ERROR :: 2021-10-29 00:26:24,231 :: app.classes:334 :: Contact Jocasta Nu already exists
+ERROR :: 2021-10-29 00:26:24,236 :: app.classes:334 :: Contact R4-P17 already exists
+ERROR :: 2021-10-29 00:26:24,241 :: app.classes:334 :: Contact Wat Tambor already exists
+ERROR :: 2021-10-29 00:26:24,245 :: app.classes:334 :: Contact San Hill already exists
+ERROR :: 2021-10-29 00:26:24,250 :: app.classes:334 :: Contact Shaak Ti already exists
+ERROR :: 2021-10-29 00:26:24,255 :: app.classes:334 :: Contact Grievous already exists
+ERROR :: 2021-10-29 00:26:24,260 :: app.classes:334 :: Contact Tarfful already exists
+ERROR :: 2021-10-29 00:26:24,265 :: app.classes:334 :: Contact Raymus Antilles already exists
+ERROR :: 2021-10-29 00:26:24,270 :: app.classes:334 :: Contact Sly Moore already exists
+ERROR :: 2021-10-29 00:26:24,275 :: app.classes:334 :: Contact Tion Medon already exists
+INFO :: 2021-10-29 00:26:50,736 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:26:50,736 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:26:50,736 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:26:50,736 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:26:53,159 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:26:56,610 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:26:56,612 :: app.classes:210 :: Connecting to Odoo
+INFO :: 2021-10-29 00:26:56,688 :: app.classes:217 :: Connection with Odoo established successfully
+ERROR :: 2021-10-29 00:26:56,694 :: app.classes:334 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-29 00:26:56,700 :: app.classes:334 :: Contact C-3PO already exists
+ERROR :: 2021-10-29 00:26:56,706 :: app.classes:334 :: Contact R2-D2 already exists
+ERROR :: 2021-10-29 00:26:56,712 :: app.classes:334 :: Contact Darth Vader already exists
+ERROR :: 2021-10-29 00:26:56,718 :: app.classes:334 :: Contact Leia Organa already exists
+ERROR :: 2021-10-29 00:26:56,723 :: app.classes:334 :: Contact Owen Lars already exists
+ERROR :: 2021-10-29 00:26:56,728 :: app.classes:334 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-29 00:26:56,733 :: app.classes:334 :: Contact R5-D4 already exists
+ERROR :: 2021-10-29 00:26:56,738 :: app.classes:334 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-29 00:26:56,743 :: app.classes:334 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-29 00:26:56,749 :: app.classes:334 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-29 00:26:56,754 :: app.classes:334 :: Contact Wilhuff Tarkin already exists
+ERROR :: 2021-10-29 00:26:56,759 :: app.classes:334 :: Contact Chewbacca already exists
+ERROR :: 2021-10-29 00:26:56,764 :: app.classes:334 :: Contact Han Solo already exists
+ERROR :: 2021-10-29 00:26:56,769 :: app.classes:334 :: Contact Greedo already exists
+ERROR :: 2021-10-29 00:26:56,774 :: app.classes:334 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-29 00:26:56,780 :: app.classes:334 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-29 00:26:56,785 :: app.classes:334 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-29 00:26:56,790 :: app.classes:334 :: Contact Yoda already exists
+ERROR :: 2021-10-29 00:26:56,795 :: app.classes:334 :: Contact Palpatine already exists
+ERROR :: 2021-10-29 00:26:56,800 :: app.classes:334 :: Contact Boba Fett already exists
+ERROR :: 2021-10-29 00:26:56,805 :: app.classes:334 :: Contact IG-88 already exists
+ERROR :: 2021-10-29 00:26:56,810 :: app.classes:334 :: Contact Bossk already exists
+ERROR :: 2021-10-29 00:26:56,816 :: app.classes:334 :: Contact Lando Calrissian already exists
+ERROR :: 2021-10-29 00:26:56,821 :: app.classes:334 :: Contact Lobot already exists
+ERROR :: 2021-10-29 00:26:56,826 :: app.classes:334 :: Contact Ackbar already exists
+ERROR :: 2021-10-29 00:26:56,831 :: app.classes:334 :: Contact Mon Mothma already exists
+ERROR :: 2021-10-29 00:26:56,836 :: app.classes:334 :: Contact Arvel Crynyd already exists
+ERROR :: 2021-10-29 00:26:56,842 :: app.classes:334 :: Contact Wicket Systri Warrick already exists
+ERROR :: 2021-10-29 00:26:56,847 :: app.classes:334 :: Contact Nien Nunb already exists
+ERROR :: 2021-10-29 00:26:56,851 :: app.classes:334 :: Contact Qui-Gon Jinn already exists
+ERROR :: 2021-10-29 00:26:56,856 :: app.classes:334 :: Contact Nute Gunray already exists
+ERROR :: 2021-10-29 00:26:56,861 :: app.classes:334 :: Contact Finis Valorum already exists
+ERROR :: 2021-10-29 00:26:56,867 :: app.classes:334 :: Contact Padmé Amidala already exists
+ERROR :: 2021-10-29 00:26:56,872 :: app.classes:334 :: Contact Jar Jar Binks already exists
+ERROR :: 2021-10-29 00:26:56,877 :: app.classes:334 :: Contact Roos Tarpals already exists
+ERROR :: 2021-10-29 00:26:56,882 :: app.classes:334 :: Contact Rugor Nass already exists
+ERROR :: 2021-10-29 00:26:56,887 :: app.classes:334 :: Contact Ric Olié already exists
+ERROR :: 2021-10-29 00:26:56,892 :: app.classes:334 :: Contact Watto already exists
+ERROR :: 2021-10-29 00:26:56,897 :: app.classes:334 :: Contact Sebulba already exists
+ERROR :: 2021-10-29 00:26:56,902 :: app.classes:334 :: Contact Quarsh Panaka already exists
+ERROR :: 2021-10-29 00:26:56,907 :: app.classes:334 :: Contact Shmi Skywalker already exists
+ERROR :: 2021-10-29 00:26:56,912 :: app.classes:334 :: Contact Darth Maul already exists
+ERROR :: 2021-10-29 00:26:56,939 :: app.classes:334 :: Contact Bib Fortuna already exists
+ERROR :: 2021-10-29 00:26:56,945 :: app.classes:334 :: Contact Ayla Secura already exists
+ERROR :: 2021-10-29 00:26:56,950 :: app.classes:334 :: Contact Ratts Tyerel already exists
+ERROR :: 2021-10-29 00:26:56,955 :: app.classes:334 :: Contact Dud Bolt already exists
+ERROR :: 2021-10-29 00:26:56,960 :: app.classes:334 :: Contact Gasgano already exists
+ERROR :: 2021-10-29 00:26:56,965 :: app.classes:334 :: Contact Ben Quadinaros already exists
+ERROR :: 2021-10-29 00:26:56,970 :: app.classes:334 :: Contact Mace Windu already exists
+ERROR :: 2021-10-29 00:26:56,975 :: app.classes:334 :: Contact Ki-Adi-Mundi already exists
+ERROR :: 2021-10-29 00:26:56,980 :: app.classes:334 :: Contact Kit Fisto already exists
+ERROR :: 2021-10-29 00:26:56,985 :: app.classes:334 :: Contact Eeth Koth already exists
+ERROR :: 2021-10-29 00:26:56,990 :: app.classes:334 :: Contact Adi Gallia already exists
+ERROR :: 2021-10-29 00:26:56,996 :: app.classes:334 :: Contact Saesee Tiin already exists
+ERROR :: 2021-10-29 00:26:57,001 :: app.classes:334 :: Contact Yarael Poof already exists
+ERROR :: 2021-10-29 00:26:57,006 :: app.classes:334 :: Contact Plo Koon already exists
+ERROR :: 2021-10-29 00:26:57,011 :: app.classes:334 :: Contact Mas Amedda already exists
+ERROR :: 2021-10-29 00:26:57,016 :: app.classes:334 :: Contact Gregar Typho already exists
+ERROR :: 2021-10-29 00:26:57,021 :: app.classes:334 :: Contact Cordé already exists
+ERROR :: 2021-10-29 00:26:57,026 :: app.classes:334 :: Contact Cliegg Lars already exists
+ERROR :: 2021-10-29 00:26:57,031 :: app.classes:334 :: Contact Poggle the Lesser already exists
+ERROR :: 2021-10-29 00:26:57,036 :: app.classes:334 :: Contact Luminara Unduli already exists
+ERROR :: 2021-10-29 00:26:57,041 :: app.classes:334 :: Contact Barriss Offee already exists
+ERROR :: 2021-10-29 00:26:57,046 :: app.classes:334 :: Contact Dormé already exists
+ERROR :: 2021-10-29 00:26:57,051 :: app.classes:334 :: Contact Dooku already exists
+ERROR :: 2021-10-29 00:26:57,056 :: app.classes:334 :: Contact Bail Prestor Organa already exists
+ERROR :: 2021-10-29 00:26:57,061 :: app.classes:334 :: Contact Jango Fett already exists
+ERROR :: 2021-10-29 00:26:57,066 :: app.classes:334 :: Contact Zam Wesell already exists
+ERROR :: 2021-10-29 00:26:57,071 :: app.classes:334 :: Contact Dexter Jettster already exists
+ERROR :: 2021-10-29 00:26:57,076 :: app.classes:334 :: Contact Lama Su already exists
+ERROR :: 2021-10-29 00:26:57,081 :: app.classes:334 :: Contact Taun We already exists
+ERROR :: 2021-10-29 00:26:57,086 :: app.classes:334 :: Contact Jocasta Nu already exists
+ERROR :: 2021-10-29 00:26:57,091 :: app.classes:334 :: Contact R4-P17 already exists
+ERROR :: 2021-10-29 00:26:57,096 :: app.classes:334 :: Contact Wat Tambor already exists
+ERROR :: 2021-10-29 00:26:57,101 :: app.classes:334 :: Contact San Hill already exists
+ERROR :: 2021-10-29 00:26:57,106 :: app.classes:334 :: Contact Shaak Ti already exists
+ERROR :: 2021-10-29 00:26:57,110 :: app.classes:334 :: Contact Grievous already exists
+ERROR :: 2021-10-29 00:26:57,116 :: app.classes:334 :: Contact Tarfful already exists
+ERROR :: 2021-10-29 00:26:57,121 :: app.classes:334 :: Contact Raymus Antilles already exists
+ERROR :: 2021-10-29 00:26:57,126 :: app.classes:334 :: Contact Sly Moore already exists
+ERROR :: 2021-10-29 00:26:57,130 :: app.classes:334 :: Contact Tion Medon already exists
+INFO :: 2021-10-29 00:28:47,212 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:28:47,212 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:28:47,212 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:28:47,212 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:28:49,447 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:28:53,419 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:31:18,282 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:31:18,282 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:31:18,282 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:31:18,283 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:31:20,539 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:31:35,039 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:31:35,040 :: app.classes:210 :: Connecting to Odoo
+INFO :: 2021-10-29 00:31:35,081 :: app.classes:217 :: Connection with Odoo established successfully
+ERROR :: 2021-10-29 00:31:35,086 :: app.classes:334 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-29 00:31:35,091 :: app.classes:334 :: Contact C-3PO already exists
+ERROR :: 2021-10-29 00:31:35,096 :: app.classes:334 :: Contact R2-D2 already exists
+ERROR :: 2021-10-29 00:31:35,102 :: app.classes:334 :: Contact Darth Vader already exists
+ERROR :: 2021-10-29 00:31:35,107 :: app.classes:334 :: Contact Leia Organa already exists
+ERROR :: 2021-10-29 00:31:35,113 :: app.classes:334 :: Contact Owen Lars already exists
+ERROR :: 2021-10-29 00:31:35,118 :: app.classes:334 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-29 00:31:35,123 :: app.classes:334 :: Contact R5-D4 already exists
+ERROR :: 2021-10-29 00:31:35,128 :: app.classes:334 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-29 00:31:35,134 :: app.classes:334 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-29 00:31:35,138 :: app.classes:334 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-29 00:31:35,144 :: app.classes:334 :: Contact Wilhuff Tarkin already exists
+ERROR :: 2021-10-29 00:31:35,149 :: app.classes:334 :: Contact Chewbacca already exists
+ERROR :: 2021-10-29 00:31:35,154 :: app.classes:334 :: Contact Han Solo already exists
+ERROR :: 2021-10-29 00:31:35,159 :: app.classes:334 :: Contact Greedo already exists
+ERROR :: 2021-10-29 00:31:35,164 :: app.classes:334 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-29 00:31:35,169 :: app.classes:334 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-29 00:31:35,174 :: app.classes:334 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-29 00:31:35,180 :: app.classes:334 :: Contact Yoda already exists
+ERROR :: 2021-10-29 00:31:35,185 :: app.classes:334 :: Contact Palpatine already exists
+ERROR :: 2021-10-29 00:31:35,190 :: app.classes:334 :: Contact Boba Fett already exists
+ERROR :: 2021-10-29 00:31:35,195 :: app.classes:334 :: Contact IG-88 already exists
+ERROR :: 2021-10-29 00:31:35,201 :: app.classes:334 :: Contact Bossk already exists
+ERROR :: 2021-10-29 00:31:35,206 :: app.classes:334 :: Contact Lando Calrissian already exists
+ERROR :: 2021-10-29 00:31:35,210 :: app.classes:334 :: Contact Lobot already exists
+ERROR :: 2021-10-29 00:31:35,215 :: app.classes:334 :: Contact Ackbar already exists
+ERROR :: 2021-10-29 00:31:35,220 :: app.classes:334 :: Contact Mon Mothma already exists
+ERROR :: 2021-10-29 00:31:35,225 :: app.classes:334 :: Contact Arvel Crynyd already exists
+ERROR :: 2021-10-29 00:31:35,230 :: app.classes:334 :: Contact Wicket Systri Warrick already exists
+ERROR :: 2021-10-29 00:31:35,235 :: app.classes:334 :: Contact Nien Nunb already exists
+ERROR :: 2021-10-29 00:31:35,240 :: app.classes:334 :: Contact Qui-Gon Jinn already exists
+ERROR :: 2021-10-29 00:31:35,245 :: app.classes:334 :: Contact Nute Gunray already exists
+ERROR :: 2021-10-29 00:31:35,249 :: app.classes:334 :: Contact Finis Valorum already exists
+ERROR :: 2021-10-29 00:31:35,254 :: app.classes:334 :: Contact Padmé Amidala already exists
+ERROR :: 2021-10-29 00:31:35,260 :: app.classes:334 :: Contact Jar Jar Binks already exists
+ERROR :: 2021-10-29 00:31:35,265 :: app.classes:334 :: Contact Roos Tarpals already exists
+ERROR :: 2021-10-29 00:31:35,269 :: app.classes:334 :: Contact Rugor Nass already exists
+ERROR :: 2021-10-29 00:31:35,274 :: app.classes:334 :: Contact Ric Olié already exists
+ERROR :: 2021-10-29 00:31:35,279 :: app.classes:334 :: Contact Watto already exists
+ERROR :: 2021-10-29 00:31:35,284 :: app.classes:334 :: Contact Sebulba already exists
+ERROR :: 2021-10-29 00:31:35,289 :: app.classes:334 :: Contact Quarsh Panaka already exists
+ERROR :: 2021-10-29 00:31:35,294 :: app.classes:334 :: Contact Shmi Skywalker already exists
+ERROR :: 2021-10-29 00:31:35,299 :: app.classes:334 :: Contact Darth Maul already exists
+ERROR :: 2021-10-29 00:31:35,303 :: app.classes:334 :: Contact Bib Fortuna already exists
+ERROR :: 2021-10-29 00:31:35,308 :: app.classes:334 :: Contact Ayla Secura already exists
+ERROR :: 2021-10-29 00:31:35,312 :: app.classes:334 :: Contact Ratts Tyerel already exists
+ERROR :: 2021-10-29 00:31:35,317 :: app.classes:334 :: Contact Dud Bolt already exists
+ERROR :: 2021-10-29 00:31:35,322 :: app.classes:334 :: Contact Gasgano already exists
+ERROR :: 2021-10-29 00:31:35,327 :: app.classes:334 :: Contact Ben Quadinaros already exists
+ERROR :: 2021-10-29 00:31:35,332 :: app.classes:334 :: Contact Mace Windu already exists
+ERROR :: 2021-10-29 00:31:35,336 :: app.classes:334 :: Contact Ki-Adi-Mundi already exists
+ERROR :: 2021-10-29 00:31:35,341 :: app.classes:334 :: Contact Kit Fisto already exists
+ERROR :: 2021-10-29 00:31:35,345 :: app.classes:334 :: Contact Eeth Koth already exists
+ERROR :: 2021-10-29 00:31:35,350 :: app.classes:334 :: Contact Adi Gallia already exists
+ERROR :: 2021-10-29 00:31:35,355 :: app.classes:334 :: Contact Saesee Tiin already exists
+ERROR :: 2021-10-29 00:31:35,360 :: app.classes:334 :: Contact Yarael Poof already exists
+ERROR :: 2021-10-29 00:31:35,365 :: app.classes:334 :: Contact Plo Koon already exists
+ERROR :: 2021-10-29 00:31:35,369 :: app.classes:334 :: Contact Mas Amedda already exists
+ERROR :: 2021-10-29 00:31:35,374 :: app.classes:334 :: Contact Gregar Typho already exists
+ERROR :: 2021-10-29 00:31:35,379 :: app.classes:334 :: Contact Cordé already exists
+ERROR :: 2021-10-29 00:31:35,384 :: app.classes:334 :: Contact Cliegg Lars already exists
+ERROR :: 2021-10-29 00:31:35,389 :: app.classes:334 :: Contact Poggle the Lesser already exists
+ERROR :: 2021-10-29 00:31:35,394 :: app.classes:334 :: Contact Luminara Unduli already exists
+ERROR :: 2021-10-29 00:31:35,398 :: app.classes:334 :: Contact Barriss Offee already exists
+ERROR :: 2021-10-29 00:31:35,403 :: app.classes:334 :: Contact Dormé already exists
+ERROR :: 2021-10-29 00:31:35,408 :: app.classes:334 :: Contact Dooku already exists
+ERROR :: 2021-10-29 00:31:35,413 :: app.classes:334 :: Contact Bail Prestor Organa already exists
+ERROR :: 2021-10-29 00:31:35,418 :: app.classes:334 :: Contact Jango Fett already exists
+ERROR :: 2021-10-29 00:31:35,423 :: app.classes:334 :: Contact Zam Wesell already exists
+ERROR :: 2021-10-29 00:31:35,428 :: app.classes:334 :: Contact Dexter Jettster already exists
+ERROR :: 2021-10-29 00:31:35,433 :: app.classes:334 :: Contact Lama Su already exists
+ERROR :: 2021-10-29 00:31:35,438 :: app.classes:334 :: Contact Taun We already exists
+INFO :: 2021-10-29 00:33:41,593 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:33:41,594 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:33:41,594 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:33:41,594 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:33:43,839 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:33:47,212 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:33:47,214 :: app.classes:210 :: Connecting to Odoo
+INFO :: 2021-10-29 00:33:47,239 :: app.classes:217 :: Connection with Odoo established successfully
+ERROR :: 2021-10-29 00:33:47,245 :: app.classes:334 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-29 00:33:47,251 :: app.classes:334 :: Contact C-3PO already exists
+INFO :: 2021-10-29 00:41:37,943 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:41:37,943 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:41:37,944 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:41:37,944 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:41:40,176 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:41:49,129 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:41:49,131 :: app.classes:210 :: Connecting to Odoo
+INFO :: 2021-10-29 00:41:49,168 :: app.classes:217 :: Connection with Odoo established successfully
+ERROR :: 2021-10-29 00:41:59,201 :: app.classes:334 :: Contact Jocasta Nu already exists
+ERROR :: 2021-10-29 00:41:59,219 :: app.classes:334 :: Contact R4-P17 already exists
+ERROR :: 2021-10-29 00:41:59,225 :: app.classes:334 :: Contact Wat Tambor already exists
+ERROR :: 2021-10-29 00:41:59,230 :: app.classes:334 :: Contact San Hill already exists
+ERROR :: 2021-10-29 00:41:59,236 :: app.classes:334 :: Contact Shaak Ti already exists
+ERROR :: 2021-10-29 00:41:59,241 :: app.classes:334 :: Contact Grievous already exists
+ERROR :: 2021-10-29 00:41:59,247 :: app.classes:334 :: Contact Tarfful already exists
+ERROR :: 2021-10-29 00:41:59,251 :: app.classes:334 :: Contact Raymus Antilles already exists
+ERROR :: 2021-10-29 00:41:59,256 :: app.classes:334 :: Contact Sly Moore already exists
+ERROR :: 2021-10-29 00:41:59,261 :: app.classes:334 :: Contact Tion Medon already exists
+ERROR :: 2021-10-29 00:42:09,295 :: app.classes:334 :: Contact Luminara Unduli already exists
+ERROR :: 2021-10-29 00:42:09,312 :: app.classes:334 :: Contact Barriss Offee already exists
+ERROR :: 2021-10-29 00:42:09,318 :: app.classes:334 :: Contact Dormé already exists
+ERROR :: 2021-10-29 00:42:09,324 :: app.classes:334 :: Contact Dooku already exists
+ERROR :: 2021-10-29 00:42:09,329 :: app.classes:334 :: Contact Bail Prestor Organa already exists
+ERROR :: 2021-10-29 00:42:09,334 :: app.classes:334 :: Contact Jango Fett already exists
+ERROR :: 2021-10-29 00:42:09,339 :: app.classes:334 :: Contact Zam Wesell already exists
+ERROR :: 2021-10-29 00:42:09,344 :: app.classes:334 :: Contact Dexter Jettster already exists
+ERROR :: 2021-10-29 00:42:09,349 :: app.classes:334 :: Contact Lama Su already exists
+ERROR :: 2021-10-29 00:42:09,354 :: app.classes:334 :: Contact Taun We already exists
+ERROR :: 2021-10-29 00:42:19,388 :: app.classes:334 :: Contact Eeth Koth already exists
+ERROR :: 2021-10-29 00:42:19,412 :: app.classes:334 :: Contact Adi Gallia already exists
+ERROR :: 2021-10-29 00:42:19,437 :: app.classes:334 :: Contact Saesee Tiin already exists
+ERROR :: 2021-10-29 00:42:19,461 :: app.classes:334 :: Contact Yarael Poof already exists
+ERROR :: 2021-10-29 00:42:19,484 :: app.classes:334 :: Contact Plo Koon already exists
+ERROR :: 2021-10-29 00:42:19,508 :: app.classes:334 :: Contact Mas Amedda already exists
+ERROR :: 2021-10-29 00:42:19,531 :: app.classes:334 :: Contact Gregar Typho already exists
+ERROR :: 2021-10-29 00:42:19,555 :: app.classes:334 :: Contact Cordé already exists
+ERROR :: 2021-10-29 00:42:19,579 :: app.classes:334 :: Contact Cliegg Lars already exists
+ERROR :: 2021-10-29 00:42:19,602 :: app.classes:334 :: Contact Poggle the Lesser already exists
+ERROR :: 2021-10-29 00:42:29,636 :: app.classes:334 :: Contact Darth Maul already exists
+ERROR :: 2021-10-29 00:42:29,659 :: app.classes:334 :: Contact Bib Fortuna already exists
+ERROR :: 2021-10-29 00:42:29,665 :: app.classes:334 :: Contact Ayla Secura already exists
+ERROR :: 2021-10-29 00:42:29,670 :: app.classes:334 :: Contact Ratts Tyerel already exists
+ERROR :: 2021-10-29 00:42:29,675 :: app.classes:334 :: Contact Dud Bolt already exists
+ERROR :: 2021-10-29 00:42:29,680 :: app.classes:334 :: Contact Gasgano already exists
+ERROR :: 2021-10-29 00:42:29,685 :: app.classes:334 :: Contact Ben Quadinaros already exists
+ERROR :: 2021-10-29 00:42:29,690 :: app.classes:334 :: Contact Mace Windu already exists
+ERROR :: 2021-10-29 00:42:29,696 :: app.classes:334 :: Contact Ki-Adi-Mundi already exists
+ERROR :: 2021-10-29 00:42:29,701 :: app.classes:334 :: Contact Kit Fisto already exists
+ERROR :: 2021-10-29 00:42:39,736 :: app.classes:334 :: Contact Finis Valorum already exists
+ERROR :: 2021-10-29 00:42:39,757 :: app.classes:334 :: Contact Padmé Amidala already exists
+ERROR :: 2021-10-29 00:42:39,762 :: app.classes:334 :: Contact Jar Jar Binks already exists
+ERROR :: 2021-10-29 00:42:39,767 :: app.classes:334 :: Contact Roos Tarpals already exists
+ERROR :: 2021-10-29 00:42:39,773 :: app.classes:334 :: Contact Rugor Nass already exists
+ERROR :: 2021-10-29 00:42:39,777 :: app.classes:334 :: Contact Ric Olié already exists
+ERROR :: 2021-10-29 00:42:39,782 :: app.classes:334 :: Contact Watto already exists
+ERROR :: 2021-10-29 00:42:39,787 :: app.classes:334 :: Contact Sebulba already exists
+ERROR :: 2021-10-29 00:42:39,792 :: app.classes:334 :: Contact Quarsh Panaka already exists
+ERROR :: 2021-10-29 00:42:39,798 :: app.classes:334 :: Contact Shmi Skywalker already exists
+ERROR :: 2021-10-29 00:42:49,827 :: app.classes:334 :: Contact Bossk already exists
+ERROR :: 2021-10-29 00:42:49,845 :: app.classes:334 :: Contact Lando Calrissian already exists
+ERROR :: 2021-10-29 00:42:49,851 :: app.classes:334 :: Contact Lobot already exists
+ERROR :: 2021-10-29 00:42:49,856 :: app.classes:334 :: Contact Ackbar already exists
+ERROR :: 2021-10-29 00:42:49,861 :: app.classes:334 :: Contact Mon Mothma already exists
+ERROR :: 2021-10-29 00:42:49,866 :: app.classes:334 :: Contact Arvel Crynyd already exists
+ERROR :: 2021-10-29 00:42:49,871 :: app.classes:334 :: Contact Wicket Systri Warrick already exists
+ERROR :: 2021-10-29 00:42:49,876 :: app.classes:334 :: Contact Nien Nunb already exists
+ERROR :: 2021-10-29 00:42:49,882 :: app.classes:334 :: Contact Qui-Gon Jinn already exists
+ERROR :: 2021-10-29 00:42:49,887 :: app.classes:334 :: Contact Nute Gunray already exists
+ERROR :: 2021-10-29 00:42:59,921 :: app.classes:334 :: Contact Chewbacca already exists
+ERROR :: 2021-10-29 00:42:59,939 :: app.classes:334 :: Contact Han Solo already exists
+ERROR :: 2021-10-29 00:42:59,945 :: app.classes:334 :: Contact Greedo already exists
+ERROR :: 2021-10-29 00:42:59,950 :: app.classes:334 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-29 00:42:59,956 :: app.classes:334 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-29 00:42:59,962 :: app.classes:334 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-29 00:42:59,967 :: app.classes:334 :: Contact Yoda already exists
+ERROR :: 2021-10-29 00:42:59,973 :: app.classes:334 :: Contact Palpatine already exists
+ERROR :: 2021-10-29 00:42:59,978 :: app.classes:334 :: Contact Boba Fett already exists
+ERROR :: 2021-10-29 00:42:59,983 :: app.classes:334 :: Contact IG-88 already exists
+ERROR :: 2021-10-29 00:43:10,015 :: app.classes:334 :: Contact R2-D2 already exists
+ERROR :: 2021-10-29 00:43:10,035 :: app.classes:334 :: Contact Darth Vader already exists
+ERROR :: 2021-10-29 00:43:10,040 :: app.classes:334 :: Contact Leia Organa already exists
+ERROR :: 2021-10-29 00:43:10,046 :: app.classes:334 :: Contact Owen Lars already exists
+ERROR :: 2021-10-29 00:43:10,052 :: app.classes:334 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-29 00:43:10,057 :: app.classes:334 :: Contact R5-D4 already exists
+ERROR :: 2021-10-29 00:43:10,062 :: app.classes:334 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-29 00:43:10,067 :: app.classes:334 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-29 00:43:10,073 :: app.classes:334 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-29 00:43:10,078 :: app.classes:334 :: Contact Wilhuff Tarkin already exists
+INFO :: 2021-10-29 00:49:02,396 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:49:02,396 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:49:02,396 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:49:02,396 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:49:04,748 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:49:08,293 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:49:08,295 :: app.classes:210 :: Connecting to Odoo
+INFO :: 2021-10-29 00:49:08,331 :: app.classes:217 :: Connection with Odoo established successfully
+ERROR :: 2021-10-29 00:49:08,336 :: app.classes:334 :: Contact Jocasta Nu already exists
+ERROR :: 2021-10-29 00:49:08,342 :: app.classes:334 :: Contact R4-P17 already exists
+ERROR :: 2021-10-29 00:49:08,347 :: app.classes:334 :: Contact Wat Tambor already exists
+ERROR :: 2021-10-29 00:49:08,352 :: app.classes:334 :: Contact San Hill already exists
+ERROR :: 2021-10-29 00:49:08,358 :: app.classes:334 :: Contact Shaak Ti already exists
+ERROR :: 2021-10-29 00:49:08,363 :: app.classes:334 :: Contact Grievous already exists
+ERROR :: 2021-10-29 00:49:08,368 :: app.classes:334 :: Contact Tarfful already exists
+ERROR :: 2021-10-29 00:49:08,374 :: app.classes:334 :: Contact Raymus Antilles already exists
+ERROR :: 2021-10-29 00:49:08,379 :: app.classes:334 :: Contact Sly Moore already exists
+ERROR :: 2021-10-29 00:49:08,384 :: app.classes:334 :: Contact Tion Medon already exists
+ERROR :: 2021-10-29 00:49:08,389 :: app.classes:334 :: Contact Luminara Unduli already exists
+ERROR :: 2021-10-29 00:49:08,394 :: app.classes:334 :: Contact Barriss Offee already exists
+ERROR :: 2021-10-29 00:49:08,400 :: app.classes:334 :: Contact Dormé already exists
+ERROR :: 2021-10-29 00:49:08,405 :: app.classes:334 :: Contact Dooku already exists
+ERROR :: 2021-10-29 00:49:08,410 :: app.classes:334 :: Contact Bail Prestor Organa already exists
+ERROR :: 2021-10-29 00:49:08,415 :: app.classes:334 :: Contact Jango Fett already exists
+ERROR :: 2021-10-29 00:49:08,420 :: app.classes:334 :: Contact Zam Wesell already exists
+ERROR :: 2021-10-29 00:49:08,425 :: app.classes:334 :: Contact Dexter Jettster already exists
+ERROR :: 2021-10-29 00:49:08,431 :: app.classes:334 :: Contact Lama Su already exists
+ERROR :: 2021-10-29 00:49:08,436 :: app.classes:334 :: Contact Taun We already exists
+ERROR :: 2021-10-29 00:49:08,441 :: app.classes:334 :: Contact Eeth Koth already exists
+ERROR :: 2021-10-29 00:49:08,446 :: app.classes:334 :: Contact Adi Gallia already exists
+ERROR :: 2021-10-29 00:49:08,451 :: app.classes:334 :: Contact Saesee Tiin already exists
+ERROR :: 2021-10-29 00:49:08,456 :: app.classes:334 :: Contact Yarael Poof already exists
+ERROR :: 2021-10-29 00:49:08,461 :: app.classes:334 :: Contact Plo Koon already exists
+ERROR :: 2021-10-29 00:49:08,466 :: app.classes:334 :: Contact Mas Amedda already exists
+ERROR :: 2021-10-29 00:49:08,471 :: app.classes:334 :: Contact Gregar Typho already exists
+ERROR :: 2021-10-29 00:49:08,476 :: app.classes:334 :: Contact Cordé already exists
+ERROR :: 2021-10-29 00:49:08,481 :: app.classes:334 :: Contact Cliegg Lars already exists
+ERROR :: 2021-10-29 00:49:08,486 :: app.classes:334 :: Contact Poggle the Lesser already exists
+ERROR :: 2021-10-29 00:49:08,491 :: app.classes:334 :: Contact Darth Maul already exists
+ERROR :: 2021-10-29 00:49:08,496 :: app.classes:334 :: Contact Bib Fortuna already exists
+ERROR :: 2021-10-29 00:49:08,501 :: app.classes:334 :: Contact Ayla Secura already exists
+ERROR :: 2021-10-29 00:49:08,506 :: app.classes:334 :: Contact Ratts Tyerel already exists
+ERROR :: 2021-10-29 00:49:08,511 :: app.classes:334 :: Contact Dud Bolt already exists
+ERROR :: 2021-10-29 00:49:08,516 :: app.classes:334 :: Contact Gasgano already exists
+ERROR :: 2021-10-29 00:49:08,521 :: app.classes:334 :: Contact Ben Quadinaros already exists
+ERROR :: 2021-10-29 00:49:08,526 :: app.classes:334 :: Contact Mace Windu already exists
+ERROR :: 2021-10-29 00:49:08,531 :: app.classes:334 :: Contact Ki-Adi-Mundi already exists
+ERROR :: 2021-10-29 00:49:08,536 :: app.classes:334 :: Contact Kit Fisto already exists
+ERROR :: 2021-10-29 00:49:08,541 :: app.classes:334 :: Contact Finis Valorum already exists
+ERROR :: 2021-10-29 00:49:08,546 :: app.classes:334 :: Contact Padmé Amidala already exists
+ERROR :: 2021-10-29 00:49:08,551 :: app.classes:334 :: Contact Jar Jar Binks already exists
+ERROR :: 2021-10-29 00:49:08,556 :: app.classes:334 :: Contact Roos Tarpals already exists
+ERROR :: 2021-10-29 00:49:08,561 :: app.classes:334 :: Contact Rugor Nass already exists
+ERROR :: 2021-10-29 00:49:08,566 :: app.classes:334 :: Contact Ric Olié already exists
+ERROR :: 2021-10-29 00:49:08,571 :: app.classes:334 :: Contact Watto already exists
+ERROR :: 2021-10-29 00:49:08,576 :: app.classes:334 :: Contact Sebulba already exists
+ERROR :: 2021-10-29 00:49:08,581 :: app.classes:334 :: Contact Quarsh Panaka already exists
+ERROR :: 2021-10-29 00:49:08,586 :: app.classes:334 :: Contact Shmi Skywalker already exists
+ERROR :: 2021-10-29 00:49:08,591 :: app.classes:334 :: Contact Bossk already exists
+ERROR :: 2021-10-29 00:49:08,596 :: app.classes:334 :: Contact Lando Calrissian already exists
+ERROR :: 2021-10-29 00:49:08,601 :: app.classes:334 :: Contact Lobot already exists
+ERROR :: 2021-10-29 00:49:08,607 :: app.classes:334 :: Contact Ackbar already exists
+ERROR :: 2021-10-29 00:49:08,612 :: app.classes:334 :: Contact Mon Mothma already exists
+ERROR :: 2021-10-29 00:49:08,617 :: app.classes:334 :: Contact Arvel Crynyd already exists
+ERROR :: 2021-10-29 00:49:08,622 :: app.classes:334 :: Contact Wicket Systri Warrick already exists
+ERROR :: 2021-10-29 00:49:08,627 :: app.classes:334 :: Contact Nien Nunb already exists
+ERROR :: 2021-10-29 00:49:08,632 :: app.classes:334 :: Contact Qui-Gon Jinn already exists
+ERROR :: 2021-10-29 00:49:08,637 :: app.classes:334 :: Contact Nute Gunray already exists
+ERROR :: 2021-10-29 00:49:08,643 :: app.classes:334 :: Contact Chewbacca already exists
+ERROR :: 2021-10-29 00:49:08,648 :: app.classes:334 :: Contact Han Solo already exists
+ERROR :: 2021-10-29 00:49:08,653 :: app.classes:334 :: Contact Greedo already exists
+ERROR :: 2021-10-29 00:49:08,658 :: app.classes:334 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-29 00:49:08,663 :: app.classes:334 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-29 00:49:08,668 :: app.classes:334 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-29 00:49:08,673 :: app.classes:334 :: Contact Yoda already exists
+ERROR :: 2021-10-29 00:49:08,678 :: app.classes:334 :: Contact Palpatine already exists
+ERROR :: 2021-10-29 00:49:08,683 :: app.classes:334 :: Contact Boba Fett already exists
+ERROR :: 2021-10-29 00:49:08,688 :: app.classes:334 :: Contact IG-88 already exists
+ERROR :: 2021-10-29 00:49:08,693 :: app.classes:334 :: Contact R2-D2 already exists
+ERROR :: 2021-10-29 00:49:08,698 :: app.classes:334 :: Contact Darth Vader already exists
+ERROR :: 2021-10-29 00:49:08,704 :: app.classes:334 :: Contact Leia Organa already exists
+ERROR :: 2021-10-29 00:49:08,709 :: app.classes:334 :: Contact Owen Lars already exists
+ERROR :: 2021-10-29 00:49:08,714 :: app.classes:334 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-29 00:49:08,719 :: app.classes:334 :: Contact R5-D4 already exists
+ERROR :: 2021-10-29 00:49:08,724 :: app.classes:334 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-29 00:49:08,729 :: app.classes:334 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-29 00:49:08,734 :: app.classes:334 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-29 00:49:08,739 :: app.classes:334 :: Contact Wilhuff Tarkin already exists
+INFO :: 2021-10-29 00:49:32,328 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:49:32,328 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:49:32,328 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:49:32,328 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:49:34,524 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:49:42,897 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:49:42,899 :: app.classes:210 :: Connecting to Odoo
+INFO :: 2021-10-29 00:49:42,924 :: app.classes:217 :: Connection with Odoo established successfully
+ERROR :: 2021-10-29 00:49:42,930 :: app.classes:334 :: Contact Jocasta Nu already exists
+ERROR :: 2021-10-29 00:49:42,936 :: app.classes:334 :: Contact R4-P17 already exists
+ERROR :: 2021-10-29 00:49:42,941 :: app.classes:334 :: Contact Wat Tambor already exists
+ERROR :: 2021-10-29 00:49:42,946 :: app.classes:334 :: Contact San Hill already exists
+ERROR :: 2021-10-29 00:49:42,951 :: app.classes:334 :: Contact Shaak Ti already exists
+ERROR :: 2021-10-29 00:49:42,957 :: app.classes:334 :: Contact Grievous already exists
+ERROR :: 2021-10-29 00:49:42,962 :: app.classes:334 :: Contact Tarfful already exists
+ERROR :: 2021-10-29 00:49:42,967 :: app.classes:334 :: Contact Raymus Antilles already exists
+ERROR :: 2021-10-29 00:49:42,973 :: app.classes:334 :: Contact Sly Moore already exists
+ERROR :: 2021-10-29 00:49:42,978 :: app.classes:334 :: Contact Tion Medon already exists
+ERROR :: 2021-10-29 00:49:42,982 :: app.classes:334 :: Contact Luminara Unduli already exists
+ERROR :: 2021-10-29 00:49:42,987 :: app.classes:334 :: Contact Barriss Offee already exists
+ERROR :: 2021-10-29 00:49:42,992 :: app.classes:334 :: Contact Dormé already exists
+ERROR :: 2021-10-29 00:49:42,997 :: app.classes:334 :: Contact Dooku already exists
+ERROR :: 2021-10-29 00:49:43,002 :: app.classes:334 :: Contact Bail Prestor Organa already exists
+ERROR :: 2021-10-29 00:49:43,007 :: app.classes:334 :: Contact Jango Fett already exists
+ERROR :: 2021-10-29 00:49:43,012 :: app.classes:334 :: Contact Zam Wesell already exists
+ERROR :: 2021-10-29 00:49:43,017 :: app.classes:334 :: Contact Dexter Jettster already exists
+ERROR :: 2021-10-29 00:49:43,022 :: app.classes:334 :: Contact Lama Su already exists
+ERROR :: 2021-10-29 00:49:43,027 :: app.classes:334 :: Contact Taun We already exists
+ERROR :: 2021-10-29 00:49:43,032 :: app.classes:334 :: Contact Eeth Koth already exists
+ERROR :: 2021-10-29 00:49:43,036 :: app.classes:334 :: Contact Adi Gallia already exists
+ERROR :: 2021-10-29 00:49:43,041 :: app.classes:334 :: Contact Saesee Tiin already exists
+ERROR :: 2021-10-29 00:49:43,046 :: app.classes:334 :: Contact Yarael Poof already exists
+ERROR :: 2021-10-29 00:49:43,052 :: app.classes:334 :: Contact Plo Koon already exists
+ERROR :: 2021-10-29 00:49:43,057 :: app.classes:334 :: Contact Mas Amedda already exists
+ERROR :: 2021-10-29 00:49:43,062 :: app.classes:334 :: Contact Gregar Typho already exists
+ERROR :: 2021-10-29 00:49:43,067 :: app.classes:334 :: Contact Cordé already exists
+ERROR :: 2021-10-29 00:49:43,073 :: app.classes:334 :: Contact Cliegg Lars already exists
+ERROR :: 2021-10-29 00:49:43,078 :: app.classes:334 :: Contact Poggle the Lesser already exists
+ERROR :: 2021-10-29 00:49:43,083 :: app.classes:334 :: Contact Darth Maul already exists
+ERROR :: 2021-10-29 00:49:43,088 :: app.classes:334 :: Contact Bib Fortuna already exists
+ERROR :: 2021-10-29 00:49:43,093 :: app.classes:334 :: Contact Ayla Secura already exists
+ERROR :: 2021-10-29 00:49:43,098 :: app.classes:334 :: Contact Ratts Tyerel already exists
+ERROR :: 2021-10-29 00:49:43,103 :: app.classes:334 :: Contact Dud Bolt already exists
+ERROR :: 2021-10-29 00:49:43,108 :: app.classes:334 :: Contact Gasgano already exists
+ERROR :: 2021-10-29 00:49:43,113 :: app.classes:334 :: Contact Ben Quadinaros already exists
+ERROR :: 2021-10-29 00:49:43,118 :: app.classes:334 :: Contact Mace Windu already exists
+ERROR :: 2021-10-29 00:49:43,123 :: app.classes:334 :: Contact Ki-Adi-Mundi already exists
+ERROR :: 2021-10-29 00:49:43,128 :: app.classes:334 :: Contact Kit Fisto already exists
+ERROR :: 2021-10-29 00:49:43,133 :: app.classes:334 :: Contact Finis Valorum already exists
+ERROR :: 2021-10-29 00:49:43,137 :: app.classes:334 :: Contact Padmé Amidala already exists
+ERROR :: 2021-10-29 00:49:43,142 :: app.classes:334 :: Contact Jar Jar Binks already exists
+ERROR :: 2021-10-29 00:49:43,147 :: app.classes:334 :: Contact Roos Tarpals already exists
+ERROR :: 2021-10-29 00:49:43,152 :: app.classes:334 :: Contact Rugor Nass already exists
+ERROR :: 2021-10-29 00:49:43,158 :: app.classes:334 :: Contact Ric Olié already exists
+ERROR :: 2021-10-29 00:49:43,163 :: app.classes:334 :: Contact Watto already exists
+ERROR :: 2021-10-29 00:49:43,168 :: app.classes:334 :: Contact Sebulba already exists
+ERROR :: 2021-10-29 00:49:43,172 :: app.classes:334 :: Contact Quarsh Panaka already exists
+ERROR :: 2021-10-29 00:49:43,177 :: app.classes:334 :: Contact Shmi Skywalker already exists
+ERROR :: 2021-10-29 00:49:43,183 :: app.classes:334 :: Contact Bossk already exists
+ERROR :: 2021-10-29 00:49:43,187 :: app.classes:334 :: Contact Lando Calrissian already exists
+ERROR :: 2021-10-29 00:49:43,192 :: app.classes:334 :: Contact Lobot already exists
+ERROR :: 2021-10-29 00:49:43,197 :: app.classes:334 :: Contact Ackbar already exists
+ERROR :: 2021-10-29 00:49:43,202 :: app.classes:334 :: Contact Mon Mothma already exists
+ERROR :: 2021-10-29 00:49:43,207 :: app.classes:334 :: Contact Arvel Crynyd already exists
+ERROR :: 2021-10-29 00:49:43,212 :: app.classes:334 :: Contact Wicket Systri Warrick already exists
+ERROR :: 2021-10-29 00:49:43,217 :: app.classes:334 :: Contact Nien Nunb already exists
+ERROR :: 2021-10-29 00:49:43,222 :: app.classes:334 :: Contact Qui-Gon Jinn already exists
+ERROR :: 2021-10-29 00:49:43,227 :: app.classes:334 :: Contact Nute Gunray already exists
+ERROR :: 2021-10-29 00:49:43,232 :: app.classes:334 :: Contact Chewbacca already exists
+ERROR :: 2021-10-29 00:49:43,237 :: app.classes:334 :: Contact Han Solo already exists
+ERROR :: 2021-10-29 00:49:43,242 :: app.classes:334 :: Contact Greedo already exists
+ERROR :: 2021-10-29 00:49:43,247 :: app.classes:334 :: Contact Jabba Desilijic Tiure already exists
+ERROR :: 2021-10-29 00:49:43,252 :: app.classes:334 :: Contact Wedge Antilles already exists
+ERROR :: 2021-10-29 00:49:43,257 :: app.classes:334 :: Contact Jek Tono Porkins already exists
+ERROR :: 2021-10-29 00:49:43,262 :: app.classes:334 :: Contact Yoda already exists
+ERROR :: 2021-10-29 00:49:43,267 :: app.classes:334 :: Contact Palpatine already exists
+ERROR :: 2021-10-29 00:49:43,272 :: app.classes:334 :: Contact Boba Fett already exists
+ERROR :: 2021-10-29 00:49:43,278 :: app.classes:334 :: Contact IG-88 already exists
+ERROR :: 2021-10-29 00:49:43,282 :: app.classes:334 :: Contact R2-D2 already exists
+ERROR :: 2021-10-29 00:49:43,287 :: app.classes:334 :: Contact Darth Vader already exists
+ERROR :: 2021-10-29 00:49:43,292 :: app.classes:334 :: Contact Leia Organa already exists
+ERROR :: 2021-10-29 00:49:43,297 :: app.classes:334 :: Contact Owen Lars already exists
+ERROR :: 2021-10-29 00:49:43,302 :: app.classes:334 :: Contact Beru Whitesun lars already exists
+ERROR :: 2021-10-29 00:49:43,307 :: app.classes:334 :: Contact R5-D4 already exists
+ERROR :: 2021-10-29 00:49:43,312 :: app.classes:334 :: Contact Biggs Darklighter already exists
+ERROR :: 2021-10-29 00:49:43,317 :: app.classes:334 :: Contact Obi-Wan Kenobi already exists
+ERROR :: 2021-10-29 00:49:43,322 :: app.classes:334 :: Contact Anakin Skywalker already exists
+ERROR :: 2021-10-29 00:49:43,327 :: app.classes:334 :: Contact Wilhuff Tarkin already exists
+ERROR :: 2021-10-29 00:49:43,332 :: app.classes:334 :: Contact Luke Skywalker already exists
+ERROR :: 2021-10-29 00:49:43,337 :: app.classes:334 :: Contact C-3PO already exists
+INFO :: 2021-10-29 00:58:28,904 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:58:35,993 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 00:58:35,993 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 00:58:35,994 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 00:58:35,994 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 00:58:38,127 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 00:58:41,832 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 00:58:41,834 :: app.classes:210 :: Connecting to Odoo
+INFO :: 2021-10-29 00:58:41,858 :: app.classes:217 :: Connection with Odoo established successfully
+INFO :: 2021-10-29 01:01:03,436 :: app.classes:47 :: Install config
+INFO :: 2021-10-29 01:01:03,436 :: app.classes:57 :: source=swapi
+INFO :: 2021-10-29 01:01:03,436 :: app.classes:63 :: receiver=odoo
+INFO :: 2021-10-29 01:01:03,437 :: app.classes:122 :: Receiving data
+INFO :: 2021-10-29 01:01:10,684 :: app.classes:131 :: Receiving planets
+INFO :: 2021-10-29 01:01:19,753 :: app.classes:155 :: Receiving contacts
+INFO :: 2021-10-29 01:01:19,755 :: app.classes:210 :: Connecting to Odoo
+INFO :: 2021-10-29 01:01:19,780 :: app.classes:217 :: Connection with Odoo established successfully
+INFO :: 2021-10-29 01:01:19,797 :: app.classes:287 :: Successfully added: Planet Tatooine, remote system ID=[1], Odoo ID=[6550]
+INFO :: 2021-10-29 01:01:25,156 :: app.classes:331 :: Successfully added: Contact Luke Skywalker, remote system ID=[1], Odoo ID=[5205]
+INFO :: 2021-10-29 01:01:25,167 :: app.classes:290 :: Planet Tatooine already exists
+INFO :: 2021-10-29 01:01:25,622 :: app.classes:331 :: Successfully added: Contact C-3PO, remote system ID=[2], Odoo ID=[5206]
+INFO :: 2021-10-29 01:01:25,639 :: app.classes:287 :: Successfully added: Planet Naboo, remote system ID=[8], Odoo ID=[6551]
+INFO :: 2021-10-29 01:01:25,998 :: app.classes:331 :: Successfully added: Contact R2-D2, remote system ID=[3], Odoo ID=[5207]
+INFO :: 2021-10-29 01:01:26,010 :: app.classes:290 :: Planet Tatooine already exists
+INFO :: 2021-10-29 01:01:26,466 :: app.classes:331 :: Successfully added: Contact Darth Vader, remote system ID=[4], Odoo ID=[5208]
+INFO :: 2021-10-29 01:01:26,484 :: app.classes:287 :: Successfully added: Planet Alderaan, remote system ID=[2], Odoo ID=[6552]
+INFO :: 2021-10-29 01:01:26,958 :: app.classes:331 :: Successfully added: Contact Leia Organa, remote system ID=[5], Odoo ID=[5209]
+INFO :: 2021-10-29 01:01:26,968 :: app.classes:290 :: Planet Tatooine already exists
+INFO :: 2021-10-29 01:01:27,388 :: app.classes:331 :: Successfully added: Contact Owen Lars, remote system ID=[6], Odoo ID=[5210]
+INFO :: 2021-10-29 01:01:27,399 :: app.classes:290 :: Planet Tatooine already exists
+INFO :: 2021-10-29 01:01:27,829 :: app.classes:331 :: Successfully added: Contact Beru Whitesun lars, remote system ID=[7], Odoo ID=[5211]
+INFO :: 2021-10-29 01:01:27,840 :: app.classes:290 :: Planet Tatooine already exists
+INFO :: 2021-10-29 01:01:28,188 :: app.classes:331 :: Successfully added: Contact R5-D4, remote system ID=[8], Odoo ID=[5212]
+INFO :: 2021-10-29 01:01:28,199 :: app.classes:290 :: Planet Tatooine already exists
+INFO :: 2021-10-29 01:01:28,502 :: app.classes:331 :: Successfully added: Contact Biggs Darklighter, remote system ID=[9], Odoo ID=[5213]
+INFO :: 2021-10-29 01:01:28,520 :: app.classes:287 :: Successfully added: Planet Stewjon, remote system ID=[20], Odoo ID=[6553]
+INFO :: 2021-10-29 01:01:28,959 :: app.classes:331 :: Successfully added: Contact Obi-Wan Kenobi, remote system ID=[10], Odoo ID=[5214]
+INFO :: 2021-10-29 01:01:28,969 :: app.classes:290 :: Planet Tatooine already exists
+INFO :: 2021-10-29 01:01:29,317 :: app.classes:331 :: Successfully added: Contact Anakin Skywalker, remote system ID=[11], Odoo ID=[5215]
+INFO :: 2021-10-29 01:01:29,334 :: app.classes:287 :: Successfully added: Planet Eriadu, remote system ID=[21], Odoo ID=[6554]
+INFO :: 2021-10-29 01:01:29,706 :: app.classes:331 :: Successfully added: Contact Wilhuff Tarkin, remote system ID=[12], Odoo ID=[5216]
+INFO :: 2021-10-29 01:01:29,723 :: app.classes:287 :: Successfully added: Planet Kashyyyk, remote system ID=[14], Odoo ID=[6555]
+INFO :: 2021-10-29 01:01:30,111 :: app.classes:331 :: Successfully added: Contact Chewbacca, remote system ID=[13], Odoo ID=[5217]
+INFO :: 2021-10-29 01:01:30,128 :: app.classes:287 :: Successfully added: Planet Corellia, remote system ID=[22], Odoo ID=[6556]
+INFO :: 2021-10-29 01:01:30,443 :: app.classes:331 :: Successfully added: Contact Han Solo, remote system ID=[14], Odoo ID=[5218]
+INFO :: 2021-10-29 01:01:30,460 :: app.classes:287 :: Successfully added: Planet Rodia, remote system ID=[23], Odoo ID=[6557]
+INFO :: 2021-10-29 01:01:31,045 :: app.classes:331 :: Successfully added: Contact Greedo, remote system ID=[15], Odoo ID=[5219]
+INFO :: 2021-10-29 01:01:31,062 :: app.classes:287 :: Successfully added: Planet Nal Hutta, remote system ID=[24], Odoo ID=[6558]
+INFO :: 2021-10-29 01:01:31,413 :: app.classes:331 :: Successfully added: Contact Jabba Desilijic Tiure, remote system ID=[16], Odoo ID=[5220]
+INFO :: 2021-10-29 01:01:31,423 :: app.classes:290 :: Planet Corellia already exists
+INFO :: 2021-10-29 01:01:31,921 :: app.classes:331 :: Successfully added: Contact Wedge Antilles, remote system ID=[18], Odoo ID=[5221]
+INFO :: 2021-10-29 01:01:31,938 :: app.classes:287 :: Successfully added: Planet Bestine IV, remote system ID=[26], Odoo ID=[6559]
+INFO :: 2021-10-29 01:01:32,837 :: app.classes:331 :: Successfully added: Contact Jek Tono Porkins, remote system ID=[19], Odoo ID=[5222]
+INFO :: 2021-10-29 01:01:32,854 :: app.classes:287 :: Successfully added: Planet unknown, remote system ID=[28], Odoo ID=[6560]
+INFO :: 2021-10-29 01:01:38,132 :: app.classes:331 :: Successfully added: Contact Yoda, remote system ID=[20], Odoo ID=[5223]
+INFO :: 2021-10-29 01:01:38,143 :: app.classes:290 :: Planet Naboo already exists
+INFO :: 2021-10-29 01:01:38,480 :: app.classes:331 :: Successfully added: Contact Palpatine, remote system ID=[21], Odoo ID=[5224]
+INFO :: 2021-10-29 01:01:38,497 :: app.classes:287 :: Successfully added: Planet Kamino, remote system ID=[10], Odoo ID=[6561]
+INFO :: 2021-10-29 01:01:38,950 :: app.classes:331 :: Successfully added: Contact Boba Fett, remote system ID=[22], Odoo ID=[5225]
+INFO :: 2021-10-29 01:01:38,961 :: app.classes:290 :: Planet unknown already exists
+INFO :: 2021-10-29 01:01:39,379 :: app.classes:331 :: Successfully added: Contact IG-88, remote system ID=[23], Odoo ID=[5226]
+INFO :: 2021-10-29 01:01:39,396 :: app.classes:287 :: Successfully added: Planet Trandosha, remote system ID=[29], Odoo ID=[6562]
+INFO :: 2021-10-29 01:01:39,750 :: app.classes:331 :: Successfully added: Contact Bossk, remote system ID=[24], Odoo ID=[5227]
+INFO :: 2021-10-29 01:01:39,766 :: app.classes:287 :: Successfully added: Planet Socorro, remote system ID=[30], Odoo ID=[6563]
+INFO :: 2021-10-29 01:01:40,031 :: app.classes:331 :: Successfully added: Contact Lando Calrissian, remote system ID=[25], Odoo ID=[5228]
+INFO :: 2021-10-29 01:01:40,048 :: app.classes:287 :: Successfully added: Planet Bespin, remote system ID=[6], Odoo ID=[6564]
+INFO :: 2021-10-29 01:01:40,417 :: app.classes:331 :: Successfully added: Contact Lobot, remote system ID=[26], Odoo ID=[5229]
+INFO :: 2021-10-29 01:01:40,434 :: app.classes:287 :: Successfully added: Planet Mon Cala, remote system ID=[31], Odoo ID=[6565]
+INFO :: 2021-10-29 01:01:41,214 :: app.classes:331 :: Successfully added: Contact Ackbar, remote system ID=[27], Odoo ID=[5230]
+INFO :: 2021-10-29 01:01:41,232 :: app.classes:287 :: Successfully added: Planet Chandrila, remote system ID=[32], Odoo ID=[6566]
+INFO :: 2021-10-29 01:01:41,628 :: app.classes:331 :: Successfully added: Contact Mon Mothma, remote system ID=[28], Odoo ID=[5231]
+INFO :: 2021-10-29 01:01:41,639 :: app.classes:290 :: Planet unknown already exists
+INFO :: 2021-10-29 01:01:42,088 :: app.classes:331 :: Successfully added: Contact Arvel Crynyd, remote system ID=[29], Odoo ID=[5232]
+INFO :: 2021-10-29 01:01:42,106 :: app.classes:287 :: Successfully added: Planet Endor, remote system ID=[7], Odoo ID=[6567]
+INFO :: 2021-10-29 01:01:42,410 :: app.classes:331 :: Successfully added: Contact Wicket Systri Warrick, remote system ID=[30], Odoo ID=[5233]
+INFO :: 2021-10-29 01:01:42,428 :: app.classes:287 :: Successfully added: Planet Sullust, remote system ID=[33], Odoo ID=[6568]
+INFO :: 2021-10-29 01:01:42,698 :: app.classes:331 :: Successfully added: Contact Nien Nunb, remote system ID=[31], Odoo ID=[5234]
+INFO :: 2021-10-29 01:01:42,710 :: app.classes:290 :: Planet unknown already exists
+INFO :: 2021-10-29 01:01:43,072 :: app.classes:331 :: Successfully added: Contact Qui-Gon Jinn, remote system ID=[32], Odoo ID=[5235]
+INFO :: 2021-10-29 01:01:43,091 :: app.classes:287 :: Successfully added: Planet Cato Neimoidia, remote system ID=[18], Odoo ID=[6569]
+INFO :: 2021-10-29 01:01:43,371 :: app.classes:331 :: Successfully added: Contact Nute Gunray, remote system ID=[33], Odoo ID=[5236]
+INFO :: 2021-10-29 01:01:43,389 :: app.classes:287 :: Successfully added: Planet Coruscant, remote system ID=[9], Odoo ID=[6570]
+INFO :: 2021-10-29 01:01:43,858 :: app.classes:331 :: Successfully added: Contact Finis Valorum, remote system ID=[34], Odoo ID=[5237]
+INFO :: 2021-10-29 01:01:43,868 :: app.classes:290 :: Planet Naboo already exists
+INFO :: 2021-10-29 01:01:44,244 :: app.classes:331 :: Successfully added: Contact Padmé Amidala, remote system ID=[35], Odoo ID=[5238]
+INFO :: 2021-10-29 01:01:44,256 :: app.classes:290 :: Planet Naboo already exists
+INFO :: 2021-10-29 01:01:44,489 :: app.classes:331 :: Successfully added: Contact Jar Jar Binks, remote system ID=[36], Odoo ID=[5239]
+INFO :: 2021-10-29 01:01:44,500 :: app.classes:290 :: Planet Naboo already exists
+INFO :: 2021-10-29 01:01:44,939 :: app.classes:331 :: Successfully added: Contact Roos Tarpals, remote system ID=[37], Odoo ID=[5240]
+INFO :: 2021-10-29 01:01:44,951 :: app.classes:290 :: Planet Naboo already exists
+INFO :: 2021-10-29 01:01:45,358 :: app.classes:331 :: Successfully added: Contact Rugor Nass, remote system ID=[38], Odoo ID=[5241]
+INFO :: 2021-10-29 01:01:45,368 :: app.classes:290 :: Planet Naboo already exists
+INFO :: 2021-10-29 01:01:45,677 :: app.classes:331 :: Successfully added: Contact Ric Olié, remote system ID=[39], Odoo ID=[5242]
+INFO :: 2021-10-29 01:01:45,695 :: app.classes:287 :: Successfully added: Planet Toydaria, remote system ID=[34], Odoo ID=[6571]
+INFO :: 2021-10-29 01:01:46,038 :: app.classes:331 :: Successfully added: Contact Watto, remote system ID=[40], Odoo ID=[5243]
+INFO :: 2021-10-29 01:01:46,055 :: app.classes:287 :: Successfully added: Planet Malastare, remote system ID=[35], Odoo ID=[6572]
+INFO :: 2021-10-29 01:01:51,424 :: app.classes:331 :: Successfully added: Contact Sebulba, remote system ID=[41], Odoo ID=[5244]
+INFO :: 2021-10-29 01:01:51,435 :: app.classes:290 :: Planet Naboo already exists
+INFO :: 2021-10-29 01:01:51,838 :: app.classes:331 :: Successfully added: Contact Quarsh Panaka, remote system ID=[42], Odoo ID=[5245]
+INFO :: 2021-10-29 01:01:51,848 :: app.classes:290 :: Planet Tatooine already exists
+INFO :: 2021-10-29 01:01:52,156 :: app.classes:331 :: Successfully added: Contact Shmi Skywalker, remote system ID=[43], Odoo ID=[5246]
+INFO :: 2021-10-29 01:01:52,173 :: app.classes:287 :: Successfully added: Planet Dathomir, remote system ID=[36], Odoo ID=[6573]
+INFO :: 2021-10-29 01:01:52,574 :: app.classes:331 :: Successfully added: Contact Darth Maul, remote system ID=[44], Odoo ID=[5247]
+INFO :: 2021-10-29 01:01:52,592 :: app.classes:287 :: Successfully added: Planet Ryloth, remote system ID=[37], Odoo ID=[6574]
+INFO :: 2021-10-29 01:01:53,020 :: app.classes:331 :: Successfully added: Contact Bib Fortuna, remote system ID=[45], Odoo ID=[5248]
+INFO :: 2021-10-29 01:01:53,031 :: app.classes:290 :: Planet Ryloth already exists
+INFO :: 2021-10-29 01:01:53,377 :: app.classes:331 :: Successfully added: Contact Ayla Secura, remote system ID=[46], Odoo ID=[5249]
+INFO :: 2021-10-29 01:01:53,394 :: app.classes:287 :: Successfully added: Planet Aleen Minor, remote system ID=[38], Odoo ID=[6575]
+INFO :: 2021-10-29 01:01:53,695 :: app.classes:331 :: Successfully added: Contact Ratts Tyerel, remote system ID=[47], Odoo ID=[5250]
+INFO :: 2021-10-29 01:01:53,712 :: app.classes:287 :: Successfully added: Planet Vulpter, remote system ID=[39], Odoo ID=[6576]
+INFO :: 2021-10-29 01:01:54,077 :: app.classes:331 :: Successfully added: Contact Dud Bolt, remote system ID=[48], Odoo ID=[5251]
+INFO :: 2021-10-29 01:01:54,094 :: app.classes:287 :: Successfully added: Planet Troiken, remote system ID=[40], Odoo ID=[6577]
+INFO :: 2021-10-29 01:01:54,481 :: app.classes:331 :: Successfully added: Contact Gasgano, remote system ID=[49], Odoo ID=[5252]
+INFO :: 2021-10-29 01:01:54,498 :: app.classes:287 :: Successfully added: Planet Tund, remote system ID=[41], Odoo ID=[6578]
+INFO :: 2021-10-29 01:01:54,882 :: app.classes:331 :: Successfully added: Contact Ben Quadinaros, remote system ID=[50], Odoo ID=[5253]
+INFO :: 2021-10-29 01:01:54,899 :: app.classes:287 :: Successfully added: Planet Haruun Kal, remote system ID=[42], Odoo ID=[6579]
+INFO :: 2021-10-29 01:01:55,178 :: app.classes:331 :: Successfully added: Contact Mace Windu, remote system ID=[51], Odoo ID=[5254]
+INFO :: 2021-10-29 01:01:55,196 :: app.classes:287 :: Successfully added: Planet Cerea, remote system ID=[43], Odoo ID=[6580]
+INFO :: 2021-10-29 01:01:55,501 :: app.classes:331 :: Successfully added: Contact Ki-Adi-Mundi, remote system ID=[52], Odoo ID=[5255]
+INFO :: 2021-10-29 01:01:55,518 :: app.classes:287 :: Successfully added: Planet Glee Anselm, remote system ID=[44], Odoo ID=[6581]
+INFO :: 2021-10-29 01:01:55,871 :: app.classes:331 :: Successfully added: Contact Kit Fisto, remote system ID=[53], Odoo ID=[5256]
+INFO :: 2021-10-29 01:01:55,888 :: app.classes:287 :: Successfully added: Planet Iridonia, remote system ID=[45], Odoo ID=[6582]
+INFO :: 2021-10-29 01:01:56,193 :: app.classes:331 :: Successfully added: Contact Eeth Koth, remote system ID=[54], Odoo ID=[5257]
+INFO :: 2021-10-29 01:01:56,203 :: app.classes:290 :: Planet Coruscant already exists
+INFO :: 2021-10-29 01:01:56,632 :: app.classes:331 :: Successfully added: Contact Adi Gallia, remote system ID=[55], Odoo ID=[5258]
+INFO :: 2021-10-29 01:01:56,648 :: app.classes:287 :: Successfully added: Planet Iktotch, remote system ID=[47], Odoo ID=[6583]
+INFO :: 2021-10-29 01:01:56,970 :: app.classes:331 :: Successfully added: Contact Saesee Tiin, remote system ID=[56], Odoo ID=[5259]
+INFO :: 2021-10-29 01:01:56,987 :: app.classes:287 :: Successfully added: Planet Quermia, remote system ID=[48], Odoo ID=[6584]
+INFO :: 2021-10-29 01:01:57,235 :: app.classes:331 :: Successfully added: Contact Yarael Poof, remote system ID=[57], Odoo ID=[5260]
+INFO :: 2021-10-29 01:01:57,253 :: app.classes:287 :: Successfully added: Planet Dorin, remote system ID=[49], Odoo ID=[6585]
+INFO :: 2021-10-29 01:02:02,539 :: app.classes:331 :: Successfully added: Contact Plo Koon, remote system ID=[58], Odoo ID=[5261]
+INFO :: 2021-10-29 01:02:02,557 :: app.classes:287 :: Successfully added: Planet Champala, remote system ID=[50], Odoo ID=[6586]
+INFO :: 2021-10-29 01:02:02,831 :: app.classes:331 :: Successfully added: Contact Mas Amedda, remote system ID=[59], Odoo ID=[5262]
+INFO :: 2021-10-29 01:02:02,842 :: app.classes:290 :: Planet Naboo already exists
+INFO :: 2021-10-29 01:02:03,187 :: app.classes:331 :: Successfully added: Contact Gregar Typho, remote system ID=[60], Odoo ID=[5263]
+INFO :: 2021-10-29 01:02:03,198 :: app.classes:290 :: Planet Naboo already exists
+INFO :: 2021-10-29 01:02:03,671 :: app.classes:331 :: Successfully added: Contact Cordé, remote system ID=[61], Odoo ID=[5264]
+INFO :: 2021-10-29 01:02:03,682 :: app.classes:290 :: Planet Tatooine already exists
+INFO :: 2021-10-29 01:02:09,085 :: app.classes:331 :: Successfully added: Contact Cliegg Lars, remote system ID=[62], Odoo ID=[5265]
+INFO :: 2021-10-29 01:02:09,102 :: app.classes:287 :: Successfully added: Planet Geonosis, remote system ID=[11], Odoo ID=[6587]
+INFO :: 2021-10-29 01:02:14,490 :: app.classes:331 :: Successfully added: Contact Poggle the Lesser, remote system ID=[63], Odoo ID=[5266]
+INFO :: 2021-10-29 01:02:14,507 :: app.classes:287 :: Successfully added: Planet Mirial, remote system ID=[51], Odoo ID=[6588]
+INFO :: 2021-10-29 01:02:19,781 :: app.classes:331 :: Successfully added: Contact Luminara Unduli, remote system ID=[64], Odoo ID=[5267]
+INFO :: 2021-10-29 01:02:19,792 :: app.classes:290 :: Planet Mirial already exists
+INFO :: 2021-10-29 01:02:20,132 :: app.classes:331 :: Successfully added: Contact Barriss Offee, remote system ID=[65], Odoo ID=[5268]
+INFO :: 2021-10-29 01:02:20,143 :: app.classes:290 :: Planet Naboo already exists
+INFO :: 2021-10-29 01:02:20,522 :: app.classes:331 :: Successfully added: Contact Dormé, remote system ID=[66], Odoo ID=[5269]
+INFO :: 2021-10-29 01:02:20,540 :: app.classes:287 :: Successfully added: Planet Serenno, remote system ID=[52], Odoo ID=[6589]
+INFO :: 2021-10-29 01:02:20,898 :: app.classes:331 :: Successfully added: Contact Dooku, remote system ID=[67], Odoo ID=[5270]
+INFO :: 2021-10-29 01:02:20,909 :: app.classes:290 :: Planet Alderaan already exists
+INFO :: 2021-10-29 01:02:21,223 :: app.classes:331 :: Successfully added: Contact Bail Prestor Organa, remote system ID=[68], Odoo ID=[5271]
+INFO :: 2021-10-29 01:02:21,242 :: app.classes:287 :: Successfully added: Planet Concord Dawn, remote system ID=[53], Odoo ID=[6590]
+INFO :: 2021-10-29 01:02:21,643 :: app.classes:331 :: Successfully added: Contact Jango Fett, remote system ID=[69], Odoo ID=[5272]
+INFO :: 2021-10-29 01:02:21,660 :: app.classes:287 :: Successfully added: Planet Zolan, remote system ID=[54], Odoo ID=[6591]
+INFO :: 2021-10-29 01:02:22,002 :: app.classes:331 :: Successfully added: Contact Zam Wesell, remote system ID=[70], Odoo ID=[5273]
+INFO :: 2021-10-29 01:02:22,019 :: app.classes:287 :: Successfully added: Planet Ojom, remote system ID=[55], Odoo ID=[6592]
+INFO :: 2021-10-29 01:02:22,428 :: app.classes:331 :: Successfully added: Contact Dexter Jettster, remote system ID=[71], Odoo ID=[5274]
+INFO :: 2021-10-29 01:02:22,439 :: app.classes:290 :: Planet Kamino already exists
+INFO :: 2021-10-29 01:02:22,816 :: app.classes:331 :: Successfully added: Contact Lama Su, remote system ID=[72], Odoo ID=[5275]
+INFO :: 2021-10-29 01:02:22,827 :: app.classes:290 :: Planet Kamino already exists
+INFO :: 2021-10-29 01:02:23,145 :: app.classes:331 :: Successfully added: Contact Taun We, remote system ID=[73], Odoo ID=[5276]
+INFO :: 2021-10-29 01:02:23,156 :: app.classes:290 :: Planet Coruscant already exists
+INFO :: 2021-10-29 01:02:23,475 :: app.classes:331 :: Successfully added: Contact Jocasta Nu, remote system ID=[74], Odoo ID=[5277]
+INFO :: 2021-10-29 01:02:23,486 :: app.classes:290 :: Planet unknown already exists
+INFO :: 2021-10-29 01:02:28,785 :: app.classes:331 :: Successfully added: Contact R4-P17, remote system ID=[75], Odoo ID=[5278]
+INFO :: 2021-10-29 01:02:28,803 :: app.classes:287 :: Successfully added: Planet Skako, remote system ID=[56], Odoo ID=[6593]
+INFO :: 2021-10-29 01:02:29,252 :: app.classes:331 :: Successfully added: Contact Wat Tambor, remote system ID=[76], Odoo ID=[5279]
+INFO :: 2021-10-29 01:02:29,269 :: app.classes:287 :: Successfully added: Planet Muunilinst, remote system ID=[57], Odoo ID=[6594]
+INFO :: 2021-10-29 01:02:29,646 :: app.classes:331 :: Successfully added: Contact San Hill, remote system ID=[77], Odoo ID=[5280]
+INFO :: 2021-10-29 01:02:29,663 :: app.classes:287 :: Successfully added: Planet Shili, remote system ID=[58], Odoo ID=[6595]
+INFO :: 2021-10-29 01:02:29,982 :: app.classes:331 :: Successfully added: Contact Shaak Ti, remote system ID=[78], Odoo ID=[5281]
+INFO :: 2021-10-29 01:02:29,999 :: app.classes:287 :: Successfully added: Planet Kalee, remote system ID=[59], Odoo ID=[6596]
+INFO :: 2021-10-29 01:02:30,407 :: app.classes:331 :: Successfully added: Contact Grievous, remote system ID=[79], Odoo ID=[5282]
+INFO :: 2021-10-29 01:02:30,418 :: app.classes:290 :: Planet Kashyyyk already exists
+INFO :: 2021-10-29 01:02:30,838 :: app.classes:331 :: Successfully added: Contact Tarfful, remote system ID=[80], Odoo ID=[5283]
+INFO :: 2021-10-29 01:02:30,849 :: app.classes:290 :: Planet Alderaan already exists
+INFO :: 2021-10-29 01:02:31,142 :: app.classes:331 :: Successfully added: Contact Raymus Antilles, remote system ID=[81], Odoo ID=[5284]
+INFO :: 2021-10-29 01:02:31,159 :: app.classes:287 :: Successfully added: Planet Umbara, remote system ID=[60], Odoo ID=[6597]
+INFO :: 2021-10-29 01:02:31,610 :: app.classes:331 :: Successfully added: Contact Sly Moore, remote system ID=[82], Odoo ID=[5285]
+INFO :: 2021-10-29 01:02:31,627 :: app.classes:287 :: Successfully added: Planet Utapau, remote system ID=[12], Odoo ID=[6598]
+INFO :: 2021-10-29 01:02:31,965 :: app.classes:331 :: Successfully added: Contact Tion Medon, remote system ID=[83], Odoo ID=[5286]
